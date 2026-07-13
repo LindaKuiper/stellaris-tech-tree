@@ -546,3 +546,9 @@ span.tier-4 {
 span.tier-5 {
     color: #ff8000;
 }
+
+/* Highlight of prerequisite techs while hovering a tech (see show_prereq_lines) */
+.node.prereq-highlight {
+    box-shadow: 0 0 14px 4px #ffcc66;
+    z-index: 50;
+}

@@ -68,6 +68,9 @@ function init_tooltips() {
     });
 }
 
+// key -> list of prerequisite keys, filled while the trees are being set up
+var prereqMap = {};
+
 function setup(tech) {
     if (tech.pseudo) {
         // Invisible spacer node used to align each tier in its own column
@@ -75,6 +78,9 @@ function setup(tech) {
             setup(node);
         });
         return;
+    }
+    if (tech.key && tech.prerequisites) {
+        prereqMap[tech.key] = tech.prerequisites;
     }
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
@@ -133,6 +139,57 @@ function setup_search() {
     }, 300));
 };
 
+
+// Hovering a tech draws temporary dashed lines from ALL of its prerequisites -
+// the tree itself only shows an edge to the primary one.
+function clear_prereq_lines() {
+    $('#prereq-overlay').remove();
+    $('.prereq-highlight').removeClass('prereq-highlight');
+}
+
+function show_prereq_lines(node) {
+    clear_prereq_lines();
+    var prereqs = prereqMap[node.id];
+    if (!prereqs || prereqs.length === 0) return;
+
+    var svgNS = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(svgNS, 'svg');
+    svg.id = 'prereq-overlay';
+    // fixed overlay in viewport coordinates; removed again on mouseleave/scroll
+    svg.style.cssText = 'position:fixed;left:0;top:0;width:100vw;height:100vh;pointer-events:none;z-index:9000;';
+
+    var target = node.getBoundingClientRect();
+    var drawn = 0;
+    prereqs.forEach(function(p) {
+        var el = document.getElementById(p);
+        if (!el || el.offsetParent === null) return; // prerequisite not on this page or hidden
+        var r = el.getBoundingClientRect();
+        if (r.width === 0) return;
+
+        // connect the facing edges
+        var fromX = r.right, toX = target.left;
+        if (r.left > target.right) { fromX = r.left; toX = target.right; }
+
+        var line = document.createElementNS(svgNS, 'line');
+        line.setAttribute('x1', fromX);
+        line.setAttribute('y1', r.top + r.height / 2);
+        line.setAttribute('x2', toX);
+        line.setAttribute('y2', target.top + target.height / 2);
+        line.setAttribute('stroke', '#ffcc66');
+        line.setAttribute('stroke-width', '2.5');
+        line.setAttribute('stroke-dasharray', '7,5');
+        svg.appendChild(line);
+
+        $(el).addClass('prereq-highlight');
+        drawn++;
+    });
+    if (drawn > 0) document.body.appendChild(svg);
+}
+
+$(document).on('mouseenter', '#tech-tree .node.tech', function() { show_prereq_lines(this); });
+$(document).on('mouseleave', '#tech-tree .node.tech', clear_prereq_lines);
+// any scrolling (window or a tree container) invalidates the drawn coordinates
+document.addEventListener('scroll', clear_prereq_lines, true);
 
 $(document).ready(function() {
     load_tree();
