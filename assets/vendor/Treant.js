@@ -839,7 +839,13 @@
                     node.positioned = true;
                 }
 
-                if (node.id !== 0 && !(node.parent().id === 0 && this.CONFIG.hideRootNode)) {
+                // Walk up through pseudo nodes: connectors that ultimately originate
+                // from a hidden root would appear to come from nowhere
+                var connectorAncestor = node.id !== 0 ? node.parent() : null;
+                while (connectorAncestor && connectorAncestor.pseudo && connectorAncestor.id !== 0) {
+                    connectorAncestor = connectorAncestor.parent();
+                }
+                if (node.id !== 0 && !(connectorAncestor && connectorAncestor.id === 0 && this.CONFIG.hideRootNode)) {
                     this.setConnectionToParent(node, hidePoint); // skip the root node
                 }
                 else if (!this.CONFIG.hideRootNode && node.drawLineThrough) {
