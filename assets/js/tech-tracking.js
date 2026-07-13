@@ -109,6 +109,10 @@ function init_nodestatus(area) {
 
         if(undefined === events || undefined === events.click) {
             $(this).on('click', function toggle_status() {
+                // Empire engine: techs unavailable for the configured empire cannot be checked
+                if ($(this).closest('.node').hasClass('empire-unavailable')) {
+                    return;
+                }
                 // Limmit activation to research directly under an activated parent
                 var tree_node = $(this).parent().data('treenode');
                 if(undefined === tree_node.parentId) {
@@ -206,6 +210,9 @@ function updateResearch(area, name, active) {
         }
 
     }
+
+    // Empire engine: a checkbox change can flip has_technology weight rules
+    if (window.EmpireEval) window.EmpireEval.schedule();
 }
 
 function getInitNode(node, name) {

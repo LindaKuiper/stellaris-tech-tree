@@ -26,6 +26,9 @@ var config = {
 
             const observer = lozad();
             observer.observe();
+
+            // Re-evaluate empire weights/requirements once this tree is on the page.
+            if (window.EmpireEval) window.EmpireEval.schedule();
 		}
     }
 };
@@ -85,6 +88,15 @@ function setup(tech) {
     }
     if (tech.key && tech.prerequisites) {
         prereqMap[tech.key] = tech.prerequisites;
+    }
+    // Feed the empire-evaluation engine the machine-readable rules for this tech.
+    if (tech.key) {
+        window.techRules = window.techRules || {};
+        window.techRules[tech.key] = {
+            base_weight: tech.base_weight,
+            weight_rules: tech.weight_rules,
+            potential_rules: tech.potential_rules
+        };
     }
     // Bullet every top-level requirement so it aligns with the indented
     // sub-conditions of AND/OR blocks in the same list

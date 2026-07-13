@@ -706,3 +706,65 @@ span.tier-5 {
     margin-right: 4px;
     vertical-align: middle;
 }
+
+/*********************************
+    Empire evaluation engine (WP4)
+**********************************/
+
+/* base -> effective weight on the node. Colours mirror the tier palette
+   (tier-2 green #1eff00, tier-5 orange #ff8000). */
+.weight-value.weight-up {
+    color: #1eff00;
+    font-weight: bold;
+}
+.weight-value.weight-down {
+    color: #ff8000;
+    font-weight: bold;
+}
+.weight-arrow {
+    color: #ccc;
+    padding: 0 1px;
+}
+
+/* Per-entry status marks in the Weight Modifiers / Requirements tooltips.
+   Rendered as a ::before prefix on the cloned tooltip content. */
+.wm-applies::before,
+.req-applies::before {
+    content: "\2714\00a0";   /* check */
+    color: #1eff00;
+    font-weight: bold;
+}
+.wm-skipped::before,
+.req-skipped::before {
+    content: "\2716\00a0";   /* cross */
+    color: #999;
+    font-weight: bold;
+}
+.wm-unknown::before,
+.req-unknown::before {
+    content: "?\00a0";
+    color: #f5b301;          /* amber */
+    font-weight: bold;
+}
+
+/* Techs whose requirements do not match the configured empire. filter:opacity
+   dims the node while composing cleanly with the search's inline opacity. */
+.node.tech.empire-unavailable {
+    filter: opacity(0.35);
+}
+.node.tech.empire-unavailable::after {
+    content: "Not available for this empire";
+    position: absolute;
+    left: 4px;
+    bottom: 2px;
+    max-width: 150px;
+    font-family: 'Arimo', Verdana;
+    font-size: 8px;
+    line-height: 1.1;
+    color: #ffb0b0;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 1px 4px;
+    border-radius: 2px;
+    pointer-events: none;
+    z-index: 4;
+}

@@ -40,7 +40,7 @@
       </p>
       <p class="node-desc">
       {{if tier > 0}}
-      Cost: <span class="{{:area}}-research">{{:cost}}, Weight: {{:base_weight}}</span>
+      Cost: <span class="{{:area}}-research">{{:cost}}, Weight: <span class="weight-value" data-key="{{:key}}">{{:base_weight}}</span></span>
       {{/if}}
       </p>
       <p class="node-desc" style="color:yellow">
@@ -81,11 +81,11 @@
       <div class="tooltip-content" style="max-width:320px">{{:description}}</div>
       {{if weight_modifiers.length > 0}}
           <div class="tooltip-header">Weight Modifiers</div>
-          <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
+          <div class="tooltip-content"><pre>{{for weight_modifiers}}<span class="wm-entry" data-idx="{{:#index}}">{{:}}</span><br/>{{/for}}</pre></div>
       {{/if}}
       {{if potential.length > 0}}
           <div class="tooltip-header">Requirements</div>
-          <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
+          <div class="tooltip-content"><pre>{{for potential}}<span class="req-entry" data-idx="{{:#index}}">{{:}}</span><br/>{{/for}}</pre></div>
       {{/if}}
       {{if prerequisites.length > 1}}
           <div class="tooltip-header">Required Technologies</div>
@@ -112,7 +112,7 @@
       const load_page = (param, title) => {
         history.pushState({pageID: param}, param, `${param}/`);
         document.title = title || param;
-        var assets_version = '20260713r';
+        var assets_version = '20260713s';
         $('<link>').appendTo('head').attr({
             type: 'text/css',
             rel: 'stylesheet',
@@ -121,7 +121,15 @@
         $('body').load('../assets/html/body.html', function() {
             $('#site-version').text('v' + assets_version);
             $('<script>').appendTo('head').attr({ src: '../assets/js/header.js?v=' + assets_version });
-            $('<script>').appendTo('head').attr({ src: '../assets/js/empire-config.js?v=' + assets_version });
+            // empire-eval.js reads window.EmpireConfig, so load it strictly after empire-config.js
+            var empireConfig = document.createElement('script');
+            empireConfig.src = '../assets/js/empire-config.js?v=' + assets_version;
+            empireConfig.onload = function() {
+                var empireEval = document.createElement('script');
+                empireEval.src = '../assets/js/empire-eval.js?v=' + assets_version;
+                document.head.appendChild(empireEval);
+            };
+            document.head.appendChild(empireConfig);
             // tech-tree.js calls into tech-tracking.js, so load them in order
             var tracking = document.createElement('script');
             tracking.src = '../assets/js/tech-tracking.js?v=' + assets_version;
