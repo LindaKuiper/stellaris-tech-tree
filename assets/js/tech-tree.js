@@ -259,6 +259,12 @@ $(document).on('click', '#tech-tree .node.tech', function() {
 $(document).on('keyup', function(e) {
     if (e.key === 'Escape') unpin_prereq_lines();
 });
+// clicking the background (not a tech, tooltip or the toolbar) releases the pin
+$(document).on('click', function(e) {
+    if (!pinnedNode) return;
+    if (e.target.closest('.node') || e.target.closest('.tooltipster-base') || e.target.closest('.float-Holder')) return;
+    unpin_prereq_lines();
+});
 // scrolling (window or a tree container) invalidates the drawn coordinates:
 // redraw when pinned, clear when only hovering
 document.addEventListener('scroll', function() {
