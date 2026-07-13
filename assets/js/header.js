@@ -65,6 +65,14 @@ $(document).ready(function(){
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
             $("#tech-tree-empire").removeClass("float-NoDisplay");
         }
+
+        // The search box searches techs - it has no meaning on the Empire form
+        if($(this).parent().hasClass("float-Empire")) {
+            if($("#deepsearch").val()) $("#deepsearch-clear").trigger("click");
+            $(".float-Search").addClass("float-NoDisplay");
+        } else {
+            $(".float-Search").removeClass("float-NoDisplay");
+        }
     });
 
     // Make some button go to the top of the page

@@ -316,13 +316,23 @@ function saveListToIndexedDB(name) {
 
         var objectStore = offlineDB.transaction(["TreeStore"], "readwrite").objectStore("TreeStore");
 
-        var result = objectStore.put({name: name, data: data});
+        // Include the empire configuration, but only when one exists - loading a
+        // list saved without one must not activate the empire engine.
+        var empire = null;
+        try {
+            if(window.EmpireConfig && window.localStorage && localStorage.getItem('empireConfig') !== null) {
+                empire = EmpireConfig.get();
+            }
+        } catch (e) {}
+
+        var result = objectStore.put({name: name, data: data, empire: empire});
         result.onsuccess = function(event) {
             if(event.target.result && name == event.target.result) {
                 if($('#research_list option[value="' + name + '"]').length === 0) {
                     $('#research_list').append('<option value="' + name + '">' + name + '</option>');
                 }
-                showToast('Research list "' + name + '" saved (' + data.length + ' techs).');
+                showToast('Research list "' + name + '" saved (' + data.length + ' techs'
+                    + (empire ? ', incl. empire configuration' : '') + ').');
                 return true;
             }
         };
@@ -356,7 +366,12 @@ function loadListFromIndexedDB(name) {
                         updateResearch(item.area, item.key, true);
                     }
                 });
-                showToast('Research list "' + name + '" loaded (' + data.length + ' techs).');
+                var empire = event.target.result.empire;
+                if(empire && window.EmpireConfig) {
+                    EmpireConfig.set(empire);
+                }
+                showToast('Research list "' + name + '" loaded (' + data.length + ' techs'
+                    + (empire ? ', incl. empire configuration' : '') + ').');
             }
             else {
                 showToast('Research list "' + name + '" does not exist.', true);
