@@ -37,6 +37,29 @@ function incomingConnectors(area, node) {
     return list;
 }
 
+// Reverse of prereqMap (tech-tree.js): for each tech, the techs that list it
+// as a prerequisite. Built lazily because prereqMap fills while trees load.
+var dependentsMap = null;
+
+function getDependents(key) {
+    if (dependentsMap === null && window.prereqMap) {
+        dependentsMap = {};
+        for (var k in prereqMap) {
+            prereqMap[k].forEach(function(p) {
+                (dependentsMap[p] = dependentsMap[p] || []).push(k);
+            });
+        }
+    }
+    return (dependentsMap && dependentsMap[key]) || [];
+}
+
+function findChartArea(name) {
+    for (const tree in charts) {
+        if (charts[tree].tree.nodeDB.db.some(function(n) { return n.nodeHTMLid === name; })) return tree;
+    }
+    return null;
+}
+
 // Colored connectors must be raised above overlapping uncolored ones,
 // otherwise long lines only show their color where nothing crosses them
 function colorConnector(conn, cls, add) {
@@ -146,14 +169,22 @@ function updateResearch(area, name, active) {
         $('#' + name).removeClass('active');
         $('#' + name).find('.node-status').removeClass('active');
 
-        if(inode == null) return;
+        if(inode != null) {
+            incomingConnectors(area, inode).forEach(function(c) { colorConnector(c, "active", false); });
 
-        incomingConnectors(area, inode).forEach(function(c) { colorConnector(c, "active", false); });
+            // For each Children update the connector
+            for(const child of realChildNodes(area, inode)) {
+                incomingConnectors(area, child).forEach(function(c) { colorConnector(c, area, false); });
+                updateResearch(area, child.nodeHTMLid, false);
+            }
+        }
 
-        // For each Children update the connector
-        for(const child of realChildNodes(area, inode)) {
-            incomingConnectors(area, child).forEach(function(c) { colorConnector(c, area, false); });
-            updateResearch(area, child.nodeHTMLid, false);
+        // Techs that list this one as a (secondary) prerequisite can no longer be researched
+        for(const dep of getDependents(name)) {
+            var depStatus = $('#' + dep + ' div.node-status');
+            if(depStatus.length && depStatus.hasClass('active')) {
+                updateResearch(findChartArea(dep) || area, dep, false);
+            }
         }
 
     }

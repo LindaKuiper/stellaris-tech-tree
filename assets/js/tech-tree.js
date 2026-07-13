@@ -110,15 +110,18 @@ function setup(tech) {
 };
 
 function setup_search() {
-    const trees = document.querySelector('#tech-tree').querySelectorAll('.Treant');
-
-    let nodes = Array.from(trees).reduce((a, b) => { a.push(...b.querySelectorAll('.node.tech')); return a; }, []);
-    nodes = nodes.reduce((a, b) =>  {
-        let the_text = '';
-        b.querySelectorAll('.node-name, .extra-data .tooltip-content:not(.prerequisites)').forEach(data => the_text += data.innerText);
-        a.push({ node: b, text: the_text });
-        return a;
-    }, []);
+    // Collect fresh on every search: the trees load asynchronously, so a
+    // snapshot taken at page load easily misses the later trees.
+    const collect_nodes = () => {
+        const trees = document.querySelector('#tech-tree').querySelectorAll('.Treant');
+        const nodes = Array.from(trees).reduce((a, b) => { a.push(...b.querySelectorAll('.node.tech')); return a; }, []);
+        return nodes.map(b => {
+            let the_text = '';
+            b.querySelectorAll('.node-name, .extra-data .tooltip-content:not(.prerequisites)').forEach(data => the_text += data.textContent);
+            const name_el = b.querySelector('.node-name');
+            return { node: b, text: the_text, name: name_el ? name_el.textContent : '' };
+        });
+    };
 
     const debounce = (callback, wait) => {
         let timeoutId = null;
@@ -130,16 +133,28 @@ function setup_search() {
         };
     };
 
-    $("#deepsearch").on("change keyup paste", debounce(function () {
+    $("#deepsearch").on("change keyup paste input", debounce(function () {
+        const nodes = collect_nodes();
         const search_term = $('#deepsearch').val();
         if (!search_term) {
             nodes.forEach(n => n.node.style.opacity = 1);
             return;
         }
+        const term = search_term.toLowerCase();
+        let first = null, firstByName = null;
         nodes.forEach(n => {
-            const match = n.text.toLowerCase().includes(search_term.toLowerCase());
+            const match = n.text.toLowerCase().includes(term);
             n.node.style.opacity = match ? 1 : 0.1;
+            if (match && !first) first = n.node;
+            if (!firstByName && n.name.toLowerCase().includes(term)) firstByName = n.node;
         })
+        // bring the best match into view - prefer a tech whose name matches
+        // over one that only mentions the term in its tooltip
+        const target = firstByName || first;
+        if (target) {
+            // no smooth behavior: the browser aborts long smooth scrolls
+            target.scrollIntoView({ block: 'center', inline: 'center' });
+        }
     }, 300));
 };
 
@@ -179,7 +194,7 @@ function show_prereq_lines(node) {
         line.setAttribute('y1', r.top + r.height / 2);
         line.setAttribute('x2', toX);
         line.setAttribute('y2', target.top + target.height / 2);
-        line.setAttribute('stroke', '#ffcc66');
+        line.setAttribute('stroke', '#66ccff');
         line.setAttribute('stroke-width', '2.5');
         line.setAttribute('stroke-dasharray', '7,5');
         svg.appendChild(line);

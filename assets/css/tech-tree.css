@@ -549,12 +549,12 @@ span.tier-5 {
 
 /* Highlight of prerequisite techs while hovering a tech (see show_prereq_lines) */
 .node.prereq-highlight {
-    box-shadow: 0 0 14px 4px #ffcc66;
+    box-shadow: 0 0 14px 4px #66ccff;
     z-index: 50;
 }
 
 /* The tech whose prerequisite lines are pinned (clicked) */
 .node.prereq-pinned {
-    box-shadow: 0 0 14px 4px #66ccff;
+    box-shadow: 0 0 14px 4px #ffcc66;
     z-index: 50;
 }
