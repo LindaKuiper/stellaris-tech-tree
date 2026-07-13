@@ -639,176 +639,6 @@
                           "is_event": false,
                           "pseudo": true,
                           "source": "vanilla"
-                        },
-                        {
-                          "key": "tech_energy_lance_1",
-                          "name": "Particle Lances",
-                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
-                          "area": "physics",
-                          "base_factor": 1.0,
-                          "base_weight": 40.0,
-                          "category": "Particles",
-                          "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Particle Beam",
-                            "<b>Component</b>: Particle Lance",
-                            "<b>Starbase Module</b>: Energy Lance Mount"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_lasers_4",
-                            "tech_battleships",
-                            "tech_stingers"
-                          ],
-                          "tier": 4,
-                          "prerequisites_names": [
-                            {
-                              "name": "X-Ray Lasers",
-                              "key": "tech_lasers_4"
-                            },
-                            {
-                              "name": "Battleships",
-                              "key": "tech_battleships"
-                            },
-                            {
-                              "name": "Stingers",
-                              "key": "tech_stingers"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                          ],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_energy_lance_2",
-                              "name": "Tachyon Lances",
-                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
-                              "area": "physics",
-                              "base_factor": 1.0,
-                              "base_weight": 35.0,
-                              "category": "Particles",
-                              "cost": 12000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Tachyon Beam",
-                                "<b>Component</b>: Tachyon Lance"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_energy_lance_1",
-                                "tech_lasers_5"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Gamma Lasers",
-                                  "key": "tech_lasers_5"
-                                },
-                                {
-                                  "name": "Particle Lances",
-                                  "key": "tech_energy_lance_1"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                              ],
-                              "potential": [],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
-                        },
-                        {
-                          "key": "tech_energy_torpedoes_1",
-                          "name": "Proton Launchers",
-                          "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
-                          "area": "physics",
-                          "base_factor": 1.0,
-                          "base_weight": 50.0,
-                          "category": "Particles",
-                          "cost": 6000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Proton Launchers",
-                            "<b>Component</b>: Proton Thrower",
-                            "<b>Starbase Module</b>: Particle Launcher Battery"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_lasers_4",
-                            "tech_torpedoes_1",
-                            "tech_harbingers"
-                          ],
-                          "tier": 3,
-                          "prerequisites_names": [
-                            {
-                              "name": "X-Ray Lasers",
-                              "key": "tech_lasers_4"
-                            },
-                            {
-                              "name": "Space Torpedoes",
-                              "key": "tech_torpedoes_1"
-                            },
-                            {
-                              "name": "Harbingers",
-                              "key": "tech_harbingers"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Red Lasers"
-                          ],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_energy_torpedoes_2",
-                              "name": "Neutron Launchers",
-                              "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
-                              "area": "physics",
-                              "base_factor": 1.0,
-                              "base_weight": 40.0,
-                              "category": "Particles",
-                              "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Neutron Launchers",
-                                "<b>Component</b>: Neutron Thrower"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_energy_torpedoes_1"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Proton Launchers",
-                                  "key": "tech_energy_torpedoes_1"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                              ],
-                              "potential": [],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
                         }
                       ],
                       "is_event": false,
@@ -917,90 +747,7 @@
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                           ],
                           "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_arc_emitter_1",
-                              "name": "Arc Emitters",
-                              "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
-                              "area": "physics",
-                              "base_factor": 1.0,
-                              "base_weight": 40.0,
-                              "category": "Particles",
-                              "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Arc Emitter",
-                                "<b>Component</b>: Lightning Emitter",
-                                "<b>Starbase Module</b>: Arc Emitters Mount"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_disruptors_3",
-                                "tech_battleships",
-                                "tech_stingers"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Phase Disruptors",
-                                  "key": "tech_disruptors_3"
-                                },
-                                {
-                                  "name": "Battleships",
-                                  "key": "tech_battleships"
-                                },
-                                {
-                                  "name": "Stingers",
-                                  "key": "tech_stingers"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                              ],
-                              "potential": [],
-                              "children": [
-                                {
-                                  "key": "tech_arc_emitter_2",
-                                  "name": "Focused Arc Emitters",
-                                  "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
-                                  "area": "physics",
-                                  "base_factor": 1.0,
-                                  "base_weight": 35.0,
-                                  "category": "Particles",
-                                  "cost": 12000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Focused Arc Emitter",
-                                    "<b>Component</b>: Focused Lightning Emitter"
-                                  ],
-                                  "is_dangerous": false,
-                                  "is_rare": false,
-                                  "is_start_tech": false,
-                                  "prerequisites": [
-                                    "tech_arc_emitter_1"
-                                  ],
-                                  "tier": 4,
-                                  "prerequisites_names": [
-                                    {
-                                      "name": "Arc Emitters",
-                                      "key": "tech_arc_emitter_1"
-                                    }
-                                  ],
-                                  "weight_modifiers": [
-                                    "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                                    "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                                  ],
-                                  "potential": [],
-                                  "children": [],
-                                  "is_event": false,
-                                  "source": "vanilla"
-                                }
-                              ],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
+                          "children": [],
                           "is_event": false,
                           "source": "vanilla"
                         }
@@ -1533,7 +1280,7 @@
                         "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols"
                       ],
                       "potential": [
-                        "has_overlord_dlc=yes"
+                        "Has DLC Overlord"
                       ],
                       "children": [],
                       "is_event": false,
@@ -1589,6 +1336,159 @@
             }
           ],
           "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_arc_emitter_1_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 10000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_arc_emitter_1_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 10000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_arc_emitter_1_tier2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Particles",
+                  "cost": 10000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_arc_emitter_1_tier3",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Particles",
+                      "cost": 10000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_arc_emitter_1",
+                          "name": "Arc Emitters",
+                          "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "Particles",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>Component</b>: Arc Emitter",
+                            "<b>Component</b>: Lightning Emitter",
+                            "<b>Starbase Module</b>: Arc Emitters Mount"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_arc_emitter_2",
+                              "name": "Focused Arc Emitters",
+                              "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 35.0,
+                              "category": "Particles",
+                              "cost": 12000,
+                              "feature_unlocks": [
+                                "<b>Component</b>: Focused Arc Emitter",
+                                "<b>Component</b>: Focused Lightning Emitter"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_arc_emitter_1"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "Arc Emitters",
+                                  "key": "tech_arc_emitter_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
           "source": "vanilla"
         },
         {
@@ -1675,7 +1575,7 @@
                         "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols"
                       ],
                       "potential": [
-                        "has_overlord_dlc=yes",
+                        "Has DLC Overlord",
                         "One must be true\n    •   Has Technology: Mega-Engineering\n    •   Has the has_quantum_catapult_insight country flag\n    •   Has Slingshot to the Stars Origin"
                       ],
                       "children": [],
@@ -1859,6 +1759,695 @@
                   ],
                   "is_event": false,
                   "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_gravity_wells_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Field Manipulation",
+          "cost": 2000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_gravity_wells_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Field Manipulation",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_gravity_wells",
+                  "name": "Gravity Snares",
+                  "description": "Localized concentrations of quantum mass can be used to create short bursts of extreme gravity. If manipulated correctly, such a gravitational force could theoretically capture and contain a creature of any size without harm.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "Field Manipulation",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>Feature : </b>Gravity Snares",
+                    "<b>Starbase Module</b>: Orbital Vivarium Tank",
+                    "<b>Starbase Module</b>: Vivarium Tank"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [
+                    "Has DLC Grand Archive",
+                    "One must be true\n    •   One must be true\n\t    •   Has communication with our Empire\n\t    •   Has communication with our Empire\n\t    •   Has communication with our Empire\n\t    •   Has communication with our Empire\n\t    •   Has communication with our Empire\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_gravity_snare_capacity_1",
+                      "name": "Micro Singularity Enhancements",
+                      "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 85.0,
+                      "category": "Field Manipulation",
+                      "cost": 2000,
+                      "feature_unlocks": [
+                        "Fauna Capture Amount +1",
+                        "Fauna Capture Chance +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_gravity_wells"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "Gravity Snares",
+                          "key": "tech_gravity_wells"
+                        }
+                      ],
+                      "weight_modifiers": [],
+                      "potential": [
+                        "Has DLC Grand Archive"
+                      ],
+                      "children": [
+                        {
+                          "key": "tech_gravity_snare_capacity_2",
+                          "name": "Gravity Manipulation Optimization",
+                          "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 65.0,
+                          "category": "Field Manipulation",
+                          "cost": 4000,
+                          "feature_unlocks": [
+                            "Fauna Capture Amount +1",
+                            "Fauna Capture Chance +5%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_gravity_snare_capacity_1"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "Micro Singularity Enhancements",
+                              "key": "tech_gravity_snare_capacity_1"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×) Has council member with trait: Curator"
+                          ],
+                          "potential": [
+                            "Has DLC Grand Archive"
+                          ],
+                          "children": [
+                            {
+                              "key": "tech_gravity_snare_capacity_3",
+                              "name": "Containment System Improvement",
+                              "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 45.0,
+                              "category": "Field Manipulation",
+                              "cost": 8000,
+                              "feature_unlocks": [
+                                "Fauna Capture Amount +1",
+                                "Fauna Capture Chance +5%"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_gravity_snare_capacity_2"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "Gravity Manipulation Optimization",
+                                  "key": "tech_gravity_snare_capacity_2"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×) Has council member with trait: Curator"
+                              ],
+                              "potential": [
+                                "Has DLC Grand Archive"
+                              ],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_alien_cloning",
+                      "name": "Artificial Breeding",
+                      "description": "In a carefully controlled environment, we can incubate the Genetic Material collected from culled Space Fauna and produce new members of each species under our command.",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 85.0,
+                      "category": "Biology",
+                      "cost": 2000,
+                      "feature_unlocks": [
+                        "<b>Feature : </b>Space Fauna Growth Policies"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_gravity_wells"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "Gravity Snares",
+                          "key": "tech_gravity_wells"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>2.0</b>) Federation :<br/>    •   Any Federation Member<br/>\t    •   Has Technology: Artificial Breeding<br/>    •   Does NOT have federation law: None"
+                      ],
+                      "potential": [
+                        "Has DLC Grand Archive",
+                        "One must be true\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers\n    •   Can research technology: Genome Mapping"
+                      ],
+                      "children": [
+                        {
+                          "key": "tech_improved_incubators",
+                          "name": "Improved Incubators",
+                          "description": "We can improve the artificial growth processes established in our hatcheries, accelerating the early developmental stages in order to create more mature clones.",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 65.0,
+                          "category": "Biology",
+                          "cost": 2000,
+                          "feature_unlocks": [],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_alien_cloning"
+                          ],
+                          "tier": 2,
+                          "prerequisites_names": [
+                            {
+                              "name": "Artificial Breeding",
+                              "key": "tech_alien_cloning"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 10",
+                            "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Improved Incubators",
+                            "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
+                            "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 20",
+                            "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 30",
+                            "(×<b style='color:lime'>1.25</b>) Has Domestication Traditions Tradition"
+                          ],
+                          "potential": [
+                            "Has DLC Grand Archive"
+                          ],
+                          "children": [
+                            {
+                              "key": "tech_metabolic_gases",
+                              "name": "Metabolic Gases",
+                              "description": "Improvements to the metabolic gases within our hatcheries will further mature each specimen before it is brought into this world.",
+                              "area": "society",
+                              "base_factor": 1.0,
+                              "base_weight": 45.0,
+                              "category": "Biology",
+                              "cost": 4000,
+                              "feature_unlocks": [],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_improved_incubators"
+                              ],
+                              "tier": 3,
+                              "prerequisites_names": [
+                                {
+                                  "name": "Improved Incubators",
+                                  "key": "tech_improved_incubators"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 20",
+                                "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Metabolic Gases",
+                                "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
+                                "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 35",
+                                "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
+                                "(×<b style='color:lime'>1.25</b>) Has Domestication Traditions Tradition"
+                              ],
+                              "potential": [
+                                "Has DLC Grand Archive"
+                              ],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_controlled_mutations",
+                          "name": "Controlled Mutations",
+                          "description": "We can increase the effectiveness of our Space Fauna Ships by modifying their genomes, allowing us to integrate artificial technology into their biomass.",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 2500.0,
+                          "category": "Biology",
+                          "cost": 2500,
+                          "feature_unlocks": [
+                            "<b>Feature : </b>Space Fauna Mutations",
+                            "Available Mutation Slots +3"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_alien_cloning"
+                          ],
+                          "tier": 2,
+                          "prerequisites_names": [
+                            {
+                              "name": "Artificial Breeding",
+                              "key": "tech_alien_cloning"
+                            }
+                          ],
+                          "weight_modifiers": [],
+                          "potential": [
+                            "One must be true\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers\n    •   One must be true\n\t    •   Has dna: Space Amoeba\n\t    •   Has dna: Tiyanki\n\t    •   Has dna: Crystalline Entity\n\t    •   Has dna: Voidworm\n\t    •   Has dna: Cutholoid"
+                          ],
+                          "children": [
+                            {
+                              "key": "pseudo_tech_controlled_mutations_2_tier3",
+                              "area": "society",
+                              "base_factor": 1.0,
+                              "base_weight": 0.0,
+                              "category": "Biology",
+                              "cost": 10000,
+                              "feature_unlocks": [],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [],
+                              "tier": 3,
+                              "prerequisites_names": [],
+                              "weight_modifiers": [],
+                              "potential": [],
+                              "children": [
+                                {
+                                  "key": "tech_controlled_mutations_2",
+                                  "name": "Advanced Controlled Mutations",
+                                  "description": "We can go further. Advanced manipulation of Space Fauna genetics allows for integrating a wider variety of specialized components.",
+                                  "area": "society",
+                                  "base_factor": 1.0,
+                                  "base_weight": 10000.0,
+                                  "category": "Biology",
+                                  "cost": 10000,
+                                  "feature_unlocks": [
+                                    "<b>Component</b>: Elastic Tissue",
+                                    "Available Mutation Slots +3"
+                                  ],
+                                  "is_dangerous": false,
+                                  "is_rare": false,
+                                  "is_start_tech": false,
+                                  "prerequisites": [
+                                    "tech_controlled_mutations"
+                                  ],
+                                  "tier": 4,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "Controlled Mutations",
+                                      "key": "tech_controlled_mutations"
+                                    }
+                                  ],
+                                  "weight_modifiers": [],
+                                  "potential": [],
+                                  "children": [],
+                                  "is_event": false,
+                                  "source": "vanilla"
+                                }
+                              ],
+                              "is_event": false,
+                              "pseudo": true,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_mine_volatile_motes_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 2000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_mine_volatile_motes_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_mine_volatile_motes",
+                  "name": "Mote Stabilization",
+                  "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "Particles",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>Building</b>: Mote Harvesting Traps"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   null<br/>\t\t    •   If<br/>\t\t\t    •   Uses district set: habitat<br/>\t\t    •   Otherwise<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit +1<br/>\t\t    •   Has deposit +2<br/>\t\t    •   Has deposit +3<br/>\t\t    •   Has deposit +4<br/>\t\t    •   Has deposit +5",
+                    "(×<b style='color:red'>0.0</b>) Does NOT have the volatile_motes_found country flag"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_energy_lance_1_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 10000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_energy_lance_1_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 10000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_energy_lance_1_tier2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Particles",
+                  "cost": 10000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_energy_lance_1_tier3",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Particles",
+                      "cost": 10000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_energy_lance_1",
+                          "name": "Particle Lances",
+                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "Particles",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>Component</b>: Particle Beam",
+                            "<b>Component</b>: Particle Lance",
+                            "<b>Starbase Module</b>: Energy Lance Mount"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_energy_lance_2",
+                              "name": "Tachyon Lances",
+                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 35.0,
+                              "category": "Particles",
+                              "cost": 12000,
+                              "feature_unlocks": [
+                                "<b>Component</b>: Tachyon Beam",
+                                "<b>Component</b>: Tachyon Lance"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_energy_lance_1",
+                                "tech_lasers_5"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "Gamma Lasers",
+                                  "key": "tech_lasers_5"
+                                },
+                                {
+                                  "name": "Particle Lances",
+                                  "key": "tech_energy_lance_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_astral_harvesting_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 2000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_astral_harvesting_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_astral_harvesting",
+                  "name": "Astral Harvesting",
+                  "description": "The harvesting of torn astral fabric along the scars of rifts in space and time is made possible with delicate modifications to our research stations.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "Particles",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>Feature : </b>Astral Actions",
+                    "<b>Reveals Ressource</b>: $astral_threads$"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the $astral_threads$ Found: country flag<br/>    •   Any System within borders<br/>\t    •   One must be true<br/>\t\t    •   Any Planet<br/>\t\t\t    •   Has £astral_threads£ $astral_threads$ greater than 0<br/>    •   All must be true<br/>\t    •   Is Nomadic<br/>\t    •   Any Owned Starbase<br/>\t\t    •   Has starbase size: Waystation<br/>\t\t    •   Solar System<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Any Planet<br/>\t\t\t\t\t    •   Has £astral_threads£ $astral_threads$ greater than 0<br/>    •   Any Country Relation<br/>\t    •   All must be true<br/>\t\t    •   Is of country type: default<br/>\t\t    •   Has communication with our Empire<br/>\t\t    •   Has Technology: Astral Harvesting",
+                    "(×<b style='color:lime'>2.0</b>) Any System within borders<br/>    •   One must be true<br/>\t    •   Any Planet<br/>\t\t    •   Is astral scar",
+                    "(×<b style='color:lime'>2.0</b>) Any Owned Starbase<br/>    •   Has starbase size: Waystation<br/>    •   Solar System<br/>\t    •   One must be true<br/>\t\t    •   Any Planet<br/>\t\t\t    •   Is astral scar"
+                  ],
+                  "potential": [
+                    "Has DLC Astral Planes"
+                  ],
+                  "children": [],
+                  "is_event": false,
                   "source": "vanilla"
                 }
               ],
@@ -2258,7 +2847,7 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
                   ],
                   "potential": [
-                    "has_first_contact_dlc=yes"
+                    "Has DLC First Contact Story Pack"
                   ],
                   "children": [
                     {
@@ -2299,7 +2888,7 @@
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
                       ],
                       "potential": [
-                        "has_first_contact_dlc=yes"
+                        "Has DLC First Contact Story Pack"
                       ],
                       "children": [
                         {
@@ -2339,7 +2928,7 @@
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
                           ],
                           "potential": [
-                            "has_first_contact_dlc=yes"
+                            "Has DLC First Contact Story Pack"
                           ],
                           "children": [
                             {
@@ -3984,6 +4573,526 @@
           "source": "vanilla"
         },
         {
+          "key": "tech_subspace_drive",
+          "name": "Subspace Drive",
+          "description": "An insight borne of a desperate desire to leave our home, these Subspace Drive engines were designed to facilitate limited interstellar travel. While only allowing small-scale jumps, they provide a unique opportunity to jumpstart our galactic exploration.",
+          "area": "physics",
+          "base_factor": 0.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 500,
+          "feature_unlocks": [
+            "<b>Component</b>: Subspace Drive",
+            "<b>Feature : </b>Jump Drive Travel"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "Has DLC First Contact Story Pack"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_energy_torpedoes_1_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 6000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_energy_torpedoes_1_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 6000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_energy_torpedoes_1_tier2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Particles",
+                  "cost": 6000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_energy_torpedoes_1",
+                      "name": "Proton Launchers",
+                      "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "Particles",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "<b>Component</b>: Proton Launchers",
+                        "<b>Component</b>: Proton Thrower",
+                        "<b>Starbase Module</b>: Particle Launcher Battery"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                        "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
+                        "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Red Lasers"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_energy_torpedoes_2",
+                          "name": "Neutron Launchers",
+                          "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "Particles",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>Component</b>: Neutron Launchers",
+                            "<b>Component</b>: Neutron Thrower"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_energy_torpedoes_1"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "Proton Launchers",
+                              "key": "tech_energy_torpedoes_1"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_fe_silo_1_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Field Manipulation",
+          "cost": 70000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_fe_silo_1_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Field Manipulation",
+              "cost": 70000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_fe_silo_1_tier2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Field Manipulation",
+                  "cost": 70000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_fe_silo_1_tier3",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Field Manipulation",
+                      "cost": 70000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "pseudo_tech_fe_silo_1_tier4",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 0.0,
+                          "category": "Field Manipulation",
+                          "cost": 70000,
+                          "feature_unlocks": [],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_fe_silo_1",
+                              "name": "Shrinkspace Depot",
+                              "description": "The depot influences a portion of subspace where the distance between molecules is reduced, effectively shrinking anything stored there. Living beings are forbidden from entering it.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 20.0,
+                              "category": "Field Manipulation",
+                              "cost": 70000,
+                              "feature_unlocks": [
+                                "<b>Building</b>: Shrinkspace Depot"
+                              ],
+                              "is_dangerous": true,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [],
+                              "tier": 5,
+                              "prerequisites_names": [],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has crisis level: Concern<br/>    •   Has Enigmatic Engineering Ascension Perk",
+                                "(×<b style='color:red'>0.0</b>) A number greater than or equal to 4 of the following must be true<br/>    •   Has Technology: Affluence Emporium<br/>    •   Has Technology: Nourishment Complex<br/>    •   Has Technology: Dimensional Replicator<br/>    •   Has Technology: Class-3 Singularity<br/>    •   Has Technology: Hyper-Forge<br/>    •   Has Technology: Sky Dome<br/>    •   Has Technology: Aspis Bastion<br/>    •   Has Technology: Fractal Administration Processes<br/>    •   Has Technology: Robot Manufacturing Nexus<br/>    •   Has Technology: Molecular-Revitalization Institute<br/>    •   Has Technology: Justice Complex<br/>    •   Has Technology: Galactic Commerce Hub<br/>    •   Has Technology: Shrinkspace Depot<br/>    •   Has Technology: Virtual Bliss Plaza<br/>    •   Has Technology: Quantum Innovation Nexus<br/>    •   Has Technology: Quantum Drilling Plant",
+                                "(×<b style='color:red'>0.025</b>) Does NOT have crisis level: Concern",
+                                "(×<b style='color:lime'>1.5</b>) Has Enigmatic Engineering Ascension Perk",
+                                "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
+                              ],
+                              "potential": [],
+                              "children": [
+                                {
+                                  "key": "tech_fe_silo_2",
+                                  "name": "Extra-Dimensional Depot",
+                                  "description": "By creating a localized pocket dimension, we can hold nearly endless resources.",
+                                  "area": "physics",
+                                  "base_factor": 1.0,
+                                  "base_weight": 20.0,
+                                  "category": "Field Manipulation",
+                                  "cost": 70000,
+                                  "feature_unlocks": [
+                                    "<b>Building</b>: Extra-Dimensional Depot"
+                                  ],
+                                  "is_dangerous": true,
+                                  "is_rare": true,
+                                  "is_start_tech": false,
+                                  "prerequisites": [
+                                    "tech_fe_silo_1"
+                                  ],
+                                  "tier": 5,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "Shrinkspace Depot",
+                                      "key": "tech_fe_silo_1"
+                                    }
+                                  ],
+                                  "weight_modifiers": [
+                                    "(×<b style='color:red'>0.0</b>) Does NOT have Cosmogenesis Ascension Perk"
+                                  ],
+                                  "potential": [],
+                                  "children": [],
+                                  "is_event": false,
+                                  "source": "vanilla"
+                                }
+                              ],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "pseudo": true,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_starfire_cannon_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 12000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_starfire_cannon_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 12000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_starfire_cannon_tier2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Particles",
+                  "cost": 12000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_starfire_cannon_tier3",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Particles",
+                      "cost": 12000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_starfire_cannon",
+                          "name": "Starfire Cannon",
+                          "description": "Like any potential hazard, the dangerous radiation from our star's transformation can also be harnessed as a useful tool. Channeling it as a beam weapon would allow us to overheat and disable enemy ships. \n\nUnlocks a Colony Decision to construct a Starfire Cannon in orbit.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 35.0,
+                          "category": "Particles",
+                          "cost": 12000,
+                          "feature_unlocks": [],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                          ],
+                          "potential": [
+                            "Has Red Giant Origin",
+                            "Has the starfire_cannon_unlocked country flag"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_volatile_motes_tier0",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 2000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_volatile_motes_tier1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Particles",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_volatile_motes",
+                  "name": "Volatile Material Plants",
+                  "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "Particles",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>Building</b>: Chemical Digester",
+                    "<b>Building</b>: Chemical Plants"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   null<br/>\t\t    •   If<br/>\t\t\t    •   Uses district set: habitat<br/>\t\t    •   Otherwise<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit +1<br/>\t\t    •   Has deposit +2<br/>\t\t    •   Has deposit +3<br/>\t\t    •   Has deposit +4<br/>\t\t    •   Has deposit +5"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
           "key": "tech_space_exploration",
           "name": "Space Exploration",
           "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
@@ -4098,7 +5207,7 @@
                             "(×<b style='color:lime'>5.0</b>) Has Technology: Theoretical Infinity Thesis"
                           ],
                           "potential": [
-                            "has_machine_age_dlc=yes",
+                            "Has DLC The Machine Age",
                             "Has Cosmogenesis Ascension Perk",
                             "Does NOT have the cosmogenesis_aborted country flag"
                           ],
@@ -4558,7 +5667,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -4960,742 +6069,10 @@
                     "(×<b style='color:lime'>2.0</b>) Federation :<br/>    •   Has federation perk: Scientific Inspiration<br/>    •   Any Federation Member<br/>\t    •   Has Technology: Dyson Swarm"
                   ],
                   "potential": [
-                    "has_machine_age_dlc=yes"
+                    "Has DLC The Machine Age"
                   ],
                   "children": [],
                   "is_event": false,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
-          "key": "pseudo_tech_gravity_wells_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Field Manipulation",
-          "cost": 2000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_gravity_wells_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Field Manipulation",
-              "cost": 2000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_gravity_wells",
-                  "name": "Gravity Snares",
-                  "description": "Localized concentrations of quantum mass can be used to create short bursts of extreme gravity. If manipulated correctly, such a gravitational force could theoretically capture and contain a creature of any size without harm.",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 85.0,
-                  "category": "Field Manipulation",
-                  "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Feature : </b>Gravity Snares",
-                    "<b>Starbase Module</b>: Orbital Vivarium Tank",
-                    "<b>Starbase Module</b>: Vivarium Tank"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [],
-                  "potential": [
-                    "has_grand_archive_dlc=yes",
-                    "One must be true\n    •   One must be true\n\t    •   null\n\t\t    •   Exists: tiyanki_country\n\t\t    •   Has communication with our Empire\n\t    •   null\n\t\t    •   Exists: amoeba_country\n\t\t    •   Has communication with our Empire\n\t    •   null\n\t\t    •   Exists: crystal_country\n\t\t    •   Has communication with our Empire\n\t    •   null\n\t\t    •   Exists: voidworms_country\n\t\t    •   Has communication with our Empire\n\t    •   null\n\t\t    •   Exists: cutholoids_country\n\t\t    •   Has communication with our Empire\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers"
-                  ],
-                  "children": [
-                    {
-                      "key": "tech_gravity_snare_capacity_1",
-                      "name": "Micro Singularity Enhancements",
-                      "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 85.0,
-                      "category": "Field Manipulation",
-                      "cost": 2000,
-                      "feature_unlocks": [
-                        "Fauna Capture Amount +1",
-                        "Fauna Capture Chance +5%"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_gravity_wells"
-                      ],
-                      "tier": 2,
-                      "prerequisites_names": [
-                        {
-                          "name": "Gravity Snares",
-                          "key": "tech_gravity_wells"
-                        }
-                      ],
-                      "weight_modifiers": [],
-                      "potential": [
-                        "has_grand_archive_dlc=yes"
-                      ],
-                      "children": [
-                        {
-                          "key": "tech_gravity_snare_capacity_2",
-                          "name": "Gravity Manipulation Optimization",
-                          "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
-                          "area": "physics",
-                          "base_factor": 1.0,
-                          "base_weight": 65.0,
-                          "category": "Field Manipulation",
-                          "cost": 4000,
-                          "feature_unlocks": [
-                            "Fauna Capture Amount +1",
-                            "Fauna Capture Chance +5%"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": true,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_gravity_snare_capacity_1"
-                          ],
-                          "tier": 3,
-                          "prerequisites_names": [
-                            {
-                              "name": "Micro Singularity Enhancements",
-                              "key": "tech_gravity_snare_capacity_1"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×) Has council member with trait: Curator"
-                          ],
-                          "potential": [
-                            "has_grand_archive_dlc=yes"
-                          ],
-                          "children": [
-                            {
-                              "key": "tech_gravity_snare_capacity_3",
-                              "name": "Containment System Improvement",
-                              "description": "Increases the amount of Space Fauna captured by Gravity Snares by 1",
-                              "area": "physics",
-                              "base_factor": 1.0,
-                              "base_weight": 45.0,
-                              "category": "Field Manipulation",
-                              "cost": 8000,
-                              "feature_unlocks": [
-                                "Fauna Capture Amount +1",
-                                "Fauna Capture Chance +5%"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": true,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_gravity_snare_capacity_2"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Gravity Manipulation Optimization",
-                                  "key": "tech_gravity_snare_capacity_2"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×) Has council member with trait: Curator"
-                              ],
-                              "potential": [
-                                "has_grand_archive_dlc=yes"
-                              ],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "source": "vanilla"
-                    },
-                    {
-                      "key": "tech_alien_cloning",
-                      "name": "Artificial Breeding",
-                      "description": "In a carefully controlled environment, we can incubate the Genetic Material collected from culled Space Fauna and produce new members of each species under our command.",
-                      "area": "society",
-                      "base_factor": 1.0,
-                      "base_weight": 85.0,
-                      "category": "Biology",
-                      "cost": 2000,
-                      "feature_unlocks": [
-                        "<b>Feature : </b>Space Fauna Growth Policies"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_gravity_wells"
-                      ],
-                      "tier": 2,
-                      "prerequisites_names": [
-                        {
-                          "name": "Gravity Snares",
-                          "key": "tech_gravity_wells"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:lime'>2.0</b>) Federation :<br/>    •   Any Federation Member<br/>\t    •   Has Technology: Artificial Breeding<br/>    •   Does NOT have federation law: None"
-                      ],
-                      "potential": [
-                        "has_grand_archive_dlc=yes",
-                        "One must be true\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers\n    •   Can research technology: Genome Mapping"
-                      ],
-                      "children": [
-                        {
-                          "key": "tech_improved_incubators",
-                          "name": "Improved Incubators",
-                          "description": "We can improve the artificial growth processes established in our hatcheries, accelerating the early developmental stages in order to create more mature clones.",
-                          "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 65.0,
-                          "category": "Biology",
-                          "cost": 2000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_alien_cloning"
-                          ],
-                          "tier": 2,
-                          "prerequisites_names": [
-                            {
-                              "name": "Artificial Breeding",
-                              "key": "tech_alien_cloning"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 10",
-                            "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Improved Incubators",
-                            "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
-                            "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 20",
-                            "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 30",
-                            "(×<b style='color:lime'>1.25</b>) Has Domestication Traditions Tradition"
-                          ],
-                          "potential": [
-                            "has_grand_archive_dlc=yes"
-                          ],
-                          "children": [
-                            {
-                              "key": "tech_metabolic_gases",
-                              "name": "Metabolic Gases",
-                              "description": "Improvements to the metabolic gases within our hatcheries will further mature each specimen before it is brought into this world.",
-                              "area": "society",
-                              "base_factor": 1.0,
-                              "base_weight": 45.0,
-                              "category": "Biology",
-                              "cost": 4000,
-                              "feature_unlocks": [],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_improved_incubators"
-                              ],
-                              "tier": 3,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Improved Incubators",
-                                  "key": "tech_improved_incubators"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 20",
-                                "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Metabolic Gases",
-                                "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
-                                "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 35",
-                                "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
-                                "(×<b style='color:lime'>1.25</b>) Has Domestication Traditions Tradition"
-                              ],
-                              "potential": [
-                                "has_grand_archive_dlc=yes"
-                              ],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
-                        },
-                        {
-                          "key": "tech_controlled_mutations",
-                          "name": "Controlled Mutations",
-                          "description": "We can increase the effectiveness of our Space Fauna Ships by modifying their genomes, allowing us to integrate artificial technology into their biomass.",
-                          "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 2500.0,
-                          "category": "Biology",
-                          "cost": 2500,
-                          "feature_unlocks": [
-                            "<b>Feature : </b>Space Fauna Mutations",
-                            "Available Mutation Slots +3"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_alien_cloning"
-                          ],
-                          "tier": 2,
-                          "prerequisites_names": [
-                            {
-                              "name": "Artificial Breeding",
-                              "key": "tech_alien_cloning"
-                            }
-                          ],
-                          "weight_modifiers": [],
-                          "potential": [
-                            "One must be true\n    •   One must be true\n\t    •   Has Government Civic: Beastmasters\n\t    •   Has Government Civic: Wild Swarm\n\t    •   Has Government Civic: Biodrones\n\t    •   Has Government Civic: Space Ranchers\n    •   One must be true\n\t    •   Has dna: Space Amoeba\n\t    •   Has dna: Tiyanki\n\t    •   Has dna: Crystalline Entity\n\t    •   Has dna: Voidworm\n\t    •   Has dna: Cutholoid"
-                          ],
-                          "children": [
-                            {
-                              "key": "pseudo_tech_controlled_mutations_2_tier3",
-                              "area": "society",
-                              "base_factor": 1.0,
-                              "base_weight": 0.0,
-                              "category": "Biology",
-                              "cost": 10000,
-                              "feature_unlocks": [],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [],
-                              "tier": 3,
-                              "prerequisites_names": [],
-                              "weight_modifiers": [],
-                              "potential": [],
-                              "children": [
-                                {
-                                  "key": "tech_controlled_mutations_2",
-                                  "name": "Advanced Controlled Mutations",
-                                  "description": "We can go further. Advanced manipulation of Space Fauna genetics allows for integrating a wider variety of specialized components.",
-                                  "area": "society",
-                                  "base_factor": 1.0,
-                                  "base_weight": 10000.0,
-                                  "category": "Biology",
-                                  "cost": 10000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Elastic Tissue",
-                                    "Available Mutation Slots +3"
-                                  ],
-                                  "is_dangerous": false,
-                                  "is_rare": false,
-                                  "is_start_tech": false,
-                                  "prerequisites": [
-                                    "tech_controlled_mutations"
-                                  ],
-                                  "tier": 4,
-                                  "prerequisites_names": [
-                                    {
-                                      "name": "Controlled Mutations",
-                                      "key": "tech_controlled_mutations"
-                                    }
-                                  ],
-                                  "weight_modifiers": [],
-                                  "potential": [],
-                                  "children": [],
-                                  "is_event": false,
-                                  "source": "vanilla"
-                                }
-                              ],
-                              "is_event": false,
-                              "pseudo": true,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "source": "vanilla"
-                    }
-                  ],
-                  "is_event": false,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
-          "key": "pseudo_tech_mine_volatile_motes_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Particles",
-          "cost": 2000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_mine_volatile_motes_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Particles",
-              "cost": 2000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_mine_volatile_motes",
-                  "name": "Mote Stabilization",
-                  "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
-                  "area": "physics",
-                  "base_factor": 2.0,
-                  "base_weight": 170.0,
-                  "category": "Particles",
-                  "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Building</b>: Mote Harvesting Traps"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   null<br/>\t\t    •   If<br/>\t\t\t    •   Uses district set: habitat<br/>\t\t    •   Otherwise<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit +1<br/>\t\t    •   Has deposit +2<br/>\t\t    •   Has deposit +3<br/>\t\t    •   Has deposit +4<br/>\t\t    •   Has deposit +5",
-                    "(×<b style='color:red'>0.0</b>) Does NOT have the volatile_motes_found country flag"
-                  ],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
-          "key": "pseudo_tech_astral_harvesting_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Particles",
-          "cost": 2000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_astral_harvesting_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Particles",
-              "cost": 2000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_astral_harvesting",
-                  "name": "Astral Harvesting",
-                  "description": "The harvesting of torn astral fabric along the scars of rifts in space and time is made possible with delicate modifications to our research stations.",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 85.0,
-                  "category": "Particles",
-                  "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Feature : </b>Astral Actions",
-                    "<b>Reveals Ressource</b>: $astral_threads$"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the $astral_threads$ Found: country flag<br/>    •   Any System within borders<br/>\t    •   One must be true<br/>\t\t    •   Exists: $ASTRAL_RIFT$<br/>\t\t    •   Any Planet<br/>\t\t\t    •   Has £astral_threads£ $astral_threads$ greater than 0<br/>    •   All must be true<br/>\t    •   Is Nomadic<br/>\t    •   Any Owned Starbase<br/>\t\t    •   Has starbase size: Waystation<br/>\t\t    •   Solar System<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Exists: $ASTRAL_RIFT$<br/>\t\t\t\t    •   Any Planet<br/>\t\t\t\t\t    •   Has £astral_threads£ $astral_threads$ greater than 0<br/>    •   Any Country Relation<br/>\t    •   All must be true<br/>\t\t    •   Is of country type: default<br/>\t\t    •   Has communication with our Empire<br/>\t\t    •   Has Technology: Astral Harvesting",
-                    "(×<b style='color:lime'>2.0</b>) Any System within borders<br/>    •   One must be true<br/>\t    •   Exists: $ASTRAL_RIFT$<br/>\t    •   Any Planet<br/>\t\t    •   Is astral scar",
-                    "(×<b style='color:lime'>2.0</b>) Any Owned Starbase<br/>    •   Has starbase size: Waystation<br/>    •   Solar System<br/>\t    •   One must be true<br/>\t\t    •   Exists: $ASTRAL_RIFT$<br/>\t\t    •   Any Planet<br/>\t\t\t    •   Is astral scar"
-                  ],
-                  "potential": [
-                    "has_astral_planes_dlc=yes"
-                  ],
-                  "children": [],
-                  "is_event": false,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
-          "key": "tech_subspace_drive",
-          "name": "Subspace Drive",
-          "description": "An insight borne of a desperate desire to leave our home, these Subspace Drive engines were designed to facilitate limited interstellar travel. While only allowing small-scale jumps, they provide a unique opportunity to jumpstart our galactic exploration.",
-          "area": "physics",
-          "base_factor": 0.0,
-          "base_weight": 0.0,
-          "category": "Particles",
-          "cost": 500,
-          "feature_unlocks": [
-            "<b>Component</b>: Subspace Drive",
-            "<b>Feature : </b>Jump Drive Travel"
-          ],
-          "is_dangerous": false,
-          "is_rare": true,
-          "is_start_tech": true,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [
-            "has_first_contact_dlc=yes"
-          ],
-          "children": [],
-          "is_event": false,
-          "source": "vanilla"
-        },
-        {
-          "key": "pseudo_tech_fe_silo_1_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Field Manipulation",
-          "cost": 70000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_fe_silo_1_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Field Manipulation",
-              "cost": 70000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "pseudo_tech_fe_silo_1_tier2",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 0.0,
-                  "category": "Field Manipulation",
-                  "cost": 70000,
-                  "feature_unlocks": [],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "pseudo_tech_fe_silo_1_tier3",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 0.0,
-                      "category": "Field Manipulation",
-                      "cost": 70000,
-                      "feature_unlocks": [],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [],
-                      "tier": 3,
-                      "prerequisites_names": [],
-                      "weight_modifiers": [],
-                      "potential": [],
-                      "children": [
-                        {
-                          "key": "pseudo_tech_fe_silo_1_tier4",
-                          "area": "physics",
-                          "base_factor": 1.0,
-                          "base_weight": 0.0,
-                          "category": "Field Manipulation",
-                          "cost": 70000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [],
-                          "tier": 4,
-                          "prerequisites_names": [],
-                          "weight_modifiers": [],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_fe_silo_1",
-                              "name": "Shrinkspace Depot",
-                              "description": "The depot influences a portion of subspace where the distance between molecules is reduced, effectively shrinking anything stored there. Living beings are forbidden from entering it.",
-                              "area": "physics",
-                              "base_factor": 1.0,
-                              "base_weight": 20.0,
-                              "category": "Field Manipulation",
-                              "cost": 70000,
-                              "feature_unlocks": [
-                                "<b>Building</b>: Shrinkspace Depot"
-                              ],
-                              "is_dangerous": true,
-                              "is_rare": true,
-                              "is_start_tech": false,
-                              "prerequisites": [],
-                              "tier": 5,
-                              "prerequisites_names": [],
-                              "weight_modifiers": [
-                                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has crisis level: Concern<br/>    •   Has Enigmatic Engineering Ascension Perk",
-                                "(×<b style='color:red'>0.0</b>) A number greater than or equal to 4 of the following must be true<br/>    •   Has Technology: Affluence Emporium<br/>    •   Has Technology: Nourishment Complex<br/>    •   Has Technology: Dimensional Replicator<br/>    •   Has Technology: Class-3 Singularity<br/>    •   Has Technology: Hyper-Forge<br/>    •   Has Technology: Sky Dome<br/>    •   Has Technology: Aspis Bastion<br/>    •   Has Technology: Fractal Administration Processes<br/>    •   Has Technology: Robot Manufacturing Nexus<br/>    •   Has Technology: Molecular-Revitalization Institute<br/>    •   Has Technology: Justice Complex<br/>    •   Has Technology: Galactic Commerce Hub<br/>    •   Has Technology: Shrinkspace Depot<br/>    •   Has Technology: Virtual Bliss Plaza<br/>    •   Has Technology: Quantum Innovation Nexus<br/>    •   Has Technology: Quantum Drilling Plant",
-                                "(×<b style='color:red'>0.025</b>) Does NOT have crisis level: Concern",
-                                "(×<b style='color:lime'>1.5</b>) Has Enigmatic Engineering Ascension Perk",
-                                "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
-                              ],
-                              "potential": [],
-                              "children": [
-                                {
-                                  "key": "tech_fe_silo_2",
-                                  "name": "Extra-Dimensional Depot",
-                                  "description": "By creating a localized pocket dimension, we can hold nearly endless resources.",
-                                  "area": "physics",
-                                  "base_factor": 1.0,
-                                  "base_weight": 20.0,
-                                  "category": "Field Manipulation",
-                                  "cost": 70000,
-                                  "feature_unlocks": [
-                                    "<b>Building</b>: Extra-Dimensional Depot"
-                                  ],
-                                  "is_dangerous": true,
-                                  "is_rare": true,
-                                  "is_start_tech": false,
-                                  "prerequisites": [
-                                    "tech_fe_silo_1"
-                                  ],
-                                  "tier": 5,
-                                  "prerequisites_names": [
-                                    {
-                                      "name": "Shrinkspace Depot",
-                                      "key": "tech_fe_silo_1"
-                                    }
-                                  ],
-                                  "weight_modifiers": [
-                                    "(×<b style='color:red'>0.0</b>) Does NOT have Cosmogenesis Ascension Perk"
-                                  ],
-                                  "potential": [],
-                                  "children": [],
-                                  "is_event": false,
-                                  "source": "vanilla"
-                                }
-                              ],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "pseudo": true,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "pseudo": true,
-                      "source": "vanilla"
-                    }
-                  ],
-                  "is_event": false,
-                  "pseudo": true,
                   "source": "vanilla"
                 }
               ],
@@ -5892,7 +6269,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -6106,7 +6483,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -6233,7 +6610,7 @@
                         "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition"
                       ],
                       "potential": [
-                        "has_first_contact_dlc=yes"
+                        "Has DLC First Contact Story Pack"
                       ],
                       "children": [
                         {
@@ -6306,7 +6683,7 @@
                                     "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition"
                                   ],
                                   "potential": [
-                                    "has_first_contact_dlc=yes"
+                                    "Has DLC First Contact Story Pack"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -6353,7 +6730,7 @@
                             "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition"
                           ],
                           "potential": [
-                            "has_first_contact_dlc=yes"
+                            "Has DLC First Contact Story Pack"
                           ],
                           "children": [],
                           "is_event": false,
@@ -6643,122 +7020,6 @@
           "source": "vanilla"
         },
         {
-          "key": "pseudo_tech_starfire_cannon_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Particles",
-          "cost": 12000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_starfire_cannon_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Particles",
-              "cost": 12000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "pseudo_tech_starfire_cannon_tier2",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 0.0,
-                  "category": "Particles",
-                  "cost": 12000,
-                  "feature_unlocks": [],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "pseudo_tech_starfire_cannon_tier3",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 0.0,
-                      "category": "Particles",
-                      "cost": 12000,
-                      "feature_unlocks": [],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [],
-                      "tier": 3,
-                      "prerequisites_names": [],
-                      "weight_modifiers": [],
-                      "potential": [],
-                      "children": [
-                        {
-                          "key": "tech_starfire_cannon",
-                          "name": "Starfire Cannon",
-                          "description": "Like any potential hazard, the dangerous radiation from our star's transformation can also be harnessed as a useful tool. Channeling it as a beam weapon would allow us to overheat and disable enemy ships. \n\nUnlocks a Colony Decision to construct a Starfire Cannon in orbit.",
-                          "area": "physics",
-                          "base_factor": 1.0,
-                          "base_weight": 35.0,
-                          "category": "Particles",
-                          "cost": 12000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": true,
-                          "is_start_tech": false,
-                          "prerequisites": [],
-                          "tier": 4,
-                          "prerequisites_names": [],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                          ],
-                          "potential": [
-                            "Has Red Giant Origin",
-                            "Has the starfire_cannon_unlocked country flag"
-                          ],
-                          "children": [],
-                          "is_event": false,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "pseudo": true,
-                      "source": "vanilla"
-                    }
-                  ],
-                  "is_event": false,
-                  "pseudo": true,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
           "key": "pseudo_tech_synth_queen_knowledge_tier0",
           "area": "physics",
           "base_factor": 1.0,
@@ -6863,7 +7124,7 @@
                               "prerequisites_names": [],
                               "weight_modifiers": [],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has the synth_queen_knowledge country flag"
                               ],
                               "children": [],
@@ -6883,77 +7144,6 @@
                   ],
                   "is_event": false,
                   "pseudo": true,
-                  "source": "vanilla"
-                }
-              ],
-              "is_event": false,
-              "pseudo": true,
-              "source": "vanilla"
-            }
-          ],
-          "is_event": false,
-          "pseudo": true,
-          "source": "vanilla"
-        },
-        {
-          "key": "pseudo_tech_volatile_motes_tier0",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Particles",
-          "cost": 2000,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
-              "key": "pseudo_tech_volatile_motes_tier1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 0.0,
-              "category": "Particles",
-              "cost": 2000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [],
-              "tier": 1,
-              "prerequisites_names": [],
-              "weight_modifiers": [],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_volatile_motes",
-                  "name": "Volatile Material Plants",
-                  "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
-                  "area": "physics",
-                  "base_factor": 2.0,
-                  "base_weight": 170.0,
-                  "category": "Particles",
-                  "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Building</b>: Chemical Digester",
-                    "<b>Building</b>: Chemical Plants"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [],
-                  "tier": 2,
-                  "prerequisites_names": [],
-                  "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   null<br/>\t\t    •   If<br/>\t\t\t    •   Uses district set: habitat<br/>\t\t    •   Otherwise<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit +1<br/>\t\t    •   Has deposit +2<br/>\t\t    •   Has deposit +3<br/>\t\t    •   Has deposit +4<br/>\t\t    •   Has deposit +5"
-                  ],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false,
                   "source": "vanilla"
                 }
               ],

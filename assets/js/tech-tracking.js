@@ -363,8 +363,7 @@ function loadListFromIndexedDB(name) {
                 });
                 data.forEach(item => {
                     if('anomaly' == item.area) {
-                        //TODO
-                        $('#' + item.key + ' .div.node-status').addClass('active');
+                        $('#' + item.key).addClass('active').find('div.node-status').addClass('active');
                     }
                     else {
                         updateResearch(item.area, item.key, true);

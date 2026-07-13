@@ -262,13 +262,13 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
                 "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                 "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-                "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships",
-                "(×<b style='color:lime'>5.0</b>) Any Owned Planet<br/>    •   One must be true<br/>\t    •   null<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has district: Agriculture District<br/>\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t    •   Has district: Orchard Forest<br/>\t\t    •   All must be false<br/>\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t    •   All must be true<br/>\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t    •   Owner<br/>\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t    •   Is Ocean World<br/>\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t    •   One must be true<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t    •   Has zone: Aquaculture<br/>\t\t    •   Has zone: Agrarian Villages<br/>\t\t    •   Has zone: Coastal Hamlets<br/>\t\t    •   Has zone: Solar Farming Bays"
+                "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships",
+                "(×<b style='color:lime'>5.0</b>) Any Owned Planet<br/>    •   One must be true<br/>\t    •   null<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has district: Agriculture District<br/>\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t    •   Has district: Orchard Forest<br/>\t\t    •   All must be false<br/>\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t    •   All must be true<br/>\t\t\t\t    •   Owner<br/>\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t    •   Is Ocean World<br/>\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t    •   One must be true<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t    •   Has zone: Aquaculture<br/>\t\t    •   Has zone: Agrarian Villages<br/>\t\t    •   Has zone: Coastal Hamlets<br/>\t\t    •   Has zone: Solar Farming Bays"
               ],
               "potential": [],
               "children": [
@@ -300,11 +300,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   null<br/>\t    •   Exists: this<br/>\t    •   Uses ship category: Biological Ships",
-                    "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   null<br/>\t    •   Exists: this<br/>\t    •   Uses ship category: Biological Ships",
-                    "(×<b style='color:lime'>5.0</b>) Any Owned Planet<br/>    •   One must be true<br/>\t    •   null<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has district: Agriculture District<br/>\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t    •   Has district: Orchard Forest<br/>\t\t    •   All must be false<br/>\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t    •   All must be true<br/>\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t    •   Owner<br/>\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t    •   Is Ocean World<br/>\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t    •   One must be true<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t    •   Has zone: Aquaculture<br/>\t\t    •   Has zone: Agrarian Villages<br/>\t\t    •   Has zone: Coastal Hamlets<br/>\t\t    •   Has zone: Solar Farming Bays",
-                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   null<br/>\t    •   Exists: this<br/>\t    •   Uses ship category: Biological Ships",
+                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   Uses ship category: Biological Ships",
+                    "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   Uses ship category: Biological Ships",
+                    "(×<b style='color:lime'>5.0</b>) Any Owned Planet<br/>    •   One must be true<br/>\t    •   null<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has district: Agriculture District<br/>\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t    •   Has district: Orchard Forest<br/>\t\t    •   All must be false<br/>\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t    •   All must be true<br/>\t\t\t\t    •   Owner<br/>\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t    •   Is Ocean World<br/>\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t    •   One must be true<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t    •   One must be true<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t    •   Has zone: Aquaculture<br/>\t\t    •   Has zone: Agrarian Villages<br/>\t\t    •   Has zone: Coastal Hamlets<br/>\t\t    •   Has zone: Solar Farming Bays",
+                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   Uses ship category: Biological Ships",
                     "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Has Government Civic: Agrarian Idyll<br/>    •   One must be true<br/>\t    •   Has Government Civic: Anglers<br/>\t    •   Has Government Civic: Trawling Operations<br/>\t    •   Has Government Civic: Marine Machines<br/>\t    •   Has Government Civic: Maritime Robotics",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Catalytic Processing<br/>    •   Has Government Civic: Catalytic Recyclers<br/>    •   Has Government Civic: Organic Reprocessing<br/>    •   Has Government Civic: Organic Retrofitting",
                     "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample"
@@ -357,11 +357,11 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
                             "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
                             "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag",
                             "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-                            "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                            "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                           ],
                           "potential": [],
                           "children": [],
@@ -406,12 +406,12 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
                     "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
                     "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                     "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-                    "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                    "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                   ],
                   "potential": [
                     "Does NOT have Wilderness Origin"
@@ -521,12 +521,12 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
                         "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
                         "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                         "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-                        "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                        "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                       ],
                       "potential": [
                         "Does NOT have Wilderness Origin"
@@ -558,13 +558,13 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
                             "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
                             "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Has council member with trait: Expertise: Biology<br/>    •   Has council member with trait: Curator",
                             "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                             "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-                            "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                            "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                           ],
                           "potential": [
                             "Does NOT have Machine Intelligence Authority",
@@ -751,7 +751,7 @@
               "prerequisites_names": [],
               "weight_modifiers": [],
               "potential": [
-                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -791,7 +791,7 @@
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                   ],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -831,211 +831,10 @@
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                       ],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
-                      "children": [
-                        {
-                          "key": "pseudo_tech_growth_chamber_2_tier2",
-                          "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 0.0,
-                          "category": "Biology",
-                          "cost": 12000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [],
-                          "tier": 2,
-                          "prerequisites_names": [],
-                          "weight_modifiers": [],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "pseudo_tech_growth_chamber_2_tier3",
-                              "area": "society",
-                              "base_factor": 1.0,
-                              "base_weight": 0.0,
-                              "category": "Biology",
-                              "cost": 12000,
-                              "feature_unlocks": [],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [],
-                              "tier": 3,
-                              "prerequisites_names": [],
-                              "weight_modifiers": [],
-                              "potential": [],
-                              "children": [
-                                {
-                                  "key": "tech_growth_chamber_2",
-                                  "name": "Advanced Growth Chamber",
-                                  "description": "The enhanced efficiency and capacity of Growth Chambers accelerates the cultivation of biological ships by refining their organic designs.",
-                                  "area": "society",
-                                  "base_factor": 3.0,
-                                  "base_weight": 105.0,
-                                  "category": "Biology",
-                                  "cost": 12000,
-                                  "feature_unlocks": [
-                                    "<b>Starbase Building</b>: Growth Chamber"
-                                  ],
-                                  "is_dangerous": false,
-                                  "is_rare": false,
-                                  "is_start_tech": false,
-                                  "prerequisites": [
-                                    "tech_mauler_growth_2",
-                                    "tech_weaver_growth_2",
-                                    "tech_harbinger_growth_2",
-                                    "tech_growth_chamber_1",
-                                    "tech_stinger_growth_2"
-                                  ],
-                                  "tier": 4,
-                                  "prerequisites_names": [
-                                    {
-                                      "name": "Growth Chamber",
-                                      "key": "tech_growth_chamber_1"
-                                    },
-                                    {
-                                      "name": "Advanced Mauler Development",
-                                      "key": "tech_mauler_growth_2"
-                                    },
-                                    {
-                                      "name": "Advanced Stinger Development",
-                                      "key": "tech_stinger_growth_2"
-                                    },
-                                    {
-                                      "name": "Advanced Weaver Development",
-                                      "key": "tech_weaver_growth_2"
-                                    },
-                                    {
-                                      "name": "Advanced Harbinger Development",
-                                      "key": "tech_harbinger_growth_2"
-                                    }
-                                  ],
-                                  "weight_modifiers": [
-                                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   One must be true<br/>\t    •   Has Militarist Ethic<br/>\t    •   Has Fanatic Militarist Ethic<br/>    •   Has Hive Mind Authority<br/>    •   Has Wilderness Origin"
-                                  ],
-                                  "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
-                                  ],
-                                  "children": [],
-                                  "is_event": false,
-                                  "source": "vanilla"
-                                }
-                              ],
-                              "is_event": false,
-                              "pseudo": true,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "pseudo": true,
-                          "source": "vanilla"
-                        }
-                      ],
+                      "children": [],
                       "is_event": false,
-                      "source": "vanilla"
-                    },
-                    {
-                      "key": "pseudo_tech_growth_chamber_1_tier2",
-                      "area": "society",
-                      "base_factor": 1.0,
-                      "base_weight": 0.0,
-                      "category": "Biology",
-                      "cost": 10000,
-                      "feature_unlocks": [],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [],
-                      "tier": 2,
-                      "prerequisites_names": [],
-                      "weight_modifiers": [],
-                      "potential": [],
-                      "children": [
-                        {
-                          "key": "pseudo_tech_growth_chamber_1_tier3",
-                          "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 0.0,
-                          "category": "Biology",
-                          "cost": 10000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [],
-                          "tier": 3,
-                          "prerequisites_names": [],
-                          "weight_modifiers": [],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_growth_chamber_1",
-                              "name": "Growth Chamber",
-                              "description": "The construction of Growth Chambers enables the organic cultivation of biological ships within the fleet.",
-                              "area": "society",
-                              "base_factor": 3.0,
-                              "base_weight": 120.0,
-                              "category": "Biology",
-                              "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Starbase Building</b>: Growth Chamber",
-                                "<b>Starbase Building</b>: Orbital Growth Chamber",
-                                "<b>Starbase Module</b>: Growth Chamber"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_mauler_growth_1",
-                                "tech_weaver_growth_1",
-                                "tech_harbinger_growth_1",
-                                "tech_stingers",
-                                "tech_stinger_growth_1"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Stingers",
-                                  "key": "tech_stingers"
-                                },
-                                {
-                                  "name": "Improved Mauler Development",
-                                  "key": "tech_mauler_growth_1"
-                                },
-                                {
-                                  "name": "Improved Stinger Development",
-                                  "key": "tech_stinger_growth_1"
-                                },
-                                {
-                                  "name": "Improved Weaver Development",
-                                  "key": "tech_weaver_growth_1"
-                                },
-                                {
-                                  "name": "Improved Harbinger Development",
-                                  "key": "tech_harbinger_growth_1"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   One must be true<br/>\t    •   Has Militarist Ethic<br/>\t    •   Has Fanatic Militarist Ethic<br/>    •   Has Hive Mind Authority<br/>    •   Has Wilderness Origin"
-                              ],
-                              "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
-                              ],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "pseudo": true,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "pseudo": true,
                       "source": "vanilla"
                     }
                   ],
@@ -1076,7 +875,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [],
                   "is_event": false,
@@ -1619,7 +1418,7 @@
               "prerequisites_names": [],
               "weight_modifiers": [],
               "potential": [
-                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -1647,7 +1446,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -1675,7 +1474,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -1705,7 +1504,7 @@
                             "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag"
                           ],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -1735,7 +1534,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -1765,7 +1564,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -2059,10 +1858,10 @@
           "tier": 0,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Exists: owner_or_space_owner<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
+            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   null<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has district: Agriculture District<br/>\t\t\t\t    •   Has district: Agricultural Segment<br/>\t\t\t\t    •   Has district: Orchard Forest<br/>\t\t\t    •   All must be false<br/>\t\t\t\t    •   Uses district set: shattered_ring_world<br/>\t\t\t\t    •   All must be true<br/>\t\t\t\t\t    •   Owner<br/>\t\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Anglers<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Trawling Operations<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Marine Machines<br/>\t\t\t\t\t\t\t    •   Has Government Civic: Maritime Robotics<br/>\t\t\t\t\t    •   Is Ocean World<br/>\t\t\t\t    •   Has carrier flag: uncapped_farming_districts<br/>\t\t    •   One must be true<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Bloomloom<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Agricultural Focus<br/>\t\t\t\t    •   Has zone: Ark Hydroponics<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t\t    •   Has zone: Exotic Gas Capture<br/>\t\t\t    •   Has zone: Aquaculture<br/>\t\t\t    •   Has zone: Agrarian Villages<br/>\t\t\t    •   Has zone: Coastal Hamlets<br/>\t\t\t    •   Has zone: Solar Farming Bays",
             "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   Founder Species :<br/>\t    •   Species :<br/>\t\t    •   Is archetype: Lithoid<br/>    •   Founder Species :<br/>\t    •   Is Thermophile<br/>    •   All must be true<br/>\t    •   null<br/>\t\t    •   Founder Species :<br/>\t\t\t    •   Is archetype: Machine<br/>\t\t    •   Does NOT have Gestalt Consciousness Ethic<br/>\t    •   Does NOT have the non_lithoid_subspecies country flag",
             "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample",
-            "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+            "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
           ],
           "potential": [
             "Does NOT have Wilderness Origin"
@@ -2157,7 +1956,7 @@
                         "(×<b style='color:lime'>10.0</b>) Has Mind Over Matter Ascension Perk"
                       ],
                       "potential": [
-                        "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Is active resolution: Extradimensional Experimentation\n    •   Has Relic: Psionic Archive",
+                        "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Is active resolution: Extradimensional Experimentation\n    •   Has Relic: Psionic Archive",
                         "Does NOT have MINDWARDEN_plural Origin"
                       ],
                       "children": [
@@ -2195,7 +1994,7 @@
                             "(×<b style='color:lime'>4.0</b>) One must be true<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III"
                           ],
                           "potential": [
-                            "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic"
+                            "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
                           ],
                           "children": [
                             {
@@ -2235,7 +2034,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Has Gestalt Consciousness Ethic"
                               ],
                               "potential": [
-                                "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic"
+                                "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
                               ],
                               "children": [],
                               "is_event": false,
@@ -2276,7 +2075,7 @@
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III"
                               ],
                               "potential": [
-                                "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic"
+                                "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
                               ],
                               "children": [],
                               "is_event": false,
@@ -2578,7 +2377,7 @@
               "prerequisites_names": [],
               "weight_modifiers": [],
               "potential": [
-                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -2606,7 +2405,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -2634,7 +2433,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -2664,7 +2463,7 @@
                             "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag"
                           ],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -2694,7 +2493,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -2724,7 +2523,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -3080,7 +2879,7 @@
                         "(×<b style='color:lime'>3.0</b>) Any System within borders<br/>    •   Any Planet<br/>\t    •   Is Volcanic World"
                       ],
                       "potential": [
-                        "has_infernals=yes"
+                        "Has DLC Infernals Species Pack"
                       ],
                       "children": [],
                       "is_event": false,
@@ -5521,7 +5320,7 @@
                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag"
                   ],
                   "potential": [
-                    "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   null\n\t\t    •   Exists: In Federation\n\t\t    •   Federation :\n\t\t\t    •   Has federation perk: A Union of Faith"
+                    "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   Federation :\n\t\t    •   Has federation perk: A Union of Faith"
                   ],
                   "children": [
                     {
@@ -5557,7 +5356,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   null\n\t\t    •   Exists: In Federation\n\t\t    •   Federation :\n\t\t\t    •   Has federation perk: A Union of Faith"
+                        "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   Federation :\n\t\t    •   Has federation perk: A Union of Faith"
                       ],
                       "children": [
                         {
@@ -5592,7 +5391,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   null\n\t\t    •   Exists: In Federation\n\t\t    •   Federation :\n\t\t\t    •   Has federation perk: A Union of Faith"
+                            "One must be true\n    •   One must be true\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be true\n\t    •   Does NOT have Gestalt Consciousness Ethic\n\t    •   Federation :\n\t\t    •   Has federation perk: A Union of Faith"
                           ],
                           "children": [],
                           "is_event": false,
@@ -5677,7 +5476,7 @@
                     "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has council member with trait: Curator<br/>    •   Has the Curator Insight modifier"
                   ],
                   "potential": [
-                    "has_grand_archive_dlc=yes"
+                    "Has DLC Grand Archive"
                   ],
                   "children": [],
                   "is_event": false,
@@ -7165,7 +6964,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Xenophile Ethic<br/>    •   All must be true<br/>\t    •   Has Xenophobe Ethic<br/>\t    •   Does NOT have ai personality: xenophobic_isolationists",
                 "(×<b style='color:lime'>3.0</b>) One must be true<br/>    •   Has Fanatic Xenophile Ethic<br/>    •   All must be true<br/>\t    •   Has Fanatic Xenophobe Ethic<br/>\t    •   Does NOT have ai personality: xenophobic_isolationists",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Isolated Valley<br/>\t\t    •   Has deposit Avian Reserve<br/>\t\t    •   Any Owned Pop<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Pop is NOT Sapient<br/>\t\t\t\t    •   Has slavery type: Livestock: root<br/>\t\t\t\t    •   null<br/>\t\t\t\t\t    •   Exists: Owner<br/>\t\t\t\t\t    •   One must be true<br/>\t\t\t\t\t\t    •   Has citizenship type: Protected Drones: Owner<br/>\t\t\t\t\t\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t\t\t\t\t\t    •   Has citizenship type: Exploited Drones: Owner",
+                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Isolated Valley<br/>\t\t    •   Has deposit Avian Reserve<br/>\t\t    •   Any Owned Pop<br/>\t\t\t    •   One must be true<br/>\t\t\t\t    •   Pop is NOT Sapient<br/>\t\t\t\t    •   Has slavery type: Livestock: root<br/>\t\t\t\t    •   One must be true<br/>\t\t\t\t\t    •   Has citizenship type: Protected Drones: Owner<br/>\t\t\t\t\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t\t\t\t\t    •   Has citizenship type: Exploited Drones: Owner",
                 "(×<b style='color:red'>0.0</b>) One must be true<br/>    •   Has Government Civic: Genesis Guides<br/>    •   Has Government Civic: Genesis Symbiotes<br/>    •   Has Government Civic: Genesis Architects<br/>    •   Has Government Civic: Astrogenesis Technologies",
                 "(×<b style='color:lime'>2.0</b>) Has Relic: Javorian Pox Sample"
               ],
@@ -7407,7 +7206,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -7608,6 +7407,240 @@
           "source": "vanilla"
         },
         {
+          "key": "pseudo_tech_growth_chamber_1_tier0",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Biology",
+          "cost": 10000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_growth_chamber_1_tier1",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Biology",
+              "cost": 10000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_growth_chamber_1_tier2",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Biology",
+                  "cost": 10000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_growth_chamber_1_tier3",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Biology",
+                      "cost": 10000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_growth_chamber_1",
+                          "name": "Growth Chamber",
+                          "description": "The construction of Growth Chambers enables the organic cultivation of biological ships within the fleet.",
+                          "area": "society",
+                          "base_factor": 3.0,
+                          "base_weight": 120.0,
+                          "category": "Biology",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>Starbase Building</b>: Growth Chamber",
+                            "<b>Starbase Building</b>: Orbital Growth Chamber",
+                            "<b>Starbase Module</b>: Growth Chamber"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   One must be true<br/>\t    •   Has Militarist Ethic<br/>\t    •   Has Fanatic Militarist Ethic<br/>    •   Has Hive Mind Authority<br/>    •   Has Wilderness Origin"
+                          ],
+                          "potential": [
+                            "Uses ship category: Biological Ships"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "pseudo_tech_growth_chamber_2_tier0",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Biology",
+          "cost": 12000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_growth_chamber_2_tier1",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Biology",
+              "cost": 12000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_growth_chamber_2_tier2",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Biology",
+                  "cost": 12000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_growth_chamber_2_tier3",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Biology",
+                      "cost": 12000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_growth_chamber_2",
+                          "name": "Advanced Growth Chamber",
+                          "description": "The enhanced efficiency and capacity of Growth Chambers accelerates the cultivation of biological ships by refining their organic designs.",
+                          "area": "society",
+                          "base_factor": 3.0,
+                          "base_weight": 105.0,
+                          "category": "Biology",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "<b>Starbase Building</b>: Growth Chamber"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   One must be true<br/>\t    •   Has Militarist Ethic<br/>\t    •   Has Fanatic Militarist Ethic<br/>    •   Has Hive Mind Authority<br/>    •   Has Wilderness Origin"
+                          ],
+                          "potential": [
+                            "Uses ship category: Biological Ships"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
           "key": "pseudo_tech_neural_implants_tier0",
           "area": "society",
           "base_factor": 1.0,
@@ -7647,9 +7680,9 @@
               "tier": 1,
               "prerequisites_names": [],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.5</b>) Has a number of pops greater than or equal to 1000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   null<br/>\t    •   Exists: Owner<br/>\t    •   One must be true<br/>\t\t    •   Has citizenship type: Protected Drones: Owner<br/>\t\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t\t    •   Has citizenship type: Exploited Drones: Owner",
-                "(×<b style='color:lime'>2.0</b>) Has a number of pops greater than or equal to 2000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   null<br/>\t    •   Exists: Owner<br/>\t    •   One must be true<br/>\t\t    •   Has citizenship type: Protected Drones: Owner<br/>\t\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t\t    •   Has citizenship type: Exploited Drones: Owner",
-                "(×<b style='color:lime'>2.0</b>) Has a number of pops greater than or equal to 3000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   null<br/>\t    •   Exists: Owner<br/>\t    •   One must be true<br/>\t\t    •   Has citizenship type: Protected Drones: Owner<br/>\t\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t\t    •   Has citizenship type: Exploited Drones: Owner"
+                "(×<b style='color:lime'>1.5</b>) Has a number of pops greater than or equal to 1000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   One must be true<br/>\t    •   Has citizenship type: Protected Drones: Owner<br/>\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t    •   Has citizenship type: Exploited Drones: Owner",
+                "(×<b style='color:lime'>2.0</b>) Has a number of pops greater than or equal to 2000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   One must be true<br/>\t    •   Has citizenship type: Protected Drones: Owner<br/>\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t    •   Has citizenship type: Exploited Drones: Owner",
+                "(×<b style='color:lime'>2.0</b>) Has a number of pops greater than or equal to 3000<br/>    •   One must be true<br/>    •   Pop is enslaved<br/>    •   One must be true<br/>\t    •   Has citizenship type: Protected Drones: Owner<br/>\t    •   Has citizenship type: Symbiotic Drones: Owner<br/>\t    •   Has citizenship type: Exploited Drones: Owner"
               ],
               "potential": [
                 "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: Awakened Marauders\n\t    •   Is of country type: Fallen Empire\n\t    •   Is of country type: Awakened Empire\n\t    •   Is of country type: exiled\n    •   Does NOT have Gestalt Consciousness Ethic",
@@ -7861,7 +7894,7 @@
                     "(×<b style='color:red'>0.0</b>) Has MINDWARDEN_plural Origin"
                   ],
                   "potential": [
-                    "has_shroud_dlc=yes",
+                    "Has DLC Shadows of the Shroud",
                     "Has the has_encountered_psionic_auras country flag"
                   ],
                   "children": [],
@@ -7987,7 +8020,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -8990,7 +9023,7 @@
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
               ],
               "potential": [
-                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -9018,7 +9051,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -9046,7 +9079,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -9074,7 +9107,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -9104,7 +9137,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -9134,7 +9167,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [
                                     {
@@ -9164,7 +9197,7 @@
                                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                       ],
                                       "potential": [
-                                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                        "Uses ship category: Biological Ships"
                                       ],
                                       "children": [],
                                       "is_event": false,
@@ -9215,7 +9248,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -9243,7 +9276,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -9271,7 +9304,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -9301,7 +9334,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -9331,7 +9364,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [
                                     {
@@ -9361,7 +9394,7 @@
                                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                       ],
                                       "potential": [
-                                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                        "Uses ship category: Biological Ships"
                                       ],
                                       "children": [],
                                       "is_event": false,
@@ -9412,7 +9445,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -9440,7 +9473,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -9468,7 +9501,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -9498,7 +9531,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Exotic Gas Extraction<br/>    •   Has Technology: Exotic Gas Refining<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -9528,7 +9561,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Exotic Gas Extraction<br/>    •   Has Technology: Exotic Gas Refining<br/>    •   Has the has_market_access country flag"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [
                                     {
@@ -9558,7 +9591,7 @@
                                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                       ],
                                       "potential": [
-                                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                        "Uses ship category: Biological Ships"
                                       ],
                                       "children": [],
                                       "is_event": false,
@@ -9609,7 +9642,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -9637,7 +9670,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -9665,7 +9698,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -9695,7 +9728,7 @@
                                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -9725,7 +9758,7 @@
                                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [
                                     {
@@ -9755,7 +9788,7 @@
                                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Is of country type: Fallen Empire<br/>    •   Is of country type: Awakened Empire"
                                       ],
                                       "potential": [
-                                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                        "Uses ship category: Biological Ships"
                                       ],
                                       "children": [],
                                       "is_event": false,
@@ -9815,7 +9848,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [],
                   "is_event": false,
@@ -9858,7 +9891,7 @@
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                   ],
                   "potential": [
-                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -9898,7 +9931,7 @@
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                       ],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [],
                       "is_event": false,
@@ -9959,7 +9992,7 @@
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                       ],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -9998,7 +10031,7 @@
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                           ],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -10038,7 +10071,7 @@
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [],
                               "is_event": false,
@@ -10082,7 +10115,7 @@
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                           ],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -10119,7 +10152,7 @@
                               ],
                               "weight_modifiers": [],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [],
                               "is_event": false,
@@ -10161,7 +10194,7 @@
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                               ],
                               "potential": [
-                                "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -10201,7 +10234,7 @@
                                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                                   ],
                                   "potential": [
-                                    "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "Uses ship category: Biological Ships"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -10249,7 +10282,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -11035,7 +11068,7 @@
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops "
                               ],
                               "potential": [
-                                "has_machine_age_dlc=yes",
+                                "Has DLC The Machine Age",
                                 "Has Cosmogenesis Ascension Perk",
                                 "Has Technology: Scalable Reservoir Computing"
                               ],
@@ -11658,7 +11691,7 @@
                                 "(×<b style='color:red'>0.025</b>) Does NOT have crisis level: Risk",
                                 "(×<b style='color:lime'>1.5</b>) Has Enigmatic Engineering Ascension Perk",
                                 "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Does NOT have a number of pops ",
-                                "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                                "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                               ],
                               "potential": [],
                               "children": [
@@ -11689,8 +11722,8 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:red'>0.0</b>) Does NOT have Cosmogenesis Ascension Perk",
-                                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   null<br/>\t    •   Exists: this<br/>\t    •   Uses ship category: Biological Ships",
-                                    "(×<b style='color:lime'>2.0</b>) null<br/>    •   Exists: this<br/>    •   Uses ship category: Biological Ships"
+                                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   If<br/>\t    •   Resource expenses compare: Food: 0<br/>\t    •   Resource expenses compare: Minerals: 0<br/>\t    •   Resource expenses compare: Energy Credits: 0<br/>    •   Otherwise<br/>    •   Uses ship category: Biological Ships",
+                                    "(×<b style='color:lime'>2.0</b>) Uses ship category: Biological Ships"
                                   ],
                                   "potential": [],
                                   "children": [],

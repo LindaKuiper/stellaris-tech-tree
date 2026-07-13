@@ -168,7 +168,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -194,7 +194,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -246,7 +246,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_grand_archive_dlc=yes"
+      "Has DLC Grand Archive"
     ],
     "children": [],
     "is_event": true,
@@ -275,7 +275,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -310,7 +310,7 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -344,7 +344,7 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -370,7 +370,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_grand_archive_dlc=yes"
+      "Has DLC Grand Archive"
     ],
     "children": [],
     "is_event": true,
@@ -397,7 +397,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_nemesis=yes",
+      "Has DLC Nemesis",
       "Has Galactic Nemesis Ascension Perk",
       "Has the can_build_star_eaters country flag"
     ],
@@ -436,8 +436,8 @@
       "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
     ],
     "potential": [
-      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
-      "has_first_contact_dlc=yes"
+      "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -475,8 +475,8 @@
       "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
     ],
     "potential": [
-      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
-      "has_first_contact_dlc=yes"
+      "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -539,7 +539,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -575,7 +575,7 @@
       "(×) Has council member with trait: Curator"
     ],
     "potential": [
-      "has_grand_archive_dlc=yes"
+      "Has DLC Grand Archive"
     ],
     "children": [],
     "is_event": true,
@@ -599,8 +599,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "All must be false\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -624,8 +624,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "All must be false\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -649,7 +649,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -674,7 +674,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -699,7 +699,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -724,7 +724,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -749,7 +749,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -774,8 +774,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "All must be false\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -799,8 +799,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -824,8 +824,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -849,8 +849,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -874,8 +874,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
-      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+      "Has DLC The Machine Age",
+      "Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -901,7 +901,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes",
+      "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
     "children": [],
@@ -1088,7 +1088,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes",
+      "Has DLC Shadows of the Shroud",
       "Is NOT Nomadic"
     ],
     "children": [],
@@ -1367,7 +1367,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -1425,7 +1425,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes"
+      "Has DLC The Machine Age"
     ],
     "children": [],
     "is_event": true,
@@ -1449,7 +1449,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes"
+      "Has DLC The Machine Age"
     ],
     "children": [],
     "is_event": true,
@@ -1499,7 +1499,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -1527,7 +1527,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -1553,7 +1553,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -1722,7 +1722,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_machine_age_dlc=yes"
+      "Has DLC The Machine Age"
     ],
     "children": [],
     "is_event": true,
@@ -1774,7 +1774,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -1800,7 +1800,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -1852,7 +1852,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -1878,7 +1878,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -1942,7 +1942,7 @@
       "(×<b style='color:lime'>1.5</b>) Has the jaunted_traveler_secret_revealed country flag"
     ],
     "potential": [
-      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic"
+      "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
     ],
     "children": [
       {
@@ -1976,8 +1976,8 @@
           "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
         ],
         "potential": [
-          "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
-          "has_first_contact_dlc=yes"
+          "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
+          "Has DLC First Contact Story Pack"
         ],
         "children": [],
         "is_event": true,
@@ -2010,7 +2010,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -2075,7 +2075,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -2105,7 +2105,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -2133,7 +2133,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -2198,7 +2198,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,
@@ -2248,7 +2248,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_astral_planes_dlc=yes"
+      "Has DLC Astral Planes"
     ],
     "children": [],
     "is_event": true,
@@ -2311,7 +2311,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -2658,7 +2658,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -2711,7 +2711,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -2768,7 +2768,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -3026,7 +3026,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -3053,7 +3053,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_grand_archive_dlc=yes"
+      "Has DLC Grand Archive"
     ],
     "children": [],
     "is_event": true,
@@ -3080,7 +3080,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_first_contact_dlc=yes"
+      "Has DLC First Contact Story Pack"
     ],
     "children": [],
     "is_event": true,
@@ -3143,7 +3143,7 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "Has DLC Shadows of the Shroud"
     ],
     "children": [],
     "is_event": true,

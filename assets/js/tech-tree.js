@@ -87,7 +87,8 @@ function setup(tech) {
         prereqMap[tech.key] = tech.prerequisites;
     }
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
-        + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
+        + (!tech.is_dangerous && tech.is_rare ? ' rare' : '')
+        + (tech.is_event ? ' anomaly' : '');
 
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
@@ -150,8 +151,10 @@ function setup_search() {
         nodes.forEach(n => {
             const match = n.text.toLowerCase().includes(term);
             n.node.style.opacity = match ? 1 : 0.1;
-            if (match && !first) first = n.node;
-            if (!firstByName && n.name.toLowerCase().includes(term)) firstByName = n.node;
+            // only scroll to visible nodes (other tabs' trees are hidden)
+            const visible = n.node.offsetParent !== null;
+            if (match && visible && !first) first = n.node;
+            if (!firstByName && visible && n.name.toLowerCase().includes(term)) firstByName = n.node;
         })
         // bring the best match into view - prefer a tech whose name matches
         // over one that only mentions the term in its tooltip
@@ -287,17 +290,37 @@ function load_tree() {
         }
     });
     $.getJSON('anomalies.json', function(jsonData) {
-        // Event techs don't really need a Tree
-        $(jsonData).each(function(index, item) {
-            setup(item);
-            var e = $("<div>").html(item.innerHTML);
-            e.attr("id", item.key);
-            e.attr("class",item.HTMLclass)
-            e.addClass("node").addClass("tech").addClass("anomaly");
-            $('#tech-tree-anomalies').append(e);
+        // Event techs form small chains - render them as a tree with connector
+        // lines like the other pages. Rebuild parent/child links from the
+        // prerequisites (the serialized children are incomplete and contain
+        // duplicated copies).
+        // the list contains follow-up techs twice (standalone and nested)
+        const seen = new Set();
+        jsonData = jsonData.filter(i => { if (seen.has(i.key)) return false; seen.add(i.key); return true; });
+        const byKey = new Map(jsonData.map(i => [i.key, i]));
+        jsonData.forEach(i => i.children = []);
+        const hasParent = new Set();
+        jsonData.forEach(item => {
+            const parentKey = (item.prerequisites || []).find(p => byKey.has(p));
+            if (parentKey) {
+                byKey.get(parentKey).children.push(item);
+                hasParent.add(item.key);
+            }
         });
-        init_nodestatus('anomalies');
-        init_tooltips();
+        const roots = jsonData.filter(item => !hasParent.has(item.key));
+        // group by research area, then by name, so the layout is predictable
+        roots.sort((a, b) => (a.area + ' ' + a.name).localeCompare(b.area + ' ' + b.name));
+
+        roots.forEach(item => setup(item));
+        const rootNode = { HTMLclass: 'anomalies', innerHTML: '', children: roots };
+        var myconfig = { container: '#tech-tree-anomalies' };
+        $.extend(true, myconfig, config);
+        // the container starts hidden; Treant needs it visible to measure the layout
+        const container = document.querySelector('#tech-tree-anomalies');
+        const wasHidden = container.classList.contains('float-NoDisplay');
+        container.classList.remove('float-NoDisplay');
+        charts['anomalies'] = new Treant({ chart: myconfig, nodeStructure: rootNode }, function() {}, $);
+        if (wasHidden) container.classList.add('float-NoDisplay');
     });
     if(window.indexedDB) {
         initDB();

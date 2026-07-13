@@ -2948,7 +2948,7 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has megastructure: Arc Furnace: Equatorial Band<br/>    •   Has megastructure: Arc Furnace: Borehole Pumps<br/>    •   Has megastructure: Arc Furnace: Mohole Extractors<br/>    •   Has megastructure: Arc Furnace"
                   ],
                   "potential": [
-                    "has_machine_age_dlc=yes"
+                    "Has DLC The Machine Age"
                   ],
                   "children": [],
                   "is_event": false,
@@ -3376,7 +3376,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "One must be true\n    •   All must be false\n\t    •   Exists: this\n\t    •   Uses ship category: Biological Ships\n    •   Has Flood of Supremacy Tradition\n    •   Has crisis level: Risk\n    •   Has Technology: Riddle Escort"
+            "One must be true\n    •   All must be false\n\t    •   Uses ship category: Biological Ships\n    •   Has Flood of Supremacy Tradition\n    •   Has crisis level: Risk\n    •   Has Technology: Riddle Escort"
           ],
           "children": [
             {
@@ -3415,7 +3415,7 @@
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
               ],
               "potential": [
-                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "All must be false\n    •   Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -3449,7 +3449,7 @@
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                   ],
                   "potential": [
-                    "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "All must be false\n    •   Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -3484,7 +3484,7 @@
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                       ],
                       "potential": [
-                        "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "All must be false\n    •   Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -3517,7 +3517,7 @@
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                           ],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -3747,93 +3747,6 @@
                                 {
                                   "name": "Kinetic Battery",
                                   "key": "tech_kinetic_artillery_1"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                              ],
-                              "potential": [],
-                              "children": [],
-                              "is_event": false,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "source": "vanilla"
-                        },
-                        {
-                          "key": "tech_mass_accelerator_1",
-                          "name": "Mega Cannon",
-                          "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
-                          "area": "engineering",
-                          "base_factor": 1.0,
-                          "base_weight": 40.0,
-                          "category": "Propulsion",
-                          "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Mega Bombard",
-                            "<b>Component</b>: Mega Cannon",
-                            "<b>Starbase Module</b>: Mass Accelerators"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_mass_drivers_4",
-                            "tech_battleships",
-                            "tech_stingers"
-                          ],
-                          "tier": 4,
-                          "prerequisites_names": [
-                            {
-                              "name": "Advanced Railguns",
-                              "key": "tech_mass_drivers_4"
-                            },
-                            {
-                              "name": "Battleships",
-                              "key": "tech_battleships"
-                            },
-                            {
-                              "name": "Stingers",
-                              "key": "tech_stingers"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
-                          ],
-                          "potential": [],
-                          "children": [
-                            {
-                              "key": "tech_mass_accelerator_2",
-                              "name": "Giga Cannon",
-                              "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
-                              "area": "engineering",
-                              "base_factor": 1.0,
-                              "base_weight": 35.0,
-                              "category": "Propulsion",
-                              "cost": 12000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Giga Bombard",
-                                "<b>Component</b>: Giga Cannon"
-                              ],
-                              "is_dangerous": false,
-                              "is_rare": false,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_mass_accelerator_1",
-                                "tech_mass_drivers_5"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Gauss Cannons",
-                                  "key": "tech_mass_drivers_5"
-                                },
-                                {
-                                  "name": "Mega Cannon",
-                                  "key": "tech_mass_accelerator_1"
                                 }
                               ],
                               "weight_modifiers": [
@@ -4482,7 +4395,7 @@
                         "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk"
                       ],
                       "potential": [
-                        "has_biogenesis_dlc=yes",
+                        "Has DLC BioGenesis",
                         "Is NOT Nomadic"
                       ],
                       "children": [],
@@ -4535,7 +4448,7 @@
                         "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition"
                       ],
                       "potential": [
-                        "has_overlord_dlc=yes",
+                        "Has DLC Overlord",
                         "Is NOT Nomadic"
                       ],
                       "children": [],
@@ -4791,7 +4704,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+            "All must be false\n    •   Uses ship category: Biological Ships"
           ],
           "children": [
             {
@@ -4837,7 +4750,7 @@
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
               ],
               "potential": [
-                "One must be true\n    •   All must be false\n\t    •   Exists: this\n\t    •   Uses ship category: Biological Ships\n    •   Has Flood of Supremacy Tradition\n    •   Has crisis level: Risk\n    •   Has Technology: Riddle Escort"
+                "One must be true\n    •   All must be false\n\t    •   Uses ship category: Biological Ships\n    •   Has Flood of Supremacy Tradition\n    •   Has crisis level: Risk\n    •   Has Technology: Riddle Escort"
               ],
               "children": [
                 {
@@ -4888,7 +4801,7 @@
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                       ],
                       "potential": [
-                        "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "All must be false\n    •   Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -4922,7 +4835,7 @@
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                           ],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -4993,7 +4906,7 @@
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                   ],
                   "potential": [
-                    "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "All must be false\n    •   Uses ship category: Biological Ships"
                   ],
                   "children": [
                     {
@@ -5027,7 +4940,7 @@
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                       ],
                       "potential": [
-                        "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "All must be false\n    •   Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -5062,7 +4975,7 @@
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                           ],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -5107,7 +5020,7 @@
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                       ],
                       "potential": [
-                        "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "All must be false\n    •   Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -5145,7 +5058,7 @@
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                           ],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -5179,7 +5092,7 @@
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                               ],
                               "potential": [
-                                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "All must be false\n    •   Uses ship category: Biological Ships"
                               ],
                               "children": [
                                 {
@@ -5214,7 +5127,7 @@
                                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                                   ],
                                   "potential": [
-                                    "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                    "All must be false\n    •   Uses ship category: Biological Ships"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -5254,7 +5167,7 @@
                               ],
                               "weight_modifiers": [],
                               "potential": [
-                                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "All must be false\n    •   Uses ship category: Biological Ships"
                               ],
                               "children": [],
                               "is_event": false,
@@ -5294,7 +5207,7 @@
                           ],
                           "weight_modifiers": [],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -5331,7 +5244,7 @@
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                           ],
                           "potential": [
-                            "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "All must be false\n    •   Uses ship category: Biological Ships"
                           ],
                           "children": [
                             {
@@ -5366,7 +5279,7 @@
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
                               ],
                               "potential": [
-                                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                                "All must be false\n    •   Uses ship category: Biological Ships"
                               ],
                               "children": [],
                               "is_event": false,
@@ -5410,7 +5323,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "All must be false\n    •   Uses ship category: Biological Ships"
                       ],
                       "children": [],
                       "is_event": false,
@@ -5455,7 +5368,7 @@
               ],
               "weight_modifiers": [],
               "potential": [
-                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "All must be false\n    •   Uses ship category: Biological Ships"
               ],
               "children": [
                 {
@@ -5490,7 +5403,7 @@
                     "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Has council member with trait: Curator<br/>    •   Has council member with trait: Spark of Genius<br/>    •   Has council member with trait: Spark of Genius II<br/>    •   Has council member with trait: Expertise: Voidcraft"
                   ],
                   "potential": [
-                    "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                    "All must be false\n    •   Uses ship category: Biological Ships"
                   ],
                   "children": [],
                   "is_event": false,
@@ -5531,7 +5444,7 @@
               ],
               "weight_modifiers": [],
               "potential": [
-                "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                "All must be false\n    •   Uses ship category: Biological Ships"
               ],
               "children": [],
               "is_event": false,
@@ -6280,7 +6193,7 @@
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                       ],
                       "potential": [
-                        "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                        "Uses ship category: Biological Ships"
                       ],
                       "children": [
                         {
@@ -6313,7 +6226,7 @@
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
                           ],
                           "potential": [
-                            "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
+                            "Uses ship category: Biological Ships"
                           ],
                           "children": [],
                           "is_event": false,
@@ -6424,7 +6337,7 @@
                           "prerequisites_names": [],
                           "weight_modifiers": [],
                           "potential": [
-                            "has_machine_age_dlc=yes",
+                            "Has DLC The Machine Age",
                             "Has the advanced_identity_creation country flag"
                           ],
                           "children": [],
@@ -6897,6 +6810,164 @@
           "source": "vanilla"
         },
         {
+          "key": "pseudo_tech_mass_accelerator_1_tier0",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Propulsion",
+          "cost": 10000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "pseudo_tech_mass_accelerator_1_tier1",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 0.0,
+              "category": "Propulsion",
+              "cost": 10000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [],
+              "tier": 1,
+              "prerequisites_names": [],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [
+                {
+                  "key": "pseudo_tech_mass_accelerator_1_tier2",
+                  "area": "engineering",
+                  "base_factor": 1.0,
+                  "base_weight": 0.0,
+                  "category": "Propulsion",
+                  "cost": 10000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [],
+                  "tier": 2,
+                  "prerequisites_names": [],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "pseudo_tech_mass_accelerator_1_tier3",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 0.0,
+                      "category": "Propulsion",
+                      "cost": 10000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [],
+                      "tier": 3,
+                      "prerequisites_names": [],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_mass_accelerator_1",
+                          "name": "Mega Cannon",
+                          "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
+                          "area": "engineering",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "Propulsion",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>Component</b>: Mega Bombard",
+                            "<b>Component</b>: Mega Cannon",
+                            "<b>Starbase Module</b>: Mass Accelerators"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [],
+                          "tier": 4,
+                          "prerequisites_names": [],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                            "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_mass_accelerator_2",
+                              "name": "Giga Cannon",
+                              "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
+                              "area": "engineering",
+                              "base_factor": 1.0,
+                              "base_weight": 35.0,
+                              "category": "Propulsion",
+                              "cost": 12000,
+                              "feature_unlocks": [
+                                "<b>Component</b>: Giga Bombard",
+                                "<b>Component</b>: Giga Cannon"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_mass_accelerator_1",
+                                "tech_mass_drivers_5"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "Gauss Cannons",
+                                  "key": "tech_mass_drivers_5"
+                                },
+                                {
+                                  "name": "Mega Cannon",
+                                  "key": "tech_mass_accelerator_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "pseudo": true,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "pseudo": true,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "pseudo": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "pseudo": true,
+          "source": "vanilla"
+        },
+        {
           "key": "pseudo_tech_fe_assembly_1_tier0",
           "area": "engineering",
           "base_factor": 1.0,
@@ -7114,7 +7185,7 @@
                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
               ],
               "potential": [
-                "has_cosmic_storms_dlc=yes"
+                "Has DLC Cosmic Storms"
               ],
               "children": [
                 {
@@ -7149,7 +7220,7 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                   ],
                   "potential": [
-                    "has_cosmic_storms_dlc=yes"
+                    "Has DLC Cosmic Storms"
                   ],
                   "children": [
                     {
@@ -7201,7 +7272,7 @@
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                           ],
                           "potential": [
-                            "has_cosmic_storms_dlc=yes"
+                            "Has DLC Cosmic Storms"
                           ],
                           "children": [],
                           "is_event": false,
@@ -7242,7 +7313,7 @@
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                       ],
                       "potential": [
-                        "has_cosmic_storms_dlc=yes"
+                        "Has DLC Cosmic Storms"
                       ],
                       "children": [
                         {
@@ -7275,7 +7346,7 @@
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                           ],
                           "potential": [
-                            "has_cosmic_storms_dlc=yes"
+                            "Has DLC Cosmic Storms"
                           ],
                           "children": [],
                           "is_event": false,
@@ -7316,7 +7387,7 @@
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                       ],
                       "potential": [
-                        "has_cosmic_storms_dlc=yes"
+                        "Has DLC Cosmic Storms"
                       ],
                       "children": [
                         {
@@ -7350,7 +7421,7 @@
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                           ],
                           "potential": [
-                            "has_cosmic_storms_dlc=yes"
+                            "Has DLC Cosmic Storms"
                           ],
                           "children": [],
                           "is_event": false,
@@ -7398,7 +7469,7 @@
                     "(×<b style='color:red'>0.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   Number of cosmic storms encountered is lower than 3"
                   ],
                   "potential": [
-                    "has_cosmic_storms_dlc=yes"
+                    "Has DLC Cosmic Storms"
                   ],
                   "children": [
                     {
@@ -7432,7 +7503,7 @@
                         "(×<b style='color:red'>0.5</b>) Number of cosmic storms encountered is lower than 5"
                       ],
                       "potential": [
-                        "has_cosmic_storms_dlc=yes"
+                        "Has DLC Cosmic Storms"
                       ],
                       "children": [],
                       "is_event": false,
@@ -7474,7 +7545,7 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Storm Chasers Origin<br/>    •   One must be true<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Astrometeorology<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Climate Modeling<br/>\t\t    •   Has Government Civic: Weather Exploitation<br/>\t    •   One must be true<br/>\t\t    •   Has Government Civic: Storm Devotion<br/>\t\t    •   Has Government Civic: Storm Influencers"
                   ],
                   "potential": [
-                    "has_cosmic_storms_dlc=yes",
+                    "Has DLC Cosmic Storms",
                     "Does NOT have Wilderness Origin"
                   ],
                   "children": [],
@@ -8045,7 +8116,7 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has megastructure: Stellar Cannon<br/>    •   Has megastructure: Stellar Cannon 1<br/>    •   Has megastructure: Stellar Cannon 2<br/>    •   Has megastructure: Stellar Cannon 3"
                   ],
                   "potential": [
-                    "has_nomads_dlc=yes",
+                    "Has DLC Nomads",
                     "Is NOT Nomadic"
                   ],
                   "children": [],
@@ -8148,7 +8219,7 @@
                           "prerequisites_names": [],
                           "weight_modifiers": [],
                           "potential": [
-                            "has_machine_age_dlc=yes",
+                            "Has DLC The Machine Age",
                             "Has the advanced_identity_creation country flag"
                           ],
                           "children": [],
@@ -9923,7 +9994,7 @@
                                     "(×<b style='color:lime'>6.0</b>) Has Galactic Force Projection Ascension Perk"
                                   ],
                                   "potential": [
-                                    "has_federations_dlc=yes",
+                                    "Has DLC Federations",
                                     "Is NOT Nomadic"
                                   ],
                                   "children": [],
