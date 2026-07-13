@@ -147,7 +147,7 @@
 
     <script>
       window.routes = [
-          { name: 'Pegasus 4.4.6', route: 'pegasus-4.4.6',     title: 'Stellaris 4.4.6 (Pegasus)', },
+          { name: 'Pegasus 4.4.6', route: 'pegasus-4.4.6',     title: 'Stellaris 4.4.6 (Pegasus)', author: 'Claude Code Fable', },
           { name: 'Orion 3.6.0',   route: 'orion-3.6.0',       title: 'Stellaris 3.6.0 (Orion)', },
           { name: 'Fornax 3.5.3',   route: 'vanilla',       title: 'Stellaris 3.5.3 (Fornax)', },
           { name: 'Cepheus 3.4.3',   route: 'cepheus-3.4.3',       title: 'Stellaris 3.4.3 (Cepheus)', },
@@ -166,8 +166,11 @@
       ];
       $(document).ready(function(){
         routes.forEach(page => {
-          const ele = $(`<li><a>${page.name}</a></li>`);
-          ele.on("click", function() { load_page(page.route,page.title) });
+          // bind the click on the link itself, not the full-width list item
+          const link = $(`<a>${page.name}</a>`);
+          link.on("click", function() { load_page(page.route,page.title) });
+          const ele = $('<li></li>').append(link)
+              .append(` <span style="color:#888">(${page.author || 'Turanar'})</span>`);
           $('#tech-pages').append(ele);
         });
       });
@@ -177,11 +180,6 @@
     <body>
       <b>Technology</b>
       <ul id="tech-pages">
-      </ul>
-
-      <b>Job List</b>
-      <ul>
-        <li><a href="jobs/index.html">Stellaris 2.2.7 Jobs List (WIP)</a></li>
       </ul>
 
       <p>
