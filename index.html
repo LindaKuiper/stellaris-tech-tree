@@ -115,10 +115,10 @@
         $('<link>').appendTo('head').attr({
             type: 'text/css',
             rel: 'stylesheet',
-            href: '../assets/css/tech-tree.css?v=20260713d'
+            href: '../assets/css/tech-tree.css?v=20260713e'
         });
         $('body').load('../assets/html/body.html', function() {
-            var assets_version = '20260713d';
+            var assets_version = '20260713e';
             $('<script>').appendTo('head').attr({ src: '../assets/js/header.js?v=' + assets_version });
             // tech-tree.js calls into tech-tracking.js, so load them in order
             var tracking = document.createElement('script');

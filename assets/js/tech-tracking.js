@@ -25,13 +25,25 @@ function realChildNodes(area, node, acc) {
 // All connector segments between this node and its real parent (through pseudo nodes)
 function incomingConnectors(area, node) {
     var list = [];
-    if (node.connector) list.push(node.connector[0]);
+    if (node.connector) list.push(node.connector);
     var parent = undefined !== node.parentId ? charts[area].tree.nodeDB.db[node.parentId] : undefined;
     while (parent && parent.pseudo) {
-        if (parent.connector) list.push(parent.connector[0]);
+        if (parent.connector) list.push(parent.connector);
         parent = undefined !== parent.parentId ? charts[area].tree.nodeDB.db[parent.parentId] : undefined;
     }
     return list;
+}
+
+// Colored connectors must be raised above overlapping uncolored ones,
+// otherwise long lines only show their color where nothing crosses them
+function colorConnector(conn, cls, add) {
+    var el = conn.node || conn[0];
+    if (add) {
+        $(el).addClass(cls);
+        if (conn.toFront) conn.toFront();
+    } else {
+        $(el).removeClass(cls);
+    }
 }
 
 function init_nodestatus(area) {
@@ -120,10 +132,10 @@ function updateResearch(area, name, active) {
 
         if(inode == null) return;
 
-        incomingConnectors(area, inode).forEach(function(c) { $(c).addClass("active"); });
+        incomingConnectors(area, inode).forEach(function(c) { colorConnector(c, "active", true); });
 
         for(const child of realChildNodes(area, inode)) {
-            incomingConnectors(area, child).forEach(function(c) { $(c).addClass(area); });
+            incomingConnectors(area, child).forEach(function(c) { colorConnector(c, area, true); });
         }
 
     } else {
@@ -133,11 +145,11 @@ function updateResearch(area, name, active) {
 
         if(inode == null) return;
 
-        incomingConnectors(area, inode).forEach(function(c) { $(c).removeClass("active"); });
+        incomingConnectors(area, inode).forEach(function(c) { colorConnector(c, "active", false); });
 
         // For each Children update the connector
         for(const child of realChildNodes(area, inode)) {
-            incomingConnectors(area, child).forEach(function(c) { $(c).removeClass(area); });
+            incomingConnectors(area, child).forEach(function(c) { colorConnector(c, area, false); });
             updateResearch(area, child.nodeHTMLid, false);
         }
 
