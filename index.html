@@ -118,13 +118,14 @@
             href: '../assets/css/tech-tree.css'
         });
         $('body').load('../assets/html/body.html', function() {
-            $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
+            var assets_version = '20260713';
+            $('<script>').appendTo('head').attr({ src: '../assets/js/header.js?v=' + assets_version });
             // tech-tree.js calls into tech-tracking.js, so load them in order
             var tracking = document.createElement('script');
-            tracking.src = '../assets/js/tech-tracking.js';
+            tracking.src = '../assets/js/tech-tracking.js?v=' + assets_version;
             tracking.onload = function() {
                 var tree = document.createElement('script');
-                tree.src = '../assets/js/tech-tree.js';
+                tree.src = '../assets/js/tech-tree.js?v=' + assets_version;
                 document.head.appendChild(tree);
             };
             document.head.appendChild(tracking);

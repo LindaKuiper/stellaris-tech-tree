@@ -1,6 +1,39 @@
 // Add ability to track node status
 var charts = {};
 
+// Invisible pseudo spacer nodes (tier alignment) sit between real techs in the
+// Treant tree - resolve through them when walking parents/children.
+function realParentNode(area, node) {
+    var parent = undefined !== node.parentId ? charts[area].tree.nodeDB.db[node.parentId] : undefined;
+    while (parent && parent.pseudo && undefined !== parent.parentId) {
+        parent = charts[area].tree.nodeDB.db[parent.parentId];
+    }
+    return parent;
+}
+
+function realChildNodes(area, node, acc) {
+    acc = acc || [];
+    if (undefined === node.children) return acc;
+    for (const childId of node.children) {
+        var child = charts[area].tree.nodeDB.db[childId];
+        if (child.pseudo) realChildNodes(area, child, acc);
+        else acc.push(child);
+    }
+    return acc;
+}
+
+// All connector segments between this node and its real parent (through pseudo nodes)
+function incomingConnectors(area, node) {
+    var list = [];
+    if (node.connector) list.push(node.connector[0]);
+    var parent = undefined !== node.parentId ? charts[area].tree.nodeDB.db[node.parentId] : undefined;
+    while (parent && parent.pseudo) {
+        if (parent.connector) list.push(parent.connector[0]);
+        parent = undefined !== parent.parentId ? charts[area].tree.nodeDB.db[parent.parentId] : undefined;
+    }
+    return list;
+}
+
 function init_nodestatus(area) {
     $('#tech-tree-' + area).find('.node div.node-status:not(.status-loaded)').each(function() {
         var events = $._data($( this )[0], "events");
@@ -21,14 +54,13 @@ function init_nodestatus(area) {
                     return;
                 }
                 // Limmit activation to research directly under an activated parent
-                var parent_id = $(this).parent().data('treenode').parentId;
-                if(undefined === parent_id) {
+                var tree_node = $(this).parent().data('treenode');
+                if(undefined === tree_node.parentId) {
                     return;
                 }
-                // If the parent is the root node [0], this is the first research that can be activated
-                if(0 < parent_id) {
-                    var parent = charts[area].tree.nodeDB.db[parent_id];
-
+                // If the (real, non-pseudo) parent is the root node [0], this is the first research that can be activated
+                var parent = realParentNode(area, tree_node);
+                if(parent && 0 < parent.id) {
                     if(!$( '#' + parent.nodeHTMLid + ' div.node-status').hasClass('active')) {
                         return;
                     }
@@ -88,11 +120,10 @@ function updateResearch(area, name, active) {
 
         if(inode == null) return;
 
-        var myConnector = $(inode.connector).get(0);
-        if(myConnector !== undefined) $(myConnector).addClass("active");
+        incomingConnectors(area, inode).forEach(function(c) { $(c).addClass("active"); });
 
-        for(const child of inode.children) {
-            $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area);
+        for(const child of realChildNodes(area, inode)) {
+            incomingConnectors(area, child).forEach(function(c) { $(c).addClass(area); });
         }
 
     } else {
@@ -102,11 +133,12 @@ function updateResearch(area, name, active) {
 
         if(inode == null) return;
 
+        incomingConnectors(area, inode).forEach(function(c) { $(c).removeClass("active"); });
+
         // For each Children update the connector
-        for(const child of inode.children) {
-            var child_node = charts[area].tree.nodeDB.db[child];
-            $(child_node.connector[0]).removeClass(area);
-            updateResearch(area, child_node.nodeHTMLid, false);
+        for(const child of realChildNodes(area, inode)) {
+            incomingConnectors(area, child).forEach(function(c) { $(c).removeClass(area); });
+            updateResearch(area, child.nodeHTMLid, false);
         }
 
     }
