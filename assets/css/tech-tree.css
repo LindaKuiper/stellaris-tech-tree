@@ -552,3 +552,9 @@ span.tier-5 {
     box-shadow: 0 0 14px 4px #ffcc66;
     z-index: 50;
 }
+
+/* The tech whose prerequisite lines are pinned (clicked) */
+.node.prereq-pinned {
+    box-shadow: 0 0 14px 4px #66ccff;
+    z-index: 50;
+}

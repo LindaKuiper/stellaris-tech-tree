@@ -186,10 +186,53 @@ function show_prereq_lines(node) {
     if (drawn > 0) document.body.appendChild(svg);
 }
 
-$(document).on('mouseenter', '#tech-tree .node.tech', function() { show_prereq_lines(this); });
-$(document).on('mouseleave', '#tech-tree .node.tech', clear_prereq_lines);
-// any scrolling (window or a tree container) invalidates the drawn coordinates
-document.addEventListener('scroll', clear_prereq_lines, true);
+// Clicking a tech pins its prerequisite lines so they survive scrolling and can
+// be followed across the tree; the pinned lines are redrawn on every scroll frame.
+// Click the same tech again (or press Escape) to unpin.
+var pinnedNode = null;
+var redrawScheduled = false;
+
+function unpin_prereq_lines() {
+    if (pinnedNode) $(pinnedNode).removeClass('prereq-pinned');
+    pinnedNode = null;
+    clear_prereq_lines();
+}
+
+function schedule_pinned_redraw() {
+    if (!pinnedNode || redrawScheduled) return;
+    redrawScheduled = true;
+    window.requestAnimationFrame(function() {
+        redrawScheduled = false;
+        if (pinnedNode) show_prereq_lines(pinnedNode);
+    });
+}
+
+$(document).on('mouseenter', '#tech-tree .node.tech', function() {
+    if (!pinnedNode) show_prereq_lines(this);
+});
+$(document).on('mouseleave', '#tech-tree .node.tech', function() {
+    if (!pinnedNode) clear_prereq_lines();
+});
+$(document).on('click', '#tech-tree .node.tech', function() {
+    if (pinnedNode === this) {
+        unpin_prereq_lines();
+    } else {
+        if (pinnedNode) $(pinnedNode).removeClass('prereq-pinned');
+        pinnedNode = this;
+        $(this).addClass('prereq-pinned');
+        show_prereq_lines(this);
+    }
+});
+$(document).on('keyup', function(e) {
+    if (e.key === 'Escape') unpin_prereq_lines();
+});
+// scrolling (window or a tree container) invalidates the drawn coordinates:
+// redraw when pinned, clear when only hovering
+document.addEventListener('scroll', function() {
+    if (pinnedNode) schedule_pinned_redraw();
+    else clear_prereq_lines();
+}, true);
+window.addEventListener('resize', schedule_pinned_redraw);
 
 $(document).ready(function() {
     load_tree();
