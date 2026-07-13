@@ -623,3 +623,15 @@ span.tier-5 {
 #deepsearch-clear:hover {
     color: #333;
 }
+
+/* Events page: one column per research area, side by side */
+#tech-tree-anomalies {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 10px;
+}
+.anomaly-column-title {
+    font-family: 'Arimo', Verdana;
+    margin: 0 0 10px 12px;
+}

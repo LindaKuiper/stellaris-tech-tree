@@ -112,7 +112,7 @@
       const load_page = (param, title) => {
         history.pushState({pageID: param}, param, `${param}/`);
         document.title = title || param;
-        var assets_version = '20260713o';
+        var assets_version = '20260713p';
         $('<link>').appendTo('head').attr({
             type: 'text/css',
             rel: 'stylesheet',

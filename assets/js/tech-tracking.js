@@ -81,20 +81,13 @@ $(document).on('click', '#research_clear', function(event) {
     if(!window.confirm('Remove ALL research check marks?')) return;
 
     var cleared = 0;
-    research.forEach(function(area) {
-        if('anomaly' === area) return;
+    for(var area in charts) {
         $('#tech-tree-' + area + ' div.node-status.active').parent().each(function() {
             if($(this).find('.node-title').text().indexOf('Starting') >= 0) return;
             updateResearch(area, $(this).attr('id'), false);
             cleared++;
         });
-    });
-    // anomaly/event techs toggle independently of the trees
-    $('#tech-tree-anomalies .node-status.active').each(function() {
-        $(this).removeClass('active');
-        $(this).parent().removeClass('active');
-        cleared++;
-    });
+    }
     showToast(cleared > 0 ? 'Cleared ' + cleared + ' research check marks.' : 'No research check marks to clear.');
 });
 
@@ -116,19 +109,6 @@ function init_nodestatus(area) {
 
         if(undefined === events || undefined === events.click) {
             $(this).on('click', function toggle_status() {
-                // Find chart for the research
-                if($(this).parent().hasClass('anomaly')) {
-                    if($(this).hasClass('active')) {
-                        $(this).removeClass('active');
-                        $(this).parent().removeClass('active');
-                    } else {
-                        $(this).addClass('active');
-                        $(this).parent().addClass('active');
-                    }
-
-                    event.stopPropagation();
-                    return;
-                }
                 // Limmit activation to research directly under an activated parent
                 var tree_node = $(this).parent().data('treenode');
                 if(undefined === tree_node.parentId) {

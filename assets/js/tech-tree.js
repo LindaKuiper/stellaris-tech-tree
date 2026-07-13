@@ -86,6 +86,12 @@ function setup(tech) {
     if (tech.key && tech.prerequisites) {
         prereqMap[tech.key] = tech.prerequisites;
     }
+    // Bullet every top-level requirement so it aligns with the indented
+    // sub-conditions of AND/OR blocks in the same list
+    if (tech.potential && tech.potential.length > 1 && !tech.potential_bulleted) {
+        tech.potential = tech.potential.map(p => '•   ' + p);
+        tech.potential_bulleted = true;
+    }
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '')
         + (tech.is_event ? ' anomaly' : '');
@@ -308,19 +314,32 @@ function load_tree() {
             }
         });
         const roots = jsonData.filter(item => !hasParent.has(item.key));
-        // group by research area, then by name, so the layout is predictable
-        roots.sort((a, b) => (a.area + ' ' + a.name).localeCompare(b.area + ' ' + b.name));
 
-        roots.forEach(item => setup(item));
-        const rootNode = { HTMLclass: 'anomalies', innerHTML: '', children: roots };
-        var myconfig = { container: '#tech-tree-anomalies' };
-        $.extend(true, myconfig, config);
+        // one column per research area, side by side
+        const holder = document.querySelector('#tech-tree-anomalies');
         // the container starts hidden; Treant needs it visible to measure the layout
-        const container = document.querySelector('#tech-tree-anomalies');
-        const wasHidden = container.classList.contains('float-NoDisplay');
-        container.classList.remove('float-NoDisplay');
-        charts['anomalies'] = new Treant({ chart: myconfig, nodeStructure: rootNode }, function() {}, $);
-        if (wasHidden) container.classList.add('float-NoDisplay');
+        const wasHidden = holder.classList.contains('float-NoDisplay');
+        holder.classList.remove('float-NoDisplay');
+        holder.innerHTML = '';
+        ['physics', 'society', 'engineering'].forEach(area => {
+            const areaRoots = roots.filter(r => r.area === area);
+            if (areaRoots.length === 0) return;
+            areaRoots.sort((a, b) => a.name.localeCompare(b.name));
+
+            const column = document.createElement('div');
+            column.className = 'anomaly-column';
+            column.innerHTML = '<h2 class="anomaly-column-title ' + area + '-research">'
+                + area.charAt(0).toUpperCase() + area.slice(1) + '</h2>'
+                + '<div id="tech-tree-anomalies-' + area + '"></div>';
+            holder.appendChild(column);
+
+            areaRoots.forEach(item => setup(item));
+            const rootNode = { HTMLclass: 'anomalies-' + area, innerHTML: '', children: areaRoots };
+            var myconfig = { container: '#tech-tree-anomalies-' + area };
+            $.extend(true, myconfig, config);
+            charts['anomalies-' + area] = new Treant({ chart: myconfig, nodeStructure: rootNode }, function() {}, $);
+        });
+        if (wasHidden) holder.classList.add('float-NoDisplay');
     });
     if(window.indexedDB) {
         initDB();
