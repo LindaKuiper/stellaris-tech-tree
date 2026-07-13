@@ -25,7 +25,10 @@
     </a>
   </li>
   <li class="float-Element float-Lowlight float-Search">
-    <input id="deepsearch" placeholder="Type to search" >
+    <span class="search-wrap">
+      <input id="deepsearch" placeholder="Type to search" >
+      <a id="deepsearch-clear" title="Clear search">&times;</a>
+    </span>
   </li>
   <li class="float-RightElement float-RightBuffer">
     <a data-scroll='top' class="float-RightContents">
@@ -52,6 +55,11 @@
   <li class="float-RightElement research hide">
     <a id="research_remove" class="float-RightContents">
       <h2>Remove</h2>
+    </a>
+  </li>
+  <li class="float-RightElement research hide">
+    <a id="research_clear" class="float-RightContents" title="Remove all check marks">
+      <h2>Clear All</h2>
     </a>
   </li>
 </ul>

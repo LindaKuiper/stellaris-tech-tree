@@ -74,6 +74,30 @@ function findChartArea(name) {
     return null;
 }
 
+// Remove every check mark in one go (starting techs stay checked - they are
+// always researched). Bound here; the button lives in the toolbar.
+$(document).on('click', '#research_clear', function(event) {
+    event.preventDefault();
+    if(!window.confirm('Remove ALL research check marks?')) return;
+
+    var cleared = 0;
+    research.forEach(function(area) {
+        if('anomaly' === area) return;
+        $('#tech-tree-' + area + ' div.node-status.active').parent().each(function() {
+            if($(this).find('.node-title').text().indexOf('Starting') >= 0) return;
+            updateResearch(area, $(this).attr('id'), false);
+            cleared++;
+        });
+    });
+    // anomaly/event techs toggle independently of the trees
+    $('#tech-tree-anomalies .node-status.active').each(function() {
+        $(this).removeClass('active');
+        $(this).parent().removeClass('active');
+        cleared++;
+    });
+    showToast(cleared > 0 ? 'Cleared ' + cleared + ' research check marks.' : 'No research check marks to clear.');
+});
+
 // Colored connectors must be raised above overlapping uncolored ones,
 // otherwise long lines only show their color where nothing crosses them
 function colorConnector(conn, cls, add) {

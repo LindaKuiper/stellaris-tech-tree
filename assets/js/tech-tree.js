@@ -133,6 +133,11 @@ function setup_search() {
         };
     };
 
+    $('#deepsearch-clear').on('click', function() {
+        $('#deepsearch').val('');
+        collect_nodes().forEach(n => n.node.style.opacity = 1);
+    });
+
     $("#deepsearch").on("change keyup paste input", debounce(function () {
         const nodes = collect_nodes();
         const search_term = $('#deepsearch').val();

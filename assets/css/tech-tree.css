@@ -605,3 +605,27 @@ span.tier-5 {
 .toast.fade-out {
     opacity: 0;
 }
+
+/* Clear (x) button inside the search field */
+.search-wrap {
+    position: relative;
+    display: inline-block;
+}
+.search-wrap #deepsearch {
+    padding-right: 20px;
+}
+#deepsearch-clear {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 14pt;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+}
+#deepsearch-clear:hover {
+    color: #333;
+}
