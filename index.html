@@ -112,7 +112,7 @@
       const load_page = (param, title) => {
         history.pushState({pageID: param}, param, `${param}/`);
         document.title = title || param;
-        var assets_version = '20260713q';
+        var assets_version = '20260713r';
         $('<link>').appendTo('head').attr({
             type: 'text/css',
             rel: 'stylesheet',
@@ -121,12 +121,18 @@
         $('body').load('../assets/html/body.html', function() {
             $('#site-version').text('v' + assets_version);
             $('<script>').appendTo('head').attr({ src: '../assets/js/header.js?v=' + assets_version });
+            $('<script>').appendTo('head').attr({ src: '../assets/js/empire-config.js?v=' + assets_version });
             // tech-tree.js calls into tech-tracking.js, so load them in order
             var tracking = document.createElement('script');
             tracking.src = '../assets/js/tech-tracking.js?v=' + assets_version;
             tracking.onload = function() {
                 var tree = document.createElement('script');
                 tree.src = '../assets/js/tech-tree.js?v=' + assets_version;
+                tree.onload = function() {
+                    var empirePage = document.createElement('script');
+                    empirePage.src = '../assets/js/empire-page.js?v=' + assets_version;
+                    document.head.appendChild(empirePage);
+                };
                 document.head.appendChild(tree);
             };
             document.head.appendChild(tracking);

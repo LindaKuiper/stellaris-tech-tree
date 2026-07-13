@@ -23,6 +23,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-empire").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Society"))
         {
@@ -30,6 +31,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-empire").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Engineering"))
         {
@@ -37,6 +39,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-empire").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-All"))
         {
@@ -44,6 +47,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-empire").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Anomalies"))
         {
@@ -51,6 +55,15 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").removeClass("float-NoDisplay");
+            $("#tech-tree-empire").addClass("float-NoDisplay");
+        }
+        if($(this).parent().hasClass("float-Empire"))
+        {
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-empire").removeClass("float-NoDisplay");
         }
     });
 

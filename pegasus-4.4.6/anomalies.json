@@ -22,6 +22,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -46,6 +48,12 @@
       "(×<b style='color:red'>0.0</b>) Always"
     ],
     "potential": [],
+    "weight_rules": [
+      {
+        "factor": 0.0
+      }
+    ],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -70,6 +78,12 @@
       "(×<b style='color:red'>0.0</b>) Always"
     ],
     "potential": [],
+    "weight_rules": [
+      {
+        "factor": 0.0
+      }
+    ],
+    "potential_rules": [],
     "children": [
       {
         "key": "tech_akx_worm_3",
@@ -103,6 +117,8 @@
         ],
         "weight_modifiers": [],
         "potential": [],
+        "weight_rules": [],
+        "potential_rules": [],
         "children": [],
         "is_event": true,
         "source": "vanilla"
@@ -143,6 +159,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -170,6 +188,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -195,6 +224,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -222,6 +262,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -247,6 +289,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Grand Archive"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Grand Archive"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -276,6 +329,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -312,6 +376,17 @@
     "potential": [
       "Has DLC Shadows of the Shroud"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -346,6 +421,17 @@
     "potential": [
       "Has DLC Shadows of the Shroud"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -371,6 +457,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Grand Archive"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Grand Archive"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -400,6 +497,24 @@
       "Has DLC Nemesis",
       "Has Galactic Nemesis Ascension Perk",
       "Has the can_build_star_eaters country flag"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Nemesis"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_become_the_crisis"
+      },
+      {
+        "unknown": "Has the can_build_star_eaters country flag"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -438,6 +553,123 @@
     "potential": [
       "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [
+      {
+        "factor": 0.1,
+        "if": {
+          "none": [
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_expertise_psionics"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_curator"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_3"
+            }
+          ]
+        }
+      },
+      {
+        "factor": 5.0,
+        "if": {
+          "fact": "has_tradition",
+          "value": "tr_subterfuge_adopt"
+        }
+      },
+      {
+        "factor": 2.0,
+        "if": {
+          "all": [
+            {
+              "any": [
+                {
+                  "fact": "has_civic",
+                  "value": "civic_void_reavers"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_machine_spybots"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_criminal_heritage"
+                },
+                {
+                  "all": [
+                    {
+                      "any": [
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_dark_consortium"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_corporate_dark_consortium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "fact": "has_origin",
+                  "value": "origin_fear_of_the_dark"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "potential_rules": [
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "fact": "host_has_dlc",
+                "value": "Shadows of the Shroud"
+              }
+            ]
+          },
+          {
+            "none": [
+              {
+                "fact": "has_ethic",
+                "value": "ethic_gestalt_consciousness"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -477,6 +709,123 @@
     "potential": [
       "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [
+      {
+        "factor": 0.1,
+        "if": {
+          "none": [
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_expertise_psionics"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_curator"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_3"
+            }
+          ]
+        }
+      },
+      {
+        "factor": 5.0,
+        "if": {
+          "fact": "has_tradition",
+          "value": "tr_subterfuge_adopt"
+        }
+      },
+      {
+        "factor": 2.0,
+        "if": {
+          "all": [
+            {
+              "any": [
+                {
+                  "fact": "has_civic",
+                  "value": "civic_void_reavers"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_machine_spybots"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_criminal_heritage"
+                },
+                {
+                  "all": [
+                    {
+                      "any": [
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_dark_consortium"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_corporate_dark_consortium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "fact": "has_origin",
+                  "value": "origin_fear_of_the_dark"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "potential_rules": [
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "fact": "host_has_dlc",
+                "value": "Shadows of the Shroud"
+              }
+            ]
+          },
+          {
+            "none": [
+              {
+                "fact": "has_ethic",
+                "value": "ethic_gestalt_consciousness"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -514,6 +863,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -540,6 +891,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -577,6 +939,24 @@
     "potential": [
       "Has DLC Grand Archive"
     ],
+    "weight_rules": [
+      {
+        "if": {
+          "fact": "has_trait_in_council",
+          "value": "leader_trait_curator"
+        }
+      }
+    ],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Grand Archive"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -601,6 +981,28 @@
     "potential": [
       "Has DLC The Machine Age",
       "All must be false\n    •   Uses ship category: Biological Ships"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "none": [
+          {
+            "all": [
+              {
+                "unknown": "Uses ship category: Biological Ships"
+              }
+            ]
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -627,6 +1029,28 @@
       "Has DLC The Machine Age",
       "All must be false\n    •   Uses ship category: Biological Ships"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "none": [
+          {
+            "all": [
+              {
+                "unknown": "Uses ship category: Biological Ships"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -651,6 +1075,21 @@
     "potential": [
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -677,6 +1116,21 @@
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -701,6 +1155,21 @@
     "potential": [
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -727,6 +1196,21 @@
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -751,6 +1235,21 @@
     "potential": [
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -777,6 +1276,28 @@
       "Has DLC The Machine Age",
       "All must be false\n    •   Uses ship category: Biological Ships"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "none": [
+          {
+            "all": [
+              {
+                "unknown": "Uses ship category: Biological Ships"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -801,6 +1322,24 @@
     "potential": [
       "Has DLC The Machine Age",
       "Uses ship category: Biological Ships"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "unknown": "Uses ship category: Biological Ships"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -827,6 +1366,24 @@
       "Has DLC The Machine Age",
       "Uses ship category: Biological Ships"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "unknown": "Uses ship category: Biological Ships"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -852,6 +1409,24 @@
       "Has DLC The Machine Age",
       "Uses ship category: Biological Ships"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "unknown": "Uses ship category: Biological Ships"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -876,6 +1451,24 @@
     "potential": [
       "Has DLC The Machine Age",
       "Uses ship category: Biological Ships"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "unknown": "Uses ship category: Biological Ships"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -903,6 +1496,21 @@
     "potential": [
       "Has DLC The Machine Age",
       "Has Cosmogenesis Ascension Perk"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      },
+      {
+        "fact": "has_ascension_perk",
+        "value": "ap_cosmogenesis"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -936,6 +1544,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -968,6 +1578,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1000,6 +1612,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1032,6 +1646,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1064,6 +1680,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1090,6 +1708,20 @@
     "potential": [
       "Has DLC Shadows of the Shroud",
       "Is NOT Nomadic"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      },
+      {
+        "unknown": "Is NOT Nomadic"
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1121,6 +1753,15 @@
       "(+) Has the crystal_armor_1_weight country flag"
     ],
     "potential": [],
+    "weight_rules": [
+      {
+        "add": 5,
+        "if": {
+          "unknown": "Has the crystal_armor_1_weight country flag"
+        }
+      }
+    ],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1148,6 +1789,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1178,6 +1821,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1216,6 +1861,12 @@
     "potential": [
       "Is NOT Nomadic"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "unknown": "Is NOT Nomadic"
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1240,6 +1891,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1265,6 +1918,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1290,6 +1945,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1319,6 +1976,19 @@
       "(×<b style='color:red'>0.0</b>) Does NOT have the Covenant: End of the Cycle country flag"
     ],
     "potential": [],
+    "weight_rules": [
+      {
+        "factor": 0.0,
+        "if": {
+          "none": [
+            {
+              "unknown": "Has the Covenant: End of the Cycle country flag"
+            }
+          ]
+        }
+      }
+    ],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1343,6 +2013,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1368,6 +2040,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1403,6 +2086,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1426,6 +2111,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC The Machine Age"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1451,6 +2147,17 @@
     "potential": [
       "Has DLC The Machine Age"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1474,6 +2181,16 @@
     "weight_modifiers": [],
     "potential": [
       "Does NOT have the l_cluster_opened global flag"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "none": [
+          {
+            "unknown": "Has the l_cluster_opened global flag"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1500,6 +2217,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1529,6 +2257,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1554,6 +2293,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -1593,6 +2343,20 @@
       "Has DLC Megacorp",
       "Is NOT Nomadic"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Megacorp"
+          }
+        ]
+      },
+      {
+        "unknown": "Is NOT Nomadic"
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1621,6 +2385,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1649,6 +2415,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1674,6 +2442,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1698,6 +2468,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1724,6 +2496,17 @@
     "potential": [
       "Has DLC The Machine Age"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "The Machine Age"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1749,6 +2532,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1776,6 +2561,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1802,6 +2598,17 @@
     "potential": [
       "Has DLC Shadows of the Shroud"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1827,6 +2634,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1854,6 +2663,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1880,6 +2700,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1904,6 +2735,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1944,6 +2777,105 @@
     "potential": [
       "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
     ],
+    "weight_rules": [
+      {
+        "factor": 0.1,
+        "if": {
+          "none": [
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_expertise_psionics"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_curator"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_spark_of_genius_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_2"
+            },
+            {
+              "fact": "has_trait_in_council",
+              "value": "leader_trait_maniacal_3"
+            }
+          ]
+        }
+      },
+      {
+        "factor": 1.5,
+        "if": {
+          "fact": "has_ascension_perk",
+          "value": "ap_grasp_the_void"
+        }
+      },
+      {
+        "factor": 5.0,
+        "if": {
+          "all": [
+            {
+              "any": [
+                {
+                  "fact": "has_civic",
+                  "value": "civic_eager_explorers"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_privatized_exploration"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_hive_stargazers"
+                },
+                {
+                  "fact": "has_civic",
+                  "value": "civic_machine_exploration_protocol"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "factor": 1.5,
+        "if": {
+          "unknown": "Has the jaunted_traveler_secret_revealed country flag"
+        }
+      }
+    ],
+    "potential_rules": [
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "fact": "host_has_dlc",
+                "value": "Shadows of the Shroud"
+              }
+            ]
+          },
+          {
+            "none": [
+              {
+                "fact": "has_ethic",
+                "value": "ethic_gestalt_consciousness"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "children": [
       {
         "key": "tech_cloaking_psi",
@@ -1979,6 +2911,123 @@
           "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
           "Has DLC First Contact Story Pack"
         ],
+        "weight_rules": [
+          {
+            "factor": 0.1,
+            "if": {
+              "none": [
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_expertise_psionics"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_curator"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_spark_of_genius"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_spark_of_genius_2"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_maniacal"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_maniacal_2"
+                },
+                {
+                  "fact": "has_trait_in_council",
+                  "value": "leader_trait_maniacal_3"
+                }
+              ]
+            }
+          },
+          {
+            "factor": 5.0,
+            "if": {
+              "fact": "has_tradition",
+              "value": "tr_subterfuge_adopt"
+            }
+          },
+          {
+            "factor": 2.0,
+            "if": {
+              "all": [
+                {
+                  "any": [
+                    {
+                      "fact": "has_civic",
+                      "value": "civic_void_reavers"
+                    },
+                    {
+                      "fact": "has_civic",
+                      "value": "civic_machine_spybots"
+                    },
+                    {
+                      "fact": "has_civic",
+                      "value": "civic_criminal_heritage"
+                    },
+                    {
+                      "all": [
+                        {
+                          "any": [
+                            {
+                              "fact": "has_civic",
+                              "value": "civic_dark_consortium"
+                            },
+                            {
+                              "fact": "has_civic",
+                              "value": "civic_corporate_dark_consortium"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fact": "has_origin",
+                      "value": "origin_fear_of_the_dark"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "potential_rules": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "fact": "host_has_dlc",
+                    "value": "Shadows of the Shroud"
+                  }
+                ]
+              },
+              {
+                "none": [
+                  {
+                    "fact": "has_ethic",
+                    "value": "ethic_gestalt_consciousness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "fact": "host_has_dlc",
+                "value": "First Contact Story Pack"
+              }
+            ]
+          }
+        ],
         "children": [],
         "is_event": true,
         "is_gestalt": false,
@@ -2011,6 +3060,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2049,6 +3109,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2076,6 +3138,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2107,6 +3180,17 @@
     "potential": [
       "Has DLC Shadows of the Shroud"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2134,6 +3218,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2173,6 +3268,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2200,6 +3297,17 @@
     "potential": [
       "Has DLC Shadows of the Shroud"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2224,6 +3332,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2249,6 +3359,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Astral Planes"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Astral Planes"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2286,6 +3407,24 @@
       "Does NOT have Wilderness Origin",
       "Is NOT Nomadic"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "none": [
+          {
+            "all": [
+              {
+                "fact": "has_origin",
+                "value": "origin_wilderness"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unknown": "Is NOT Nomadic"
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2313,6 +3452,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2339,6 +3489,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2364,6 +3516,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Ancient Relics Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2392,6 +3555,17 @@
     "potential": [
       "Has DLC Ancient Relics Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2417,6 +3591,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Ancient Relics Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2444,6 +3629,17 @@
     "potential": [
       "Has DLC Ancient Relics Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2469,6 +3665,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Ancient Relics Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2497,6 +3704,17 @@
     "potential": [
       "Has DLC Ancient Relics Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2523,6 +3741,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Ancient Relics Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Ancient Relics Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2557,6 +3786,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2582,6 +3813,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2606,6 +3839,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2632,6 +3867,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Galactic Paragons"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Galactic Paragons"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2660,6 +3906,17 @@
     "potential": [
       "Has DLC First Contact Story Pack"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2686,6 +3943,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2712,6 +3971,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2742,6 +4012,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2769,6 +4041,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -2799,6 +4082,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2830,6 +4115,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2859,6 +4146,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2890,6 +4179,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2919,6 +4210,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2948,6 +4241,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -2977,6 +4272,8 @@
     ],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -3002,6 +4299,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "weight_rules": [],
+    "potential_rules": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -3027,6 +4326,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -3055,6 +4365,17 @@
     "potential": [
       "Has DLC Grand Archive"
     ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Grand Archive"
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -3081,6 +4402,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC First Contact Story Pack"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "First Contact Story Pack"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,
@@ -3116,6 +4448,118 @@
       "Does NOT have Gestalt Consciousness Ethic",
       "All must be false\n    •   Has Government Civic: Fanatic Purifiers\n    •   Has Government Civic: Determined Exterminator\n    •   Has Government Civic: Devouring Swarm\n    •   Has Government Civic: Scorched World Heralds\n    •   Has Government Civic: Pyromanic Instinct\n    •   Has menace perk: Ever Hungry"
     ],
+    "weight_rules": [
+      {
+        "add": 100,
+        "if": {
+          "all": [
+            {
+              "fact": "is_regular_empire"
+            },
+            {
+              "none": [
+                {
+                  "all": [
+                    {
+                      "any": [
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_fanatic_purifiers"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_machine_terminator"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_hive_devouring_swarm"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_scorched_earth"
+                        },
+                        {
+                          "fact": "has_civic",
+                          "value": "civic_hive_scorched_earth"
+                        },
+                        {
+                          "unknown": "Has menace perk: Ever Hungry"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "none": [
+                {
+                  "fact": "is_gestalt"
+                }
+              ]
+            },
+            {
+              "unknown": "Perc communications with playable: 0"
+            }
+          ]
+        }
+      }
+    ],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Galactic Paragons"
+          }
+        ]
+      },
+      {
+        "fact": "is_regular_empire"
+      },
+      {
+        "none": [
+          {
+            "fact": "is_gestalt"
+          }
+        ]
+      },
+      {
+        "none": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "fact": "has_civic",
+                    "value": "civic_fanatic_purifiers"
+                  },
+                  {
+                    "fact": "has_civic",
+                    "value": "civic_machine_terminator"
+                  },
+                  {
+                    "fact": "has_civic",
+                    "value": "civic_hive_devouring_swarm"
+                  },
+                  {
+                    "fact": "has_civic",
+                    "value": "civic_scorched_earth"
+                  },
+                  {
+                    "fact": "has_civic",
+                    "value": "civic_hive_scorched_earth"
+                  },
+                  {
+                    "unknown": "Has menace perk: Ever Hungry"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "children": [],
     "is_event": true,
     "is_gestalt": false,
@@ -3144,6 +4588,17 @@
     "weight_modifiers": [],
     "potential": [
       "Has DLC Shadows of the Shroud"
+    ],
+    "weight_rules": [],
+    "potential_rules": [
+      {
+        "all": [
+          {
+            "fact": "host_has_dlc",
+            "value": "Shadows of the Shroud"
+          }
+        ]
+      }
     ],
     "children": [],
     "is_event": true,

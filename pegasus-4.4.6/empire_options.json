@@ -1,0 +1,685 @@
+{
+  "ethics": [
+    {
+      "key": "ethic_authoritarian",
+      "name": "Authoritarian"
+    },
+    {
+      "key": "ethic_egalitarian",
+      "name": "Egalitarian"
+    },
+    {
+      "key": "ethic_fanatic_authoritarian",
+      "name": "Fanatic Authoritarian"
+    },
+    {
+      "key": "ethic_fanatic_egalitarian",
+      "name": "Fanatic Egalitarian"
+    },
+    {
+      "key": "ethic_fanatic_materialist",
+      "name": "Fanatic Materialist"
+    },
+    {
+      "key": "ethic_fanatic_militarist",
+      "name": "Fanatic Militarist"
+    },
+    {
+      "key": "ethic_fanatic_pacifist",
+      "name": "Fanatic Pacifist"
+    },
+    {
+      "key": "ethic_fanatic_spiritualist",
+      "name": "Fanatic Spiritualist"
+    },
+    {
+      "key": "ethic_fanatic_xenophile",
+      "name": "Fanatic Xenophile"
+    },
+    {
+      "key": "ethic_fanatic_xenophobe",
+      "name": "Fanatic Xenophobe"
+    },
+    {
+      "key": "ethic_gestalt_consciousness",
+      "name": "Gestalt Consciousness"
+    },
+    {
+      "key": "ethic_materialist",
+      "name": "Materialist"
+    },
+    {
+      "key": "ethic_militarist",
+      "name": "Militarist"
+    },
+    {
+      "key": "ethic_pacifist",
+      "name": "Pacifist"
+    },
+    {
+      "key": "ethic_spiritualist",
+      "name": "Spiritualist"
+    },
+    {
+      "key": "ethic_xenophile",
+      "name": "Xenophile"
+    },
+    {
+      "key": "ethic_xenophobe",
+      "name": "Xenophobe"
+    }
+  ],
+  "authorities": [],
+  "civics": [
+    {
+      "key": "civic_agrarian_idyll",
+      "name": "Agrarian Idyll"
+    },
+    {
+      "key": "civic_anglers",
+      "name": "Anglers"
+    },
+    {
+      "key": "civic_machine_chosen",
+      "name": "Apostle Network"
+    },
+    {
+      "key": "civic_corporate_guided_sapience",
+      "name": "Astrogenesis Technologies"
+    },
+    {
+      "key": "civic_astrometeorology",
+      "name": "Astrometeorology"
+    },
+    {
+      "key": "civic_beastmasters",
+      "name": "Beastmasters"
+    },
+    {
+      "key": "civic_machine_beastmasters",
+      "name": "Biodrones"
+    },
+    {
+      "key": "civic_catalytic_processing",
+      "name": "Catalytic Processing"
+    },
+    {
+      "key": "civic_corporate_catalytic_processing",
+      "name": "Catalytic Recyclers"
+    },
+    {
+      "key": "civic_chosen",
+      "name": "Chosen"
+    },
+    {
+      "key": "civic_corporate_chosen",
+      "name": "Chosen Executives"
+    },
+    {
+      "key": "civic_hive_chosen",
+      "name": "Chosen Many"
+    },
+    {
+      "key": "civic_astrometeorology_hive",
+      "name": "Climate Modeling"
+    },
+    {
+      "key": "civic_astrometeorology_machine",
+      "name": "Climate Modeling"
+    },
+    {
+      "key": "civic_entropy_drinkers_corporate",
+      "name": "Corporate Vampires"
+    },
+    {
+      "key": "civic_criminal_heritage",
+      "name": "Criminal Heritage"
+    },
+    {
+      "key": "civic_dark_consortium",
+      "name": "Dark Consortium"
+    },
+    {
+      "key": "civic_machine_terminator",
+      "name": "Determined Exterminator"
+    },
+    {
+      "key": "civic_hive_devouring_swarm",
+      "name": "Devouring Swarm"
+    },
+    {
+      "key": "civic_machine_assimilator",
+      "name": "Driven Assimilator"
+    },
+    {
+      "key": "civic_eager_explorers",
+      "name": "Eager Explorers"
+    },
+    {
+      "key": "civic_entropy_drinkers_machine",
+      "name": "Energy Extractors"
+    },
+    {
+      "key": "civic_entropy_drinkers",
+      "name": "Entropy Drinkers"
+    },
+    {
+      "key": "civic_machine_exploration_protocol",
+      "name": "Exploration Protocols"
+    },
+    {
+      "key": "civic_fanatic_purifiers",
+      "name": "Fanatic Purifiers"
+    },
+    {
+      "key": "civic_machine_guided_sapience",
+      "name": "Genesis Architects"
+    },
+    {
+      "key": "civic_guided_sapience",
+      "name": "Genesis Guides"
+    },
+    {
+      "key": "civic_hive_guided_sapience",
+      "name": "Genesis Symbiotes"
+    },
+    {
+      "key": "civic_hive_natural_design",
+      "name": "Innate Design"
+    },
+    {
+      "key": "civic_inwards_perfection",
+      "name": "Inward Perfection"
+    },
+    {
+      "key": "civic_machine_anglers",
+      "name": "Marine Machines"
+    },
+    {
+      "key": "civic_corporate_machine_anglers",
+      "name": "Maritime Robotics"
+    },
+    {
+      "key": "civic_machine_memorialist",
+      "name": "Memorialist"
+    },
+    {
+      "key": "civic_hive_memorialist",
+      "name": "Memorialist"
+    },
+    {
+      "key": "civic_memorialist",
+      "name": "Memorialists"
+    },
+    {
+      "key": "civic_natural_design",
+      "name": "Natural Design"
+    },
+    {
+      "key": "civic_dystopian_society",
+      "name": "Oppressive Autocracy"
+    },
+    {
+      "key": "civic_hive_catalytic_processing",
+      "name": "Organic Reprocessing"
+    },
+    {
+      "key": "civic_machine_catalytic_processing",
+      "name": "Organic Retrofitting"
+    },
+    {
+      "key": "civic_entropy_drinkers_hive_mind",
+      "name": "Parasitic Caste"
+    },
+    {
+      "key": "civic_world_forgers",
+      "name": "Planet Forgers"
+    },
+    {
+      "key": "civic_corporate_world_forgers",
+      "name": "Planetary Architects"
+    },
+    {
+      "key": "civic_police_state",
+      "name": "Police State"
+    },
+    {
+      "key": "civic_privatized_exploration",
+      "name": "Privatized Exploration"
+    },
+    {
+      "key": "civic_hive_scorched_earth",
+      "name": "Pyromanic Instinct"
+    },
+    {
+      "key": "civic_machine_servitor",
+      "name": "Rogue Servitor"
+    },
+    {
+      "key": "civic_scorched_earth",
+      "name": "Scorched World Heralds"
+    },
+    {
+      "key": "civic_corporate_dark_consortium",
+      "name": "Shadow Corporation"
+    },
+    {
+      "key": "civic_corporate_beastmasters",
+      "name": "Space Ranchers"
+    },
+    {
+      "key": "civic_machine_spybots",
+      "name": "Spyware Directives"
+    },
+    {
+      "key": "civic_hive_stargazers",
+      "name": "Stargazers"
+    },
+    {
+      "key": "civic_storm_callers",
+      "name": "Storm Devotion"
+    },
+    {
+      "key": "civic_storm_callers_megacorp",
+      "name": "Storm Influencers"
+    },
+    {
+      "key": "civic_machine_world_forgers",
+      "name": "Thermal Optimizers"
+    },
+    {
+      "key": "civic_corporate_anglers",
+      "name": "Trawling Operations"
+    },
+    {
+      "key": "civic_void_reavers",
+      "name": "Void Reavers"
+    },
+    {
+      "key": "civic_hive_world_forgers",
+      "name": "Volcanic Nesting"
+    },
+    {
+      "key": "civic_astrometeorology_megacorp",
+      "name": "Weather Exploitation"
+    },
+    {
+      "key": "civic_hive_beastmasters",
+      "name": "Wild Swarm"
+    }
+  ],
+  "origins": [
+    {
+      "key": "origin_endbringers",
+      "name": "Endbringers"
+    },
+    {
+      "key": "origin_fear_of_the_dark",
+      "name": "Fear of the Dark"
+    },
+    {
+      "key": "origin_forever_cruise",
+      "name": "Forever Cruise"
+    },
+    {
+      "key": "origin_fruitful",
+      "name": "Fruitful Partnership"
+    },
+    {
+      "key": "origin_life_seeded",
+      "name": "Life-Seeded"
+    },
+    {
+      "key": "origin_mechanists",
+      "name": "Mechanist"
+    },
+    {
+      "key": "origin_mindwardens",
+      "name": "MINDWARDEN_plural"
+    },
+    {
+      "key": "origin_red_giant",
+      "name": "Red Giant"
+    },
+    {
+      "key": "origin_shattered_ring",
+      "name": "Shattered Ring"
+    },
+    {
+      "key": "origin_shroud_forged",
+      "name": "Shroud-Forged"
+    },
+    {
+      "key": "origin_star_slingshot",
+      "name": "Slingshot to the Stars"
+    },
+    {
+      "key": "origin_storm_chasers",
+      "name": "Storm Chasers"
+    },
+    {
+      "key": "origin_synthetic_fertility",
+      "name": "Synthetic Fertility"
+    },
+    {
+      "key": "origin_shroudwalker_apprentice",
+      "name": "Teachers of the Shroud"
+    },
+    {
+      "key": "origin_void_dwellers",
+      "name": "Void Dwellers"
+    },
+    {
+      "key": "origin_void_machines",
+      "name": "Voidforged"
+    },
+    {
+      "key": "origin_wilderness",
+      "name": "Wilderness"
+    }
+  ],
+  "traditions": [
+    {
+      "key": "tr_diplomacy_adopt",
+      "name": "Diplomacy Traditions"
+    },
+    {
+      "key": "tr_discovery_adopt",
+      "name": "Discovery Traditions"
+    },
+    {
+      "key": "tr_domestication_adopt",
+      "name": "Domestication Traditions"
+    },
+    {
+      "key": "tr_expansion_adopt",
+      "name": "Expansion Traditions"
+    },
+    {
+      "key": "tr_expansion_finish",
+      "name": "Expansion Traditions Finished"
+    },
+    {
+      "key": "tr_nanotech_4",
+      "name": "Flood of Supremacy"
+    },
+    {
+      "key": "tr_unyielding_adopt",
+      "name": "Fortification Traditions"
+    },
+    {
+      "key": "tr_harmony_adopt",
+      "name": "Harmony Traditions"
+    },
+    {
+      "key": "tr_prosperity_adopt",
+      "name": "Prosperity Traditions"
+    },
+    {
+      "key": "tr_prosperity_finish",
+      "name": "Prosperity Traditions Finished"
+    },
+    {
+      "key": "tr_subterfuge_adopt",
+      "name": "Subterfuge Traditions"
+    },
+    {
+      "key": "tr_supremacy_adopt",
+      "name": "Supremacy Traditions"
+    }
+  ],
+  "council_traits": [
+    {
+      "key": "leader_trait_chosen",
+      "name": "Chosen"
+    },
+    {
+      "key": "leader_trait_composer_chosen",
+      "name": "Chosen of the Composer"
+    },
+    {
+      "key": "leader_trait_instrument_chosen",
+      "name": "Chosen of the Instrument"
+    },
+    {
+      "key": "leader_trait_whisperers_chosen",
+      "name": "Chosen of the Whisperers"
+    },
+    {
+      "key": "leader_trait_fotd_scientist",
+      "name": "Cunning"
+    },
+    {
+      "key": "leader_trait_curator",
+      "name": "Curator"
+    },
+    {
+      "key": "leader_trait_expertise_biology",
+      "name": "Expertise: Biology"
+    },
+    {
+      "key": "leader_trait_expertise_computing",
+      "name": "Expertise: Computing"
+    },
+    {
+      "key": "leader_trait_expertise_field_manipulation",
+      "name": "Expertise: Field Manipulation"
+    },
+    {
+      "key": "leader_trait_expertise_industry",
+      "name": "Expertise: Industry"
+    },
+    {
+      "key": "leader_trait_expertise_materials",
+      "name": "Expertise: Materials"
+    },
+    {
+      "key": "leader_trait_expertise_new_worlds",
+      "name": "Expertise: New Worlds"
+    },
+    {
+      "key": "leader_trait_expertise_particles",
+      "name": "Expertise: Particles"
+    },
+    {
+      "key": "leader_trait_expertise_psionics",
+      "name": "Expertise: Psionics"
+    },
+    {
+      "key": "leader_trait_expertise_statecraft",
+      "name": "Expertise: Statecraft"
+    },
+    {
+      "key": "leader_trait_expertise_voidcraft",
+      "name": "Expertise: Voidcraft"
+    },
+    {
+      "key": "leader_trait_maniacal",
+      "name": "Maniacal"
+    },
+    {
+      "key": "leader_trait_maniacal_2",
+      "name": "Maniacal II"
+    },
+    {
+      "key": "leader_trait_maniacal_3",
+      "name": "Maniacal III"
+    },
+    {
+      "key": "leader_trait_psionic",
+      "name": "Psychic"
+    },
+    {
+      "key": "leader_trait_spark_of_genius",
+      "name": "Spark of Genius"
+    },
+    {
+      "key": "leader_trait_spark_of_genius_2",
+      "name": "Spark of Genius II"
+    }
+  ],
+  "ascension_perks": [
+    {
+      "key": "ap_archaeoengineers",
+      "name": "Archaeo-Engineers"
+    },
+    {
+      "key": "ap_engineered_evolution",
+      "name": "Biomorphosis"
+    },
+    {
+      "key": "ap_cosmogenesis",
+      "name": "Cosmogenesis"
+    },
+    {
+      "key": "ap_enigmatic_engineering",
+      "name": "Enigmatic Engineering"
+    },
+    {
+      "key": "ap_eternal_vigilance",
+      "name": "Eternal Vigilance"
+    },
+    {
+      "key": "ap_galactic_force_projection",
+      "name": "Galactic Force Projection"
+    },
+    {
+      "key": "ap_galactic_hyperthermia",
+      "name": "Galactic Hyperthermia"
+    },
+    {
+      "key": "ap_become_the_crisis",
+      "name": "Galactic Nemesis"
+    },
+    {
+      "key": "ap_galactic_wonders_megacorp",
+      "name": "Galactic Wonders"
+    },
+    {
+      "key": "ap_galactic_wonders_utopia",
+      "name": "Galactic Wonders"
+    },
+    {
+      "key": "ap_galactic_wonders",
+      "name": "Galactic Wonders"
+    },
+    {
+      "key": "ap_galactic_wonders_utopia_and_megacorp",
+      "name": "Galactic Wonders"
+    },
+    {
+      "key": "ap_grasp_the_void",
+      "name": "Grasp the Void"
+    },
+    {
+      "key": "ap_master_builders",
+      "name": "Master Builders"
+    },
+    {
+      "key": "ap_mastery_of_nature",
+      "name": "Mastery of Nature"
+    },
+    {
+      "key": "ap_mind_over_matter",
+      "name": "Mind Over Matter"
+    },
+    {
+      "key": "ap_one_vision",
+      "name": "One Vision"
+    },
+    {
+      "key": "ap_organo_machine_interfacing",
+      "name": "Organo-Machine Interfacing"
+    },
+    {
+      "key": "ap_organo_machine_interfacing_assimilator",
+      "name": "Organo-Machine Interfacing"
+    },
+    {
+      "key": "ap_synthetic_evolution",
+      "name": "Synthetic Evolution"
+    },
+    {
+      "key": "ap_technological_ascendancy",
+      "name": "Technological Ascendancy"
+    },
+    {
+      "key": "ap_the_flesh_is_weak",
+      "name": "The Flesh is Weak"
+    },
+    {
+      "key": "ap_voidborn",
+      "name": "Voidborne"
+    }
+  ],
+  "dlcs": [
+    {
+      "key": "Ancient Relics Story Pack",
+      "name": "Ancient Relics Story Pack"
+    },
+    {
+      "key": "Apocalypse",
+      "name": "Apocalypse"
+    },
+    {
+      "key": "Astral Planes",
+      "name": "Astral Planes"
+    },
+    {
+      "key": "BioGenesis",
+      "name": "BioGenesis"
+    },
+    {
+      "key": "Cosmic Storms",
+      "name": "Cosmic Storms"
+    },
+    {
+      "key": "Distant Stars Story Pack",
+      "name": "Distant Stars Story Pack"
+    },
+    {
+      "key": "Federations",
+      "name": "Federations"
+    },
+    {
+      "key": "First Contact Story Pack",
+      "name": "First Contact Story Pack"
+    },
+    {
+      "key": "Galactic Paragons",
+      "name": "Galactic Paragons"
+    },
+    {
+      "key": "Grand Archive",
+      "name": "Grand Archive"
+    },
+    {
+      "key": "Infernals Species Pack",
+      "name": "Infernals Species Pack"
+    },
+    {
+      "key": "Megacorp",
+      "name": "Megacorp"
+    },
+    {
+      "key": "Nemesis",
+      "name": "Nemesis"
+    },
+    {
+      "key": "Nomads",
+      "name": "Nomads"
+    },
+    {
+      "key": "Overlord",
+      "name": "Overlord"
+    },
+    {
+      "key": "Shadows of the Shroud",
+      "name": "Shadows of the Shroud"
+    },
+    {
+      "key": "The Machine Age",
+      "name": "The Machine Age"
+    }
+  ]
+}

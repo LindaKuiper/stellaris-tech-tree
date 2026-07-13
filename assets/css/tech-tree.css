@@ -625,7 +625,7 @@ span.tier-5 {
 }
 
 /* Events page: one column per research area, side by side */
-#tech-tree-anomalies {
+#tech-tree-anomalies:not(.float-NoDisplay) {
     display: flex;
     align-items: flex-start;
     gap: 60px;
@@ -634,4 +634,75 @@ span.tier-5 {
 .anomaly-column-title {
     font-family: 'Arimo', Verdana;
     margin: 0 0 10px 12px;
+}
+
+/*********************************
+    Empire configuration page
+**********************************/
+#tech-tree-empire {
+    padding: 20px 24px 60px 24px;
+    font-family: 'Arimo', Verdana;
+    color: #fff;
+    max-width: 1400px;
+}
+
+.empire-intro {
+    font-size: 12pt;
+    color: #ddd;
+    margin-bottom: 14px;
+}
+
+.empire-reset-row {
+    margin-bottom: 20px;
+}
+
+.empire-reset-btn {
+    font-family: 'Arimo', Verdana;
+    font-size: 11pt;
+    color: #fff;
+    background: #303030;
+    border: 1px solid #327866;
+    border-radius: 4px;
+    padding: 6px 18px;
+    cursor: pointer;
+}
+
+.empire-reset-btn:hover {
+    background: #2b574e;
+}
+
+.empire-fieldset {
+    border: 1px solid #555;
+    border-radius: 6px;
+    background: #3a3a3a;
+    margin-bottom: 18px;
+    padding: 10px 16px 16px 16px;
+}
+
+.empire-fieldset legend {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #6fcbb3;
+    padding: 0 8px;
+}
+
+.empire-options {
+    column-width: 220px;
+    column-gap: 24px;
+}
+
+.empire-check-label {
+    display: block;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    color: #fff;
+    font-size: 10.5pt;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.empire-check-label input {
+    cursor: pointer;
+    margin-right: 4px;
+    vertical-align: middle;
 }
