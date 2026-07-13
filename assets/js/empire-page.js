@@ -26,7 +26,10 @@ $(document).ready(function () {
 
         container.append(
             $('<p>').addClass('empire-intro')
-                .text('Configure your empire; tech weights on the other tabs adjust to it.')
+                .text('Configure your empire; tech weights on the other tabs adjust to it. ' +
+                      'Sections you leave empty count as "not specified": conditions about them ' +
+                      'show a ? mark and do not change any weights. Once you select something in ' +
+                      'a section, the unselected options in it count as "my empire does not have this".')
         );
 
         var resetBtn = $('<button>')

@@ -74,26 +74,49 @@
         return !!list && list.indexOf(value) !== -1;
     }
 
+    // A section the player left completely empty means "not filled in", not
+    // "my empire has none of these" - facts about it evaluate as unknown.
+    // Once anything is selected in a section it becomes authoritative and the
+    // unselected options really are false.
+    function specified(list) {
+        return !!list && list.length > 0;
+    }
+
     function resolveFact(fact, value, cfg) {
         switch (fact) {
-            case 'has_ethic':            return inList(cfg.ethics, value);
-            case 'has_authority':        return authEquals(cfg.authority, value);
-            case 'has_civic':            return inList(cfg.civics, value);
-            case 'has_origin':           return cfg.origin === value;
-            case 'has_tradition':        return inList(cfg.traditions, value);
-            case 'has_ascension_perk':   return inList(cfg.ascension_perks, value);
-            case 'has_trait_in_council': return inList(cfg.council_traits, value);
+            case 'has_ethic':
+                return specified(cfg.ethics) ? inList(cfg.ethics, value) : UNKNOWN;
+            case 'has_authority':
+                return cfg.authority ? authEquals(cfg.authority, value) : UNKNOWN;
+            case 'has_civic':
+                return specified(cfg.civics) ? inList(cfg.civics, value) : UNKNOWN;
+            case 'has_origin':
+                return cfg.origin ? cfg.origin === value : UNKNOWN;
+            case 'has_tradition':
+                return specified(cfg.traditions) ? inList(cfg.traditions, value) : UNKNOWN;
+            case 'has_ascension_perk':
+                return specified(cfg.ascension_perks) ? inList(cfg.ascension_perks, value) : UNKNOWN;
+            case 'has_trait_in_council':
+                return specified(cfg.council_traits) ? inList(cfg.council_traits, value) : UNKNOWN;
             case 'host_has_dlc':
                 return window.EmpireConfig ? window.EmpireConfig.isDlcEnabled(value) : UNKNOWN;
             case 'has_technology':       return !!checkedTechs[value];
-            case 'is_gestalt':           return inList(cfg.ethics, 'ethic_gestalt_consciousness');
-            case 'is_machine_empire':    return authEquals(cfg.authority, 'machine_intelligence');
-            case 'is_mechanical_empire': return authEquals(cfg.authority, 'machine_intelligence');
-            case 'is_hive_empire':       return authEquals(cfg.authority, 'hive_mind');
-            case 'is_megacorp':          return authEquals(cfg.authority, 'corporate');
-            case 'is_regular_empire':
-                return !inList(cfg.ethics, 'ethic_gestalt_consciousness') &&
-                       !authEquals(cfg.authority, 'corporate');
+            case 'is_gestalt':
+                return specified(cfg.ethics) ? inList(cfg.ethics, 'ethic_gestalt_consciousness') : UNKNOWN;
+            case 'is_machine_empire':
+            case 'is_mechanical_empire':
+                return cfg.authority ? authEquals(cfg.authority, 'machine_intelligence') : UNKNOWN;
+            case 'is_hive_empire':
+                return cfg.authority ? authEquals(cfg.authority, 'hive_mind') : UNKNOWN;
+            case 'is_megacorp':
+                return cfg.authority ? authEquals(cfg.authority, 'corporate') : UNKNOWN;
+            case 'is_regular_empire': {
+                var g = resolveFact('is_gestalt', null, cfg);
+                var m = resolveFact('is_megacorp', null, cfg);
+                if (g === true || m === true) return false;
+                if (g === false && m === false) return true;
+                return UNKNOWN;
+            }
             case 'always_false':         return false;
             default:                     return UNKNOWN;
         }
