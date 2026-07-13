@@ -29,6 +29,9 @@ function incomingConnectors(area, node) {
     var parent = undefined !== node.parentId ? charts[area].tree.nodeDB.db[node.parentId] : undefined;
     while (parent && parent.pseudo) {
         if (parent.connector) list.push(parent.connector);
+        // Treant draws a separate "line through" path across each pseudo node -
+        // without it only the short joints between pseudo nodes get colored
+        if (parent.lineThroughMe) list.push(parent.lineThroughMe);
         parent = undefined !== parent.parentId ? charts[area].tree.nodeDB.db[parent.parentId] : undefined;
     }
     return list;
