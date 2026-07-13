@@ -1,6 +1,20 @@
 // Add ability to track node status
 var charts = {};
 
+// In-page notification that stays readable (native alerts were too fleeting)
+function showToast(message, isError) {
+    var holder = document.getElementById('toast-holder');
+    if (!holder) { alert(message); return; }
+    var toast = document.createElement('div');
+    toast.className = 'toast' + (isError ? ' toast-error' : '');
+    toast.textContent = message;
+    holder.appendChild(toast);
+    setTimeout(function() {
+        toast.classList.add('fade-out');
+        setTimeout(function() { toast.remove(); }, 700);
+    }, 4000);
+}
+
 // Invisible pseudo spacer nodes (tier alignment) sit between real techs in the
 // Treant tree - resolve through them when walking parents/children.
 function realParentNode(area, node) {
@@ -211,7 +225,7 @@ var offlineDB;
 function initDB() {
     var request = window.indexedDB.open("researchDB");
     request.onerror = function(event) {
-        alert('Unable to store more than one set of research unless permission is approved!');
+        showToast('Unable to store more than one set of research unless permission is approved!', true);
         if(window.localStorage) {
             setupLocalStorage();
         }
@@ -255,7 +269,7 @@ function findLists() {
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     saveListToIndexedDB( $('#research_selection').val() );
                 } else {
-                    saveListToIndexedDB("Default List");
+                    showToast('Cannot save: enter a name in the Research List field first.', true);
                 }
             })
             $('#research_load').on('click', function(event) {
@@ -263,13 +277,15 @@ function findLists() {
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     loadListFromIndexedDB( $('#research_selection').val() );
                 } else {
-                    loadListFromIndexedDB("Default List");
+                    showToast('Cannot load: enter the name of a saved Research List first.', true);
                 }
             })
             $('#research_remove').on('click', function(event) {
                 event.preventDefault();
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     removeListFromIndexedDB( $('#research_selection').val() );
+                } else {
+                    showToast('Cannot remove: enter the name of a saved Research List first.', true);
                 }
             })
             $('.research').removeClass('hide');
@@ -292,9 +308,15 @@ function saveListToIndexedDB(name) {
         var result = objectStore.put({name: name, data: data});
         result.onsuccess = function(event) {
             if(event.target.result && name == event.target.result) {
-                alert('Research List: ' + name + ' was saved successfully!')
+                if($('#research_list option[value="' + name + '"]').length === 0) {
+                    $('#research_list').append('<option value="' + name + '">' + name + '</option>');
+                }
+                showToast('Research list "' + name + '" saved (' + data.length + ' techs).');
                 return true;
             }
+        };
+        result.onerror = function(event) {
+            showToast('Unable to save research list "' + name + '".', true);
         };
     } else {
         initDB();
@@ -324,14 +346,14 @@ function loadListFromIndexedDB(name) {
                         updateResearch(item.area, item.key, true);
                     }
                 });
+                showToast('Research list "' + name + '" loaded (' + data.length + ' techs).');
             }
             else {
-                event.target.errorCode = `Research list "${name}" does not exist.`
-                result.onerror(event);
+                showToast('Research list "' + name + '" does not exist.', true);
             }
         };
         result.onerror = function(event) {
-            alert('Unable to load Research List: ' + name + '\nError: ' + event.target.errorCode);
+            showToast('Unable to load research list "' + name + '".', true);
         }
     } else {
         initDB();
@@ -343,13 +365,14 @@ function removeListFromIndexedDB(name) {
         var objectStore = offlineDB.transaction(["TreeStore"], "readwrite").objectStore("TreeStore");
         var result = objectStore.delete(name);
         result.onerror = function(event) {
-            alert('Unable to delete Research List: ' + name + '\nError: ' + event.target.errorCode);
+            showToast('Unable to remove research list "' + name + '".', true);
         };
         result.onsuccess = function(event) {
             $('option[value="' + name + '"]').remove();
             if($.trim($('#research_selection').val()) == name) {
                 $('#research_selection').val('');
             }
+            showToast('Research list "' + name + '" removed.');
         };
     } else {
         initDB();
@@ -389,6 +412,6 @@ function loadResearchFromLocalStorage() {
             charts[area].tree.reload();
         });
     } else {
-        alert("Unable to load data from local storage!");
+        showToast('Unable to load data from local storage!', true);
     }
 }
