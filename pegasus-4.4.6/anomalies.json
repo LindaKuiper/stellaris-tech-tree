@@ -27,152 +27,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_advanced_industrial_storm_protection",
-    "name": "Planetary Storm Nullification",
-    "description": "By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms' harmful effects on production.",
-    "area": "engineering",
-    "base_factor": 0.5,
-    "base_weight": 42.5,
-    "category": "Industry",
-    "cost": 2000,
-    "feature_unlocks": [
-      "<b>Building</b>: Storm Nullifier",
-      "<b>Edict</b>: Hunker Down Protocols",
-      "Cosmic Storm Protection Tech Level +1"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_industrial_storm_protection"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Planetary Storm Negation",
-        "key": "tech_industrial_storm_protection"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes",
-      "NOT has_origin=origin_wilderness"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_advanced_industrial_storm_protection",
-    "name": "Planetary Storm Nullification",
-    "description": "By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms' harmful effects on production.",
-    "area": "engineering",
-    "base_factor": 0.5,
-    "base_weight": 42.5,
-    "category": "Industry",
-    "cost": 2000,
-    "feature_unlocks": [
-      "<b>Building</b>: Storm Nullifier",
-      "<b>Edict</b>: Hunker Down Protocols",
-      "Cosmic Storm Protection Tech Level +1"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_industrial_storm_protection"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Planetary Storm Negation",
-        "key": "tech_industrial_storm_protection"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes",
-      "NOT has_origin=origin_wilderness"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_advanced_storm_manipulation",
-    "name": "Advanced Storm Manipulation",
-    "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate §YCosmic Storms§! to our own needs.",
-    "area": "physics",
-    "base_factor": 0.5,
-    "base_weight": 32.5,
-    "category": "Field Manipulation",
-    "cost": 4000,
-    "feature_unlocks": [
-      "<b>Building</b>: Advanced Storm Attraction Center",
-      "<b>Building</b>: Advanced Storm Repulsion Center",
-      "<b>Feature : </b>Sustain Cosmic Storms"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_storm_manipulation"
-    ],
-    "tier": 3,
-    "prerequisites_names": [
-      {
-        "name": "Storm Manipulation",
-        "key": "tech_storm_manipulation"
-      }
-    ],
-    "weight_modifiers": [],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_advanced_storm_manipulation",
-    "name": "Advanced Storm Manipulation",
-    "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate §YCosmic Storms§! to our own needs.",
-    "area": "physics",
-    "base_factor": 0.5,
-    "base_weight": 32.5,
-    "category": "Field Manipulation",
-    "cost": 4000,
-    "feature_unlocks": [
-      "<b>Building</b>: Advanced Storm Attraction Center",
-      "<b>Building</b>: Advanced Storm Repulsion Center",
-      "<b>Feature : </b>Sustain Cosmic Storms"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_storm_manipulation"
-    ],
-    "tier": 3,
-    "prerequisites_names": [
-      {
-        "name": "Storm Manipulation",
-        "key": "tech_storm_manipulation"
-      }
-    ],
-    "weight_modifiers": [],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_akx_worm_1",
     "name": "Entropic Recursion",
     "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
@@ -189,7 +43,7 @@
     "tier": 3,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) Always"
+      "(×<b style='color:red'>0.0</b>) Always"
     ],
     "potential": [],
     "children": [],
@@ -213,7 +67,7 @@
     "tier": 3,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) Always"
+      "(×<b style='color:red'>0.0</b>) Always"
     ],
     "potential": [],
     "children": [
@@ -373,33 +227,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_ascension_theory",
-    "name": "Ascension Theory",
-    "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
-    "area": "society",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Statecraft",
-    "cost": 10000,
-    "feature_unlocks": [
-      "<b>Feature : </b>Unity Ambitions",
-      "Ascension Perks Unlocked +1"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [],
-    "tier": 4,
-    "prerequisites_names": [],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.2</b>) All must be false<br/>    â€¢   Has the Curator Insight modifier<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_curator}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_expertise_statecraft}"
-    ],
-    "potential": [],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_asteroidal_carapace",
     "name": "Asteroidal Carapace",
     "description": "The shell of a Cutholoid is not mineral alone, but reinforced with strong biological fibers. We can synthesize this process using advanced metallurgic techniques.",
@@ -466,7 +293,7 @@
     "feature_unlocks": [
       "<b>Feature : </b>Psionic Aura growth",
       "<b>Feature : </b>Psionic Aura spread",
-      "Success chance when Delving: §G+$@delve_success_tier_2|0$%§!"
+      "Success chance when Delving: +$@delve_success_tier_2|0$%"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -552,7 +379,7 @@
   {
     "key": "tech_btc_1",
     "name": "Star Cracker",
-    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\n§RWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.§!",
+    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
     "area": "engineering",
     "base_factor": 0.0,
     "base_weight": 0.0,
@@ -604,12 +431,12 @@
       }
     ],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.1</b>) All must be false<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_expertise_psionics}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_curator}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-      "(Ã—<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   Has Government Civic: Void Reavers<br/>    â€¢   Has Government Civic: Spyware Directives<br/>    â€¢   Has Government Civic: Criminal Heritage<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Dark Consortium<br/>\t    â€¢   Has Government Civic: Shadow Corporation<br/>    â€¢   has_origin=origin_fear_of_the_dark"
+      "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has council member with trait: Expertise: Psionics<br/>    •   Has council member with trait: Curator<br/>    •   Has council member with trait: Spark of Genius<br/>    •   Has council member with trait: Spark of Genius II<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III",
+      "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
+      "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
     ],
     "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic",
+      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
       "has_first_contact_dlc=yes"
     ],
     "children": [],
@@ -643,12 +470,12 @@
       }
     ],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.1</b>) All must be false<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_expertise_psionics}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_curator}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-      "(Ã—<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   Has Government Civic: Void Reavers<br/>    â€¢   Has Government Civic: Spyware Directives<br/>    â€¢   Has Government Civic: Criminal Heritage<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Dark Consortium<br/>\t    â€¢   Has Government Civic: Shadow Corporation<br/>    â€¢   has_origin=origin_fear_of_the_dark"
+      "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has council member with trait: Expertise: Psionics<br/>    •   Has council member with trait: Curator<br/>    •   Has council member with trait: Spark of Genius<br/>    •   Has council member with trait: Spark of Genius II<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III",
+      "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
+      "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
     ],
     "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic",
+      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
       "has_first_contact_dlc=yes"
     ],
     "children": [],
@@ -702,7 +529,7 @@
     "cost": 3000,
     "feature_unlocks": [
       "Available Envoys ",
-      "The §YEmpire Size Effect§! is modified by: -5%"
+      "The Empire Size Effect is modified by: -5%"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -721,7 +548,7 @@
   {
     "key": "tech_containment_vessel",
     "name": "Curator Containment Protocols",
-    "description": "Gravity Snares capture double the amount of §YSpace Fauna§!.",
+    "description": "Gravity Snares capture double the amount of Space Fauna.",
     "area": "physics",
     "base_factor": 1.0,
     "base_weight": 0.0,
@@ -745,7 +572,7 @@
       }
     ],
     "weight_modifiers": [
-      "(Ã—) has_trait_in_council={TRAIT=leader_trait_curator}"
+      "(×) Has council member with trait: Curator"
     ],
     "potential": [
       "has_grand_archive_dlc=yes"
@@ -773,7 +600,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "All must be false\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -798,7 +625,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "All must be false\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -907,7 +734,7 @@
   {
     "key": "tech_cosmogenesis_crisis_5",
     "name": "Nascent Universes",
-    "description": "Large-scale travel to different universes is a daunting task. We must engineer a spacecraft that can not only pierce the fabric of spacetime but also survive the journey.\n\n§RFallen Empires will try to stop us!§!",
+    "description": "Large-scale travel to different universes is a daunting task. We must engineer a spacecraft that can not only pierce the fabric of spacetime but also survive the journey.\n\nFallen Empires will try to stop us!",
     "area": "physics",
     "base_factor": 1.0,
     "base_weight": 0.0,
@@ -948,7 +775,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "All must be false\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "All must be false\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -973,7 +800,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "null\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -998,7 +825,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "null\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -1023,7 +850,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "null\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -1048,7 +875,7 @@
     "weight_modifiers": [],
     "potential": [
       "has_machine_age_dlc=yes",
-      "null\n    â€¢   exists=this\n    â€¢   uses_ship_category=bio_ship"
+      "null\n    •   Exists: this\n    •   Uses ship category: Biological Ships"
     ],
     "children": [],
     "is_event": true,
@@ -1261,7 +1088,8 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
-      "has_shroud_dlc=yes"
+      "has_shroud_dlc=yes",
+      "Is NOT Nomadic"
     ],
     "children": [],
     "is_event": true,
@@ -1357,7 +1185,7 @@
   {
     "key": "tech_dyson_sphere",
     "name": "Dyson Sphere",
-    "description": "A §YDyson Sphere§! fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "description": "A Dyson Sphere fully envelops a given star, converting all solar output directly to Energy Credits.",
     "area": "physics",
     "base_factor": 0.0,
     "base_weight": 0.0,
@@ -1385,7 +1213,9 @@
       }
     ],
     "weight_modifiers": [],
-    "potential": [],
+    "potential": [
+      "Is NOT Nomadic"
+    ],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1486,7 +1316,7 @@
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) Does NOT have the Covenant: End of the Cycle country flag"
+      "(×<b style='color:red'>0.0</b>) Does NOT have the Covenant: End of the Cycle country flag"
     ],
     "potential": [],
     "children": [],
@@ -1503,7 +1333,7 @@
     "category": "Biology",
     "cost": 4000,
     "feature_unlocks": [
-      "£energy£ Energy Credits from £job£ Jobs +5%"
+      "Energy Credits from Jobs +5%"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -1527,7 +1357,7 @@
     "category": "New Worlds",
     "cost": 4000,
     "feature_unlocks": [
-      "§HUnlocks Colony Decision:§! Toxify World"
+      "Unlocks Colony Decision: Toxify World"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -1602,150 +1432,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_industrial_storm_protection",
-    "name": "Planetary Storm Negation",
-    "description": "This nexus of weather communication mitigates the harm done by cosmic weather disasters. Production will suffer less from a passing galactic tempest.",
-    "area": "engineering",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Industry",
-    "cost": 1000,
-    "feature_unlocks": [
-      "<b>Building</b>: Storm Relief Center",
-      "Cosmic Storm Protection Tech Level +1"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [],
-    "tier": 1,
-    "prerequisites_names": [],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_storm_manipulation",
-        "name": "Storm Manipulation",
-        "description": "By harnessing the principles behind storm negation technologies, we can begin to manipulate the astrometeorological nature of the galaxy to serve our own needs.",
-        "area": "physics",
-        "base_factor": 1.0,
-        "base_weight": 75.0,
-        "category": "Field Manipulation",
-        "cost": 2500,
-        "feature_unlocks": [
-          "<b>Building</b>: Storm Attraction Center",
-          "<b>Building</b>: Storm Repulsion Center",
-          "<b>Edict</b>: Storm Attraction Field",
-          "<b>Edict</b>: Storm Repulsion Field",
-          "<b>Starbase Building</b>: Storm Attraction Array",
-          "<b>Starbase Building</b>: Storm Repulsion Array"
-        ],
-        "is_dangerous": false,
-        "is_rare": false,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_industrial_storm_protection"
-        ],
-        "tier": 2,
-        "prerequisites_names": [
-          {
-            "name": "Planetary Storm Negation",
-            "key": "tech_industrial_storm_protection"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   num_cosmic_storms_encountered<3"
-        ],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [
-          {
-            "key": "tech_advanced_storm_manipulation",
-            "name": "Advanced Storm Manipulation",
-            "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate §YCosmic Storms§! to our own needs.",
-            "area": "physics",
-            "base_factor": 0.5,
-            "base_weight": 32.5,
-            "category": "Field Manipulation",
-            "cost": 4000,
-            "feature_unlocks": [
-              "<b>Building</b>: Advanced Storm Attraction Center",
-              "<b>Building</b>: Advanced Storm Repulsion Center",
-              "<b>Feature : </b>Sustain Cosmic Storms"
-            ],
-            "is_dangerous": false,
-            "is_rare": true,
-            "is_start_tech": false,
-            "prerequisites": [
-              "tech_storm_manipulation"
-            ],
-            "tier": 3,
-            "prerequisites_names": [
-              {
-                "name": "Storm Manipulation",
-                "key": "tech_storm_manipulation"
-              }
-            ],
-            "weight_modifiers": [],
-            "potential": [
-              "has_cosmic_storms_dlc=yes"
-            ],
-            "children": [],
-            "is_event": true,
-            "source": "vanilla"
-          }
-        ],
-        "is_event": true,
-        "source": "vanilla"
-      },
-      {
-        "key": "tech_advanced_industrial_storm_protection",
-        "name": "Planetary Storm Nullification",
-        "description": "By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms' harmful effects on production.",
-        "area": "engineering",
-        "base_factor": 0.5,
-        "base_weight": 42.5,
-        "category": "Industry",
-        "cost": 2000,
-        "feature_unlocks": [
-          "<b>Building</b>: Storm Nullifier",
-          "<b>Edict</b>: Hunker Down Protocols",
-          "Cosmic Storm Protection Tech Level +1"
-        ],
-        "is_dangerous": false,
-        "is_rare": false,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_industrial_storm_protection"
-        ],
-        "tier": 2,
-        "prerequisites_names": [
-          {
-            "name": "Planetary Storm Negation",
-            "key": "tech_industrial_storm_protection"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-        ],
-        "potential": [
-          "has_cosmic_storms_dlc=yes",
-          "NOT has_origin=origin_wilderness"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_leviathan_techgenesis",
     "name": "Leviathan Tech Genesis",
     "description": "Utilizing the received knowledge seized from Leviathans, we now have access to new improvements for our frames.",
@@ -1803,7 +1489,7 @@
     "category": "Biology",
     "cost": 1000,
     "feature_unlocks": [
-      "Research Cost (£society£ §YSociety§!) -5%"
+      "Research Cost (Society) -5%"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -1876,7 +1562,7 @@
   {
     "key": "tech_matter_decompressor",
     "name": "Matter Decompressor",
-    "description": "The §YMatter Decompressor§! lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "description": "The Matter Decompressor lenses a black hole's gravity, forming a drill of gravitational forces to retrieve Minerals from the singularity.",
     "area": "physics",
     "base_factor": 0.0,
     "base_weight": 0.0,
@@ -1904,7 +1590,8 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "Has DLC Megacorp"
+      "Has DLC Megacorp",
+      "Is NOT Nomadic"
     ],
     "children": [],
     "is_event": true,
@@ -2172,47 +1859,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_precognition_interface",
-    "name": "Precognition Interface",
-    "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
-    "area": "society",
-    "base_factor": 0.5,
-    "base_weight": 20.0,
-    "category": "Psionics",
-    "cost": 10000,
-    "feature_unlocks": [
-      "<b>Component</b>: Precognitive Combat Instincts",
-      "<b>Component</b>: Precognitive Interface"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_telepathy"
-    ],
-    "tier": 4,
-    "prerequisites_names": [
-      {
-        "name": "Telepathy",
-        "key": "tech_telepathy"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-    ],
-    "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-    ],
-    "children": [],
-    "is_event": true,
-    "is_gestalt": false,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_predatory_tactics",
     "name": "Predatory Tactics",
     "description": "Just like how clever pre-FTLs move to conceal each other as they approach an enemy, so too can our pilots move faster without disrupting their cloaking field.",
@@ -2248,7 +1894,7 @@
     "category": "Statecraft",
     "cost": 4000,
     "feature_unlocks": [
-      "£trade£ Trade from £job£ Jobs +2%"
+      " Trade from  Jobs +2%"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -2290,13 +1936,13 @@
       }
     ],
     "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.1</b>) All must be false<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_expertise_psionics}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_curator}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-      "(Ã—<b style='color:lime'>1.5</b>) Has Grasp the Void Ascension Perk",
-      "(Ã—<b style='color:lime'>5.0</b>) One must be true<br/>    â€¢   Has Government Civic: Eager Explorers<br/>    â€¢   Has Government Civic: Privatized Exploration<br/>    â€¢   Has Government Civic: Stargazers<br/>    â€¢   Has Government Civic: Exploration Protocols",
-      "(Ã—<b style='color:lime'>1.5</b>) Has the jaunted_traveler_secret_revealed country flag"
+      "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has council member with trait: Expertise: Psionics<br/>    •   Has council member with trait: Curator<br/>    •   Has council member with trait: Spark of Genius<br/>    •   Has council member with trait: Spark of Genius II<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III",
+      "(×<b style='color:lime'>1.5</b>) Has Grasp the Void Ascension Perk",
+      "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols",
+      "(×<b style='color:lime'>1.5</b>) Has the jaunted_traveler_secret_revealed country flag"
     ],
     "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
+      "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic"
     ],
     "children": [
       {
@@ -2325,12 +1971,12 @@
           }
         ],
         "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.1</b>) All must be false<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_expertise_psionics}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_curator}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_spark_of_genius_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-          "(Ã—<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   Has Government Civic: Void Reavers<br/>    â€¢   Has Government Civic: Spyware Directives<br/>    â€¢   Has Government Civic: Criminal Heritage<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Dark Consortium<br/>\t    â€¢   Has Government Civic: Shadow Corporation<br/>    â€¢   has_origin=origin_fear_of_the_dark"
+          "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has council member with trait: Expertise: Psionics<br/>    •   Has council member with trait: Curator<br/>    •   Has council member with trait: Spark of Genius<br/>    •   Has council member with trait: Spark of Genius II<br/>    •   Has council member with trait: Maniacal<br/>    •   Has council member with trait: Maniacal II<br/>    •   Has council member with trait: Maniacal III",
+          "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition",
+          "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Government Civic: Void Reavers<br/>    •   Has Government Civic: Spyware Directives<br/>    •   Has Government Civic: Criminal Heritage<br/>    •   One must be true<br/>\t    •   Has Government Civic: Dark Consortium<br/>\t    •   Has Government Civic: Shadow Corporation<br/>    •   Has Fear of the Dark Origin"
         ],
         "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic",
+          "One must be true\n    •   has_shroud_dlc=yes\n    •   Does NOT have Gestalt Consciousness Ethic",
           "has_first_contact_dlc=yes"
         ],
         "children": [],
@@ -2354,7 +2000,7 @@
     "cost": 4000,
     "feature_unlocks": [
       "<b>Feature : </b>Psionic Auras",
-      "Success chance when Delving: §G+$@delve_success_tier_1|0$%§!"
+      "Success chance when Delving: +$@delve_success_tier_1|0$%"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -2532,202 +2178,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_psionic_suppression",
-    "name": "Psionic Suppression",
-    "description": "Devices that attenuate psionic energy are as difficult to construct as they are to understand. Such is the complexity of dealing with extradimensional forces.",
-    "area": "society",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Psionics",
-    "cost": 2000,
-    "feature_unlocks": [
-      "<b>Building</b>: Psionic Suppressor",
-      "<b>Mega-Structure</b>: $SHROUD_SEAL$"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [],
-    "tier": 2,
-    "prerequisites_names": [],
-    "weight_modifiers": [],
-    "potential": [
-      "has_shroud_dlc=yes",
-      "Has the has_encountered_psionic_auras country flag"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_psionic_theory",
-    "name": "Psionic Theory",
-    "description": "The mind is in many ways a reflection of the universe itself, a microcosmos. Not all beings will reach this level of insight, but their minds are tools greater than any other.",
-    "area": "society",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Psionics",
-    "cost": 4000,
-    "feature_unlocks": [
-      "<b>Building</b>: Shroud Observatory",
-      "Army Morale Damage Taken -10%",
-      "Empire Size from Pops -5%"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [],
-    "tier": 3,
-    "prerequisites_names": [],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) Has Gestalt Consciousness Ethic",
-      "(Ã—<b style='color:red'>0.5</b>) All must be false<br/>    â€¢   Has Spiritualist Ethic<br/>    â€¢   Has Fanatic Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Fanatic Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_psionic}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_chosen}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_composer_chosen}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_instrument_chosen}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_whisperers_chosen}",
-      "(Ã—<b style='color:lime'>1.25</b>) NOT any_owned_pop_group={is_psionic_species=yes}",
-      "(Ã—<b style='color:lime'>2.0</b>) Does NOT have DLC Galactic Paragons",
-      "(Ã—<b style='color:red'>0.0</b>) All must be true<br/>    â€¢   One must be true<br/>\t    â€¢   Has Materialist Ethic<br/>\t    â€¢   Has Fanatic Materialist Ethic<br/>    â€¢   All must be false<br/>\t    â€¢   has_tier1or2or3_in_council={TRAIT=leader_trait_expertise_psionics}<br/>\t    â€¢   has_councilor={COUNCILOR=\"councilor_shroudwalker_teacher\"}<br/>\t    â€¢   any_owned_pop_group={has_psionic_species_trait=yes}",
-      "(Ã—<b style='color:lime'>10.0</b>) Has Mind Over Matter Ascension Perk"
-    ],
-    "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic\n    â€¢   is_active_resolution=resolution_galacticstudies_extradimensional_experimentation\n    â€¢   has_relic=r_zro_crystal",
-      "NOT has_origin=origin_mindwardens"
-    ],
-    "children": [
-      {
-        "key": "tech_telepathy",
-        "name": "Telepathy",
-        "description": "$tech_telepathy_desc.1$ the mind is capable of connecting to other individuals, becoming something greater.",
-        "area": "society",
-        "base_factor": 0.5,
-        "base_weight": 25.0,
-        "category": "Psionics",
-        "cost": 6000,
-        "feature_unlocks": [
-          "<b>Army</b>: Psionic Army"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_psionic_theory"
-        ],
-        "tier": 3,
-        "prerequisites_names": [
-          {
-            "name": "Psionic Theory",
-            "key": "tech_psionic_theory"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-          "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-          "(Ã—<b style='color:lime'>4.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-        ],
-        "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-        ],
-        "children": [
-          {
-            "key": "tech_thought_enforcement",
-            "name": "Thought Enforcement",
-            "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought aberrations that they find.",
-            "area": "society",
-            "base_factor": 0.5,
-            "base_weight": 20.0,
-            "category": "Psionics",
-            "cost": 10000,
-            "feature_unlocks": [
-              "<b>Edict</b>: Thought Enforcement",
-              "<b>Edict</b>: Thought Pre-Emption"
-            ],
-            "is_dangerous": false,
-            "is_rare": true,
-            "is_start_tech": false,
-            "prerequisites": [
-              "tech_telepathy"
-            ],
-            "tier": 4,
-            "prerequisites_names": [
-              {
-                "name": "Telepathy",
-                "key": "tech_telepathy"
-              }
-            ],
-            "weight_modifiers": [
-              "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-              "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-              "(Ã—<b style='color:lime'>2.0</b>) Has Authoritarian Ethic",
-              "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Authoritarian Ethic",
-              "(Ã—<b style='color:lime'>2.0</b>) Has Government Civic: Police State",
-              "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-              "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-              "(Ã—<b style='color:lime'>2.0</b>) Has Gestalt Consciousness Ethic"
-            ],
-            "potential": [
-              "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-            ],
-            "children": [],
-            "is_event": true,
-            "is_gestalt": false,
-            "source": "vanilla"
-          },
-          {
-            "key": "tech_precognition_interface",
-            "name": "Precognition Interface",
-            "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
-            "area": "society",
-            "base_factor": 0.5,
-            "base_weight": 20.0,
-            "category": "Psionics",
-            "cost": 10000,
-            "feature_unlocks": [
-              "<b>Component</b>: Precognitive Combat Instincts",
-              "<b>Component</b>: Precognitive Interface"
-            ],
-            "is_dangerous": false,
-            "is_rare": true,
-            "is_start_tech": false,
-            "prerequisites": [
-              "tech_telepathy"
-            ],
-            "tier": 4,
-            "prerequisites_names": [
-              {
-                "name": "Telepathy",
-                "key": "tech_telepathy"
-              }
-            ],
-            "weight_modifiers": [
-              "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-              "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-              "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-              "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-              "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-            ],
-            "potential": [
-              "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-            ],
-            "children": [],
-            "is_event": true,
-            "is_gestalt": false,
-            "source": "vanilla"
-          }
-        ],
-        "is_event": true,
-        "is_gestalt": false,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "is_gestalt": false,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_pyroclastic_resonation",
     "name": "Pyroclastic Resonation",
     "description": "By harnessing the extreme thermal energy found on molten worlds, our starbases can increase the energy output in a system with exceptional efficiency.",
@@ -2807,7 +2257,7 @@
   {
     "key": "tech_ring_world",
     "name": "Ring Segment",
-    "description": "A §YRing Segment§! allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "description": "A Ring Segment allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
     "area": "engineering",
     "base_factor": 0.0,
     "base_weight": 0.0,
@@ -2833,7 +2283,8 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "NOT has_origin=origin_wilderness"
+      "Does NOT have Wilderness Origin",
+      "Is NOT Nomadic"
     ],
     "children": [],
     "is_event": true,
@@ -3111,257 +2562,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_ship_hull_storm_breaker_1",
-    "name": "Storm Dampening Generators",
-    "description": "These dampening field generators offer much needed protection to ships traversing cosmic storms.",
-    "area": "engineering",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Materials",
-    "cost": 1250,
-    "feature_unlocks": [
-      "Negative Effects from Cosmic Storms on Ship Defenses -45%",
-      "Negative Effects from Cosmic Storms on Ship Defenses: §G-45%§!"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_storm_prediction_1"
-    ],
-    "tier": 1,
-    "prerequisites_names": [
-      {
-        "name": "Cosmic Weather Models",
-        "key": "tech_storm_prediction_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_ship_hull_storm_breaker_2",
-        "name": "Storm Breaker Coating",
-        "description": "This special coating charges the ship's exterior with a storm dampening field, leading to more efficient protection against storms.",
-        "area": "engineering",
-        "base_factor": 0.5,
-        "base_weight": 37.5,
-        "category": "Materials",
-        "cost": 2000,
-        "feature_unlocks": [
-          "Negative Effects from Cosmic Storms on Ship Defenses -45%",
-          "Negative Effects from Cosmic Storms on Ship Defenses: §G-90%§!"
-        ],
-        "is_dangerous": false,
-        "is_rare": false,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_ship_hull_storm_breaker_1"
-        ],
-        "tier": 2,
-        "prerequisites_names": [
-          {
-            "name": "Storm Dampening Generators",
-            "key": "tech_ship_hull_storm_breaker_1"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-        ],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_ship_hull_storm_breaker_2",
-    "name": "Storm Breaker Coating",
-    "description": "This special coating charges the ship's exterior with a storm dampening field, leading to more efficient protection against storms.",
-    "area": "engineering",
-    "base_factor": 0.5,
-    "base_weight": 37.5,
-    "category": "Materials",
-    "cost": 2000,
-    "feature_unlocks": [
-      "Negative Effects from Cosmic Storms on Ship Defenses -45%",
-      "Negative Effects from Cosmic Storms on Ship Defenses: §G-90%§!"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_ship_hull_storm_breaker_1"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Storm Dampening Generators",
-        "key": "tech_ship_hull_storm_breaker_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_ship_hull_storm_breaker_2",
-    "name": "Storm Breaker Coating",
-    "description": "This special coating charges the ship's exterior with a storm dampening field, leading to more efficient protection against storms.",
-    "area": "engineering",
-    "base_factor": 0.5,
-    "base_weight": 37.5,
-    "category": "Materials",
-    "cost": 2000,
-    "feature_unlocks": [
-      "Negative Effects from Cosmic Storms on Ship Defenses -45%",
-      "Negative Effects from Cosmic Storms on Ship Defenses: §G-90%§!"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_ship_hull_storm_breaker_1"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Storm Dampening Generators",
-        "key": "tech_ship_hull_storm_breaker_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_ship_storm_weapons_1",
-    "name": "Payload Padding",
-    "description": "A new approach to alloy use in military applications significantly reduces the ability of cosmic storms to interfere with energy weaponry and explosive payloads.",
-    "area": "engineering",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Voidcraft",
-    "cost": 1250,
-    "feature_unlocks": [
-      "Negative Effects from Cosmic Storms on Ship Weapons: §G-45%§!"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_storm_prediction_1"
-    ],
-    "tier": 1,
-    "prerequisites_names": [
-      {
-        "name": "Cosmic Weather Models",
-        "key": "tech_storm_prediction_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_ship_storm_weapons_2",
-        "name": "Tempest Cage Architecture",
-        "description": "This novel approach to ship architecture will significantly reduce the negative effects cosmic storms have on our weapon systems.",
-        "area": "engineering",
-        "base_factor": 0.5,
-        "base_weight": 35.0,
-        "category": "Voidcraft",
-        "cost": 2000,
-        "feature_unlocks": [
-          "Negative Effects from Cosmic Storms on Ship Weapons: §G-90%§!"
-        ],
-        "is_dangerous": false,
-        "is_rare": false,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_ship_storm_weapons_1"
-        ],
-        "tier": 2,
-        "prerequisites_names": [
-          {
-            "name": "Payload Padding",
-            "key": "tech_ship_storm_weapons_1"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-        ],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_ship_storm_weapons_2",
-    "name": "Tempest Cage Architecture",
-    "description": "This novel approach to ship architecture will significantly reduce the negative effects cosmic storms have on our weapon systems.",
-    "area": "engineering",
-    "base_factor": 0.5,
-    "base_weight": 35.0,
-    "category": "Voidcraft",
-    "cost": 2000,
-    "feature_unlocks": [
-      "Negative Effects from Cosmic Storms on Ship Weapons: §G-90%§!"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_ship_storm_weapons_1"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Payload Padding",
-        "key": "tech_ship_storm_weapons_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_space_cloud_weapon_1",
     "name": "Cloud Lightning Conduits",
     "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
@@ -3411,270 +2611,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_storm_manipulation",
-    "name": "Storm Manipulation",
-    "description": "By harnessing the principles behind storm negation technologies, we can begin to manipulate the astrometeorological nature of the galaxy to serve our own needs.",
-    "area": "physics",
-    "base_factor": 1.0,
-    "base_weight": 75.0,
-    "category": "Field Manipulation",
-    "cost": 2500,
-    "feature_unlocks": [
-      "<b>Building</b>: Storm Attraction Center",
-      "<b>Building</b>: Storm Repulsion Center",
-      "<b>Edict</b>: Storm Attraction Field",
-      "<b>Edict</b>: Storm Repulsion Field",
-      "<b>Starbase Building</b>: Storm Attraction Array",
-      "<b>Starbase Building</b>: Storm Repulsion Array"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_industrial_storm_protection"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Planetary Storm Negation",
-        "key": "tech_industrial_storm_protection"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   num_cosmic_storms_encountered<3"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_advanced_storm_manipulation",
-        "name": "Advanced Storm Manipulation",
-        "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate §YCosmic Storms§! to our own needs.",
-        "area": "physics",
-        "base_factor": 0.5,
-        "base_weight": 32.5,
-        "category": "Field Manipulation",
-        "cost": 4000,
-        "feature_unlocks": [
-          "<b>Building</b>: Advanced Storm Attraction Center",
-          "<b>Building</b>: Advanced Storm Repulsion Center",
-          "<b>Feature : </b>Sustain Cosmic Storms"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_storm_manipulation"
-        ],
-        "tier": 3,
-        "prerequisites_names": [
-          {
-            "name": "Storm Manipulation",
-            "key": "tech_storm_manipulation"
-          }
-        ],
-        "weight_modifiers": [],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_storm_manipulation",
-    "name": "Storm Manipulation",
-    "description": "By harnessing the principles behind storm negation technologies, we can begin to manipulate the astrometeorological nature of the galaxy to serve our own needs.",
-    "area": "physics",
-    "base_factor": 1.0,
-    "base_weight": 75.0,
-    "category": "Field Manipulation",
-    "cost": 2500,
-    "feature_unlocks": [
-      "<b>Building</b>: Storm Attraction Center",
-      "<b>Building</b>: Storm Repulsion Center",
-      "<b>Edict</b>: Storm Attraction Field",
-      "<b>Edict</b>: Storm Repulsion Field",
-      "<b>Starbase Building</b>: Storm Attraction Array",
-      "<b>Starbase Building</b>: Storm Repulsion Array"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_industrial_storm_protection"
-    ],
-    "tier": 2,
-    "prerequisites_names": [
-      {
-        "name": "Planetary Storm Negation",
-        "key": "tech_industrial_storm_protection"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   num_cosmic_storms_encountered<3"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_advanced_storm_manipulation",
-        "name": "Advanced Storm Manipulation",
-        "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate §YCosmic Storms§! to our own needs.",
-        "area": "physics",
-        "base_factor": 0.5,
-        "base_weight": 32.5,
-        "category": "Field Manipulation",
-        "cost": 4000,
-        "feature_unlocks": [
-          "<b>Building</b>: Advanced Storm Attraction Center",
-          "<b>Building</b>: Advanced Storm Repulsion Center",
-          "<b>Feature : </b>Sustain Cosmic Storms"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_storm_manipulation"
-        ],
-        "tier": 3,
-        "prerequisites_names": [
-          {
-            "name": "Storm Manipulation",
-            "key": "tech_storm_manipulation"
-          }
-        ],
-        "weight_modifiers": [],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_storm_prediction_1",
-    "name": "Cosmic Weather Models",
-    "description": "Through the use of scientific weather models, we can track the movement and formation of impending §YCosmic Storms§!.",
-    "area": "physics",
-    "base_factor": 0.0,
-    "base_weight": 0.0,
-    "category": "Computing",
-    "cost": 1250,
-    "feature_unlocks": [
-      "",
-      "Cosmic Storm Location Intel +1",
-      "Cosmic Storm Movement Intel +1"
-    ],
-    "is_dangerous": false,
-    "is_rare": false,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_industrial_storm_protection"
-    ],
-    "tier": 1,
-    "prerequisites_names": [
-      {
-        "name": "Planetary Storm Negation",
-        "key": "tech_industrial_storm_protection"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [
-      {
-        "key": "tech_storm_prediction_2",
-        "name": "Probability Current",
-        "description": "By applying probability currents to our scientific weather models, our ability to track the movement and formation of impending §YCosmic Storms§! is greatly increased. ",
-        "area": "physics",
-        "base_factor": 0.5,
-        "base_weight": 25.0,
-        "category": "Computing",
-        "cost": 5000,
-        "feature_unlocks": [
-          "",
-          "Cosmic Storm Location Intel +2",
-          "Cosmic Storm Movement Intel +2"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_storm_prediction_1"
-        ],
-        "tier": 3,
-        "prerequisites_names": [
-          {
-            "name": "Cosmic Weather Models",
-            "key": "tech_storm_prediction_1"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-        ],
-        "potential": [
-          "has_cosmic_storms_dlc=yes"
-        ],
-        "children": [],
-        "is_event": true,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_storm_prediction_2",
-    "name": "Probability Current",
-    "description": "By applying probability currents to our scientific weather models, our ability to track the movement and formation of impending §YCosmic Storms§! is greatly increased. ",
-    "area": "physics",
-    "base_factor": 0.5,
-    "base_weight": 25.0,
-    "category": "Computing",
-    "cost": 5000,
-    "feature_unlocks": [
-      "",
-      "Cosmic Storm Location Intel +2",
-      "Cosmic Storm Movement Intel +2"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_storm_prediction_1"
-    ],
-    "tier": 3,
-    "prerequisites_names": [
-      {
-        "name": "Cosmic Weather Models",
-        "key": "tech_storm_prediction_1"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_origin=origin_storm_chasers<br/>    â€¢   One must be true<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Astrometeorology<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Climate Modeling<br/>\t\t    â€¢   Has Government Civic: Weather Exploitation<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Has Government Civic: Storm Devotion<br/>\t\t    â€¢   Has Government Civic: Storm Influencers"
-    ],
-    "potential": [
-      "has_cosmic_storms_dlc=yes"
-    ],
-    "children": [],
-    "is_event": true,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_strike_craft_skrand",
     "name": "Skravird Strike Craft",
     "description": "Learning from the design expertise of Skrand and his people, these superior strike craft are capable of prolonged engagement and highly adaptive tactics.",
@@ -3712,7 +2648,7 @@
     "cost": 3000,
     "feature_unlocks": [
       "Available Envoys ",
-      "£alloys£ Produced per 100 [GetFoundrySwapPluralWithIcon] +25%"
+      " Produced per 100 [GetFoundrySwapPluralWithIcon] +25%"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -3755,260 +2691,6 @@
     "source": "vanilla"
   },
   {
-    "key": "tech_telepathy",
-    "name": "Telepathy",
-    "description": "$tech_telepathy_desc.1$ the mind is capable of connecting to other individuals, becoming something greater.",
-    "area": "society",
-    "base_factor": 0.5,
-    "base_weight": 25.0,
-    "category": "Psionics",
-    "cost": 6000,
-    "feature_unlocks": [
-      "<b>Army</b>: Psionic Army"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_psionic_theory"
-    ],
-    "tier": 3,
-    "prerequisites_names": [
-      {
-        "name": "Psionic Theory",
-        "key": "tech_psionic_theory"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-      "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-      "(Ã—<b style='color:lime'>4.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-    ],
-    "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-    ],
-    "children": [
-      {
-        "key": "tech_thought_enforcement",
-        "name": "Thought Enforcement",
-        "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought aberrations that they find.",
-        "area": "society",
-        "base_factor": 0.5,
-        "base_weight": 20.0,
-        "category": "Psionics",
-        "cost": 10000,
-        "feature_unlocks": [
-          "<b>Edict</b>: Thought Enforcement",
-          "<b>Edict</b>: Thought Pre-Emption"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_telepathy"
-        ],
-        "tier": 4,
-        "prerequisites_names": [
-          {
-            "name": "Telepathy",
-            "key": "tech_telepathy"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-          "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Authoritarian Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Authoritarian Ethic",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Government Civic: Police State",
-          "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Gestalt Consciousness Ethic"
-        ],
-        "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-        ],
-        "children": [],
-        "is_event": true,
-        "is_gestalt": false,
-        "source": "vanilla"
-      },
-      {
-        "key": "tech_precognition_interface",
-        "name": "Precognition Interface",
-        "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
-        "area": "society",
-        "base_factor": 0.5,
-        "base_weight": 20.0,
-        "category": "Psionics",
-        "cost": 10000,
-        "feature_unlocks": [
-          "<b>Component</b>: Precognitive Combat Instincts",
-          "<b>Component</b>: Precognitive Interface"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_telepathy"
-        ],
-        "tier": 4,
-        "prerequisites_names": [
-          {
-            "name": "Telepathy",
-            "key": "tech_telepathy"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-        ],
-        "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-        ],
-        "children": [],
-        "is_event": true,
-        "is_gestalt": false,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "is_gestalt": false,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_telepathy",
-    "name": "Telepathy",
-    "description": "$tech_telepathy_desc.1$ the mind is capable of connecting to other individuals, becoming something greater.",
-    "area": "society",
-    "base_factor": 0.5,
-    "base_weight": 25.0,
-    "category": "Psionics",
-    "cost": 6000,
-    "feature_unlocks": [
-      "<b>Army</b>: Psionic Army"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_psionic_theory"
-    ],
-    "tier": 3,
-    "prerequisites_names": [
-      {
-        "name": "Psionic Theory",
-        "key": "tech_psionic_theory"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-      "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-      "(Ã—<b style='color:lime'>4.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-    ],
-    "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-    ],
-    "children": [
-      {
-        "key": "tech_thought_enforcement",
-        "name": "Thought Enforcement",
-        "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought aberrations that they find.",
-        "area": "society",
-        "base_factor": 0.5,
-        "base_weight": 20.0,
-        "category": "Psionics",
-        "cost": 10000,
-        "feature_unlocks": [
-          "<b>Edict</b>: Thought Enforcement",
-          "<b>Edict</b>: Thought Pre-Emption"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_telepathy"
-        ],
-        "tier": 4,
-        "prerequisites_names": [
-          {
-            "name": "Telepathy",
-            "key": "tech_telepathy"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-          "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Authoritarian Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Authoritarian Ethic",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Government Civic: Police State",
-          "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Gestalt Consciousness Ethic"
-        ],
-        "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-        ],
-        "children": [],
-        "is_event": true,
-        "is_gestalt": false,
-        "source": "vanilla"
-      },
-      {
-        "key": "tech_precognition_interface",
-        "name": "Precognition Interface",
-        "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
-        "area": "society",
-        "base_factor": 0.5,
-        "base_weight": 20.0,
-        "category": "Psionics",
-        "cost": 10000,
-        "feature_unlocks": [
-          "<b>Component</b>: Precognitive Combat Instincts",
-          "<b>Component</b>: Precognitive Interface"
-        ],
-        "is_dangerous": false,
-        "is_rare": true,
-        "is_start_tech": false,
-        "prerequisites": [
-          "tech_telepathy"
-        ],
-        "tier": 4,
-        "prerequisites_names": [
-          {
-            "name": "Telepathy",
-            "key": "tech_telepathy"
-          }
-        ],
-        "weight_modifiers": [
-          "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-          "(Ã—<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-          "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-          "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}"
-        ],
-        "potential": [
-          "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-        ],
-        "children": [],
-        "is_event": true,
-        "is_gestalt": false,
-        "source": "vanilla"
-      }
-    ],
-    "is_event": true,
-    "is_gestalt": false,
-    "source": "vanilla"
-  },
-  {
     "key": "tech_temple_of_transportation",
     "name": "Temple of Transportation",
     "description": "Transportation networks bring people together: a sentiment shared by many civilization we observed. While we do not have steam engines, our hyper relay networks could serve a similar purpose.",
@@ -4019,7 +2701,7 @@
     "cost": 3000,
     "feature_unlocks": [
       "Available Envoys ",
-      "Monthly £unity£ Unity from §YHyper Relays§! +1"
+      "Monthly Unity from Hyper Relays +1"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -4033,50 +2715,6 @@
     ],
     "children": [],
     "is_event": true,
-    "source": "vanilla"
-  },
-  {
-    "key": "tech_thought_enforcement",
-    "name": "Thought Enforcement",
-    "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought aberrations that they find.",
-    "area": "society",
-    "base_factor": 0.5,
-    "base_weight": 20.0,
-    "category": "Psionics",
-    "cost": 10000,
-    "feature_unlocks": [
-      "<b>Edict</b>: Thought Enforcement",
-      "<b>Edict</b>: Thought Pre-Emption"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "prerequisites": [
-      "tech_telepathy"
-    ],
-    "tier": 4,
-    "prerequisites_names": [
-      {
-        "name": "Telepathy",
-        "key": "tech_telepathy"
-      }
-    ],
-    "weight_modifiers": [
-      "(Ã—<b style='color:red'>0.0</b>) All must be false<br/>    â€¢   Has Mind Over Matter Ascension Perk<br/>    â€¢   has_origin=origin_shroudwalker_apprentice<br/>    â€¢   has_origin=origin_endbringers<br/>    â€¢   One must be true<br/>\t    â€¢   Has Government Civic: Chosen<br/>\t    â€¢   Has Government Civic: Chosen Many<br/>\t    â€¢   Has Government Civic: Apostle Network<br/>\t    â€¢   Has Government Civic: Chosen Executives<br/>    â€¢   All must be true<br/>\t    â€¢   has_origin=origin_shroud_forged<br/>\t    â€¢   Has the finish_shroud_forged_liberation_flag country flag",
-      "(Ã—<b style='color:red'>0.5</b>) NOT has_trait_in_council={TRAIT=leader_trait_expertise_psionics}",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Authoritarian Ethic",
-      "(Ã—<b style='color:lime'>3.0</b>) Has Fanatic Authoritarian Ethic",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Government Civic: Police State",
-      "(Ã—<b style='color:lime'>3.0</b>) Does NOT have DLC Galactic Paragons",
-      "(Ã—<b style='color:lime'>2.0</b>) One must be true<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_2}<br/>    â€¢   has_trait_in_council={TRAIT=leader_trait_maniacal_3}",
-      "(Ã—<b style='color:lime'>2.0</b>) Has Gestalt Consciousness Ethic"
-    ],
-    "potential": [
-      "One must be true\n    â€¢   has_shroud_dlc=yes\n    â€¢   Does NOT have Gestalt Consciousness Ethic"
-    ],
-    "children": [],
-    "is_event": true,
-    "is_gestalt": false,
     "source": "vanilla"
   },
   {
@@ -4404,7 +3042,7 @@
     "category": "Biology",
     "cost": 4000,
     "feature_unlocks": [
-      "Colonies are immune to Voidworm bombardment.\nDamage to Voidworms: §G+$@vaccine_damage_vs_country_type_voidworms_mult|0%$§!",
+      "Colonies are immune to Voidworm bombardment.\nDamage to Voidworms: +$@vaccine_damage_vs_country_type_voidworms_mult|0%$",
       "Damage to Voidworms "
     ],
     "is_dangerous": false,
@@ -4461,7 +3099,7 @@
       "<b>Starbase Building</b>: Interstellar Recruitment Office",
       "<b>Starbase Module</b>: Interstellar Recruitment Office",
       "First Contact Speed +20%",
-      "Grants a small amount of £influence£ §YInfluence§!\nAllows §HRenowned Leaders§! to appear."
+      "Grants a small amount of  Influence\nAllows Renowned Leaders to appear."
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -4470,13 +3108,13 @@
     "tier": 1,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(+) All must be true<br/>    â€¢   null<br/>\t    â€¢   One must be true<br/>\t\t    â€¢   Is of country type: default<br/>\t\t    â€¢   Is of country type: Awakened Marauders<br/>\t\t    â€¢   Is of country type: Fallen Empire<br/>\t\t    â€¢   Is of country type: Awakened Empire<br/>\t\t    â€¢   Is of country type: exiled<br/>\t    â€¢   Does NOT have Gestalt Consciousness Ethic<br/>    â€¢   All must be false<br/>\t    â€¢   Has Government Civic: Fanatic Purifiers<br/>\t    â€¢   Has Government Civic: Determined Exterminator<br/>\t    â€¢   Has Government Civic: Devouring Swarm<br/>\t    â€¢   Has Government Civic: Scorched World Heralds<br/>\t    â€¢   Has Government Civic: Pyromanic Instinct<br/>\t    â€¢   has_menace_perk=menp_behemoth_ever_hungry<br/>    â€¢   Does NOT have Gestalt Consciousness Ethic<br/>    â€¢   perc_communications_with_playable>0"
+      "(+) All must be true<br/>    •   null<br/>\t    •   One must be true<br/>\t\t    •   Is of country type: default<br/>\t\t    •   Is of country type: Awakened Marauders<br/>\t\t    •   Is of country type: Fallen Empire<br/>\t\t    •   Is of country type: Awakened Empire<br/>\t\t    •   Is of country type: exiled<br/>\t    •   Does NOT have Gestalt Consciousness Ethic<br/>    •   All must be false<br/>\t    •   Has Government Civic: Fanatic Purifiers<br/>\t    •   Has Government Civic: Determined Exterminator<br/>\t    •   Has Government Civic: Devouring Swarm<br/>\t    •   Has Government Civic: Scorched World Heralds<br/>\t    •   Has Government Civic: Pyromanic Instinct<br/>\t    •   Has menace perk: Ever Hungry<br/>    •   Does NOT have Gestalt Consciousness Ethic<br/>    •   Perc communications with playable: 0"
     ],
     "potential": [
       "Has DLC Galactic Paragons",
-      "null\n    â€¢   One must be true\n\t    â€¢   Is of country type: default\n\t    â€¢   Is of country type: Awakened Marauders\n\t    â€¢   Is of country type: Fallen Empire\n\t    â€¢   Is of country type: Awakened Empire\n\t    â€¢   Is of country type: exiled\n    â€¢   Does NOT have Gestalt Consciousness Ethic",
+      "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: Awakened Marauders\n\t    •   Is of country type: Fallen Empire\n\t    •   Is of country type: Awakened Empire\n\t    •   Is of country type: exiled\n    •   Does NOT have Gestalt Consciousness Ethic",
       "Does NOT have Gestalt Consciousness Ethic",
-      "All must be false\n    â€¢   Has Government Civic: Fanatic Purifiers\n    â€¢   Has Government Civic: Determined Exterminator\n    â€¢   Has Government Civic: Devouring Swarm\n    â€¢   Has Government Civic: Scorched World Heralds\n    â€¢   Has Government Civic: Pyromanic Instinct\n    â€¢   has_menace_perk=menp_behemoth_ever_hungry"
+      "All must be false\n    •   Has Government Civic: Fanatic Purifiers\n    •   Has Government Civic: Determined Exterminator\n    •   Has Government Civic: Devouring Swarm\n    •   Has Government Civic: Scorched World Heralds\n    •   Has Government Civic: Pyromanic Instinct\n    •   Has menace perk: Ever Hungry"
     ],
     "children": [],
     "is_event": true,

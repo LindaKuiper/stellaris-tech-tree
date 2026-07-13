@@ -69,6 +69,13 @@ function init_tooltips() {
 }
 
 function setup(tech) {
+    if (tech.pseudo) {
+        // Invisible spacer node used to align each tier in its own column
+        $(tech.children).each(function(i, node) {
+            setup(node);
+        });
+        return;
+    }
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
 

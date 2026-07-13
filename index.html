@@ -119,8 +119,15 @@
         });
         $('body').load('../assets/html/body.html', function() {
             $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
-            $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tracking.js' });
-            $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tree.js' });
+            // tech-tree.js calls into tech-tracking.js, so load them in order
+            var tracking = document.createElement('script');
+            tracking.src = '../assets/js/tech-tracking.js';
+            tracking.onload = function() {
+                var tree = document.createElement('script');
+                tree.src = '../assets/js/tech-tree.js';
+                document.head.appendChild(tree);
+            };
+            document.head.appendChild(tracking);
         });
       };
     </script>
