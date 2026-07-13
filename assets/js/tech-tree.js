@@ -34,7 +34,11 @@ function init_tooltips() {
 
     $('.node:not(.tooltipstered)').tooltipster({
         minWidth: 300,
-        trigger: 'click',
+        // open on hover (after a short delay) as well as on click/tap
+        trigger: 'custom',
+        triggerOpen: { mouseenter: true, click: true, tap: true },
+        triggerClose: { mouseleave: true, tap: true },
+        delay: [350, 0],
         maxWidth: 512,
         functionInit: function(instance, helper){
             var content = $(helper.origin).find('.extra-data');
